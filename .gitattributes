@@ -1,0 +1,14 @@
+# Normalise line endings so the repo stays clean across Windows, Linux and macOS.
+# Without this, every text file shows as modified when cloned on a different OS.
+* text=auto eol=lf
+
+# Keep the vendored source data byte-for-byte as exported.
+*.csv -text
+
+# Do not try to diff or normalise binaries.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.pdf binary
+*.wav binary
