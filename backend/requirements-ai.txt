@@ -1,0 +1,10 @@
+# Optional AI extras. The app runs without these - the /api/transcribe and
+# /api/ocr endpoints simply report themselves as unavailable until installed.
+#
+# Install with:  pip install -r requirements-ai.txt
+#
+# faster-whisper  -> Tamil + English speech to text, runs offline on CPU or CUDA.
+# easyocr         -> Tamil + English document OCR (pulls in torch, ~2.5 GB).
+faster-whisper==1.1.1
+easyocr==1.7.2
+Pillow==11.1.0

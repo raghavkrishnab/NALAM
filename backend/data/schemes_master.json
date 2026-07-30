@@ -1,0 +1,5711 @@
+[
+  {
+    "id": "TN-ED-003",
+    "level": "state",
+    "source_id": "TN-ED-003",
+    "name": {
+      "en": "Chief Minister's Breakfast Scheme",
+      "ta": "முதலமைச்சரின் காலை உணவுத் திட்டம்"
+    },
+    "department": {
+      "en": "School Education",
+      "ta": "பள்ளிக் கல்வித் துறை"
+    },
+    "categories": [
+      "education",
+      "health"
+    ],
+    "raw_category": "Education/Nutrition",
+    "beneficiary": "Primary Students (Class 1-5)",
+    "summary": {
+      "en": "Nutritious breakfast for primary school children",
+      "ta": "அரசு தொடக்கப் பள்ளி மாணவர்களுக்கு இலவச ஊட்டச்சத்து காலை உணவு"
+    },
+    "benefit": {
+      "en": "Free Nutritious Breakfast",
+      "ta": "தினசரி இலவச காலை உணவு"
+    },
+    "eligibility_text": {
+      "en": "Students enrolled in Government primary schools",
+      "ta": "அரசு தொடக்கப் பள்ளிகளில் சேர்ந்த மாணவர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "student"
+      ],
+      "flags_required": [
+        "is_student"
+      ]
+    },
+    "documents": [
+      {
+        "en": "School Enrollment Details",
+        "ta": "School Enrollment Details"
+      }
+    ],
+    "apply": {
+      "mode": "Institution Level",
+      "url": "https://cmbreakfast.tn.gov.in/",
+      "office": {
+        "en": "Institution Level",
+        "ta": "Institution Level"
+      }
+    },
+    "official_website": "https://cmbreakfast.tn.gov.in/",
+    "official_source": "https://cmbreakfast.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "breakfast",
+      "nutritious",
+      "primary",
+      "school",
+      "children",
+      "students",
+      "class",
+      "education",
+      "nutrition",
+      "education",
+      "health"
+    ],
+    "priority": 90,
+    "translated": true
+  },
+  {
+    "id": "TN-HF-002",
+    "level": "state",
+    "source_id": "TN-HF-002",
+    "name": {
+      "en": "Makkalai Thedi Maruthuvam",
+      "ta": "மக்களைத் தேடி மருத்துவம்"
+    },
+    "department": {
+      "en": "Health & Family Welfare",
+      "ta": "சுகாதாரம் மற்றும் குடும்ப நலத்துறை"
+    },
+    "categories": [
+      "health"
+    ],
+    "raw_category": "Healthcare",
+    "beneficiary": "NCD Patients & Elderly",
+    "summary": {
+      "en": "Doorstep medical services for non-communicable diseases",
+      "ta": "நாட்பட்ட நோய்களுக்கு வீட்டு வாசலிலேயே இலவச பரிசோதனை, மருந்து மற்றும் பிசியோதெரபி"
+    },
+    "benefit": {
+      "en": "Doorstep Medical Services",
+      "ta": "இலவச மருந்து வீட்டு விநியோகம் மற்றும் பரிசோதனை"
+    },
+    "eligibility_text": {
+      "en": "Citizens aged 45+ with BP/Diabetes or persons requiring palliative care",
+      "ta": "இரத்த அழுத்தம்/நீரிழிவு உள்ள 45 வயதுக்கு மேற்பட்டவர்கள் அல்லது தொடர் பராமரிப்பு தேவைப்படுபவர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN"
+    },
+    "documents": [
+      {
+        "en": "Aadhaar",
+        "ta": "Aadhaar"
+      },
+      {
+        "en": "Medical Records",
+        "ta": "Medical Records"
+      }
+    ],
+    "apply": {
+      "mode": "Direct/Health Worker",
+      "url": "https://mtm.tn.gov.in/",
+      "office": {
+        "en": "Direct/Health Worker",
+        "ta": "Direct/Health Worker"
+      }
+    },
+    "official_website": "https://mtm.tn.gov.in/",
+    "official_source": "https://mtm.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "makkalai",
+      "thedi",
+      "maruthuvam",
+      "doorstep",
+      "medical",
+      "services",
+      "communicable",
+      "diseases",
+      "patients",
+      "elderly",
+      "healthcare",
+      "health"
+    ],
+    "priority": 90,
+    "translated": true
+  },
+  {
+    "id": "TN-HF-004",
+    "level": "state",
+    "source_id": "TN-HF-004",
+    "name": {
+      "en": "Innuyir Kappom - Nammai Kaakkum 48",
+      "ta": "இன்னுயிர் காப்போம் - நம்மைக் காக்கும் 48"
+    },
+    "department": {
+      "en": "Health & Family Welfare",
+      "ta": "சுகாதாரம் மற்றும் குடும்ப நலத்துறை"
+    },
+    "categories": [
+      "health"
+    ],
+    "raw_category": "Emergency Care",
+    "beneficiary": "Road Accident Victims",
+    "summary": {
+      "en": "Free emergency care for road accident victims in the first 48 hours",
+      "ta": "விபத்தில் காயமடைந்தவர்களுக்கு முதல் 48 மணி நேரம் எந்த மருத்துவமனையிலும் இலவச அவசர சிகிச்சை"
+    },
+    "benefit": {
+      "en": "Free Emergency Care",
+      "ta": "48 மணி நேரம் ரூ.1 லட்சம் வரை இலவச சிகிச்சை"
+    },
+    "eligibility_text": {
+      "en": "Any road accident victim within Tamil Nadu borders",
+      "ta": "தமிழ்நாட்டின் எல்லைக்குள் சாலை விபத்தில் காயமடைந்த எவரும்"
+    },
+    "eligibility": {
+      "residency": "TN"
+    },
+    "documents": [
+      {
+        "en": "None (Emergency)",
+        "ta": "None (Emergency)"
+      }
+    ],
+    "apply": {
+      "mode": "Hospital Level",
+      "url": "https://nk48.tn.gov.in/",
+      "office": {
+        "en": "Hospital Level",
+        "ta": "Hospital Level"
+      }
+    },
+    "official_website": "https://nk48.tn.gov.in/",
+    "official_source": "https://nk48.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "innuyir",
+      "kappom",
+      "nammai",
+      "kaakkum",
+      "free",
+      "emergency",
+      "care",
+      "road",
+      "accident",
+      "victims",
+      "first",
+      "hours",
+      "health"
+    ],
+    "priority": 90,
+    "translated": true
+  },
+  {
+    "id": "TN-HF-005",
+    "level": "state",
+    "source_id": "TN-HF-005",
+    "name": {
+      "en": "Kalaignarin Varumun Kappom Thittam",
+      "ta": "கலைஞரின் வருமுன் காப்போம் திட்டம்"
+    },
+    "department": {
+      "en": "Health & Family Welfare",
+      "ta": "சுகாதாரம் மற்றும் குடும்ப நலத்துறை"
+    },
+    "categories": [
+      "health"
+    ],
+    "raw_category": "Preventive Healthcare",
+    "beneficiary": "General Public",
+    "summary": {
+      "en": "Free medical screening camps conducted at village and ward level with specialist doctors, lab tests, and drug supply.",
+      "ta": "நோய்களை முன்கூட்டியே கண்டறிய இலவச முகாம் அடிப்படையிலான பரிசோதனை"
+    },
+    "benefit": {
+      "en": "Free Health Checkup, Lab Investigations, Master Health Checkup, Free Specialist Consultations",
+      "ta": "இலவச மருத்துவப் பரிசோதனை முகாம்கள்"
+    },
+    "eligibility_text": {
+      "en": "All residents of Tamil Nadu",
+      "ta": "தமிழ்நாட்டின் அனைத்து வசிப்பவர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN"
+    },
+    "documents": [
+      {
+        "en": "Aadhaar Card / Ration Card (Optional)",
+        "ta": "Aadhaar Card / Ration Card (Optional)"
+      }
+    ],
+    "apply": {
+      "mode": "Camp Level",
+      "url": "Not Applicable",
+      "office": {
+        "en": "Camp Level",
+        "ta": "Camp Level"
+      }
+    },
+    "official_website": "https://nhm.tn.gov.in/",
+    "official_source": "https://nhm.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "kalaignarin",
+      "varumun",
+      "kappom",
+      "free",
+      "medical",
+      "screening",
+      "camps",
+      "conducted",
+      "village",
+      "ward",
+      "level",
+      "specialist",
+      "doctors",
+      "tests",
+      "drug",
+      "supply",
+      "general",
+      "public",
+      "health"
+    ],
+    "priority": 90,
+    "translated": true
+  },
+  {
+    "id": "TN-BC-002",
+    "level": "state",
+    "source_id": "TN-BC-002",
+    "name": {
+      "en": "Ulema and Other Mosque Workers Pension Scheme",
+      "ta": "உலமா மற்றும் பிற பள்ளிவாசல் பணியாளர்கள் ஓய்வூதியத் திட்டம்"
+    },
+    "department": {
+      "en": "BC, MBC & Minorities Welfare",
+      "ta": "பிற்படுத்தப்பட்டோர் மற்றும் சிறுபான்மையினர் நலத்துறை"
+    },
+    "categories": [
+      "social"
+    ],
+    "raw_category": "Social Security",
+    "beneficiary": "Retired Ulemas and Mosque Workers",
+    "summary": {
+      "en": "Monthly pension for retired Ulemas, Peshimams, Muazzins, and Waqf workers in Tamil Nadu.",
+      "ta": "பள்ளிவாசல்களில் நீண்டகாலம் பணியாற்றியவர்களுக்கு மாதாந்திர ஓய்வூதியம்"
+    },
+    "benefit": {
+      "en": "Monthly ₹3000 pension",
+      "ta": "மாதாந்திர ஓய்வூதியம்"
+    },
+    "eligibility_text": {
+      "en": "Age 60 and above; Served for minimum 20 years in registered Waqf institutions",
+      "ta": "60 வயது மற்றும் அதற்கு மேல்; பதிவு செய்யப்பட்ட வக்பு நிறுவனங்களில் குறைந்தது 20 ஆண்டுகள் பணி"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "age": {
+        "min": 60
+      }
+    },
+    "documents": [
+      {
+        "en": "Service Certificate from Waqf Inspector/Board",
+        "ta": "Service Certificate from Waqf Inspector/Board"
+      },
+      {
+        "en": "Age Certificate",
+        "ta": "Age Certificate"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      },
+      {
+        "en": "Bank Passbook",
+        "ta": "Bank Passbook"
+      }
+    ],
+    "apply": {
+      "mode": "Offline/Waqf Board Office",
+      "url": "Not Available",
+      "office": {
+        "en": "Offline/Waqf Board Office",
+        "ta": "Offline/Waqf Board Office"
+      }
+    },
+    "official_website": "https://bcmbcmw.tn.gov.in/",
+    "official_source": "https://bcmbcmw.tn.gov.in/welfare_schemes.htm",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "ulema",
+      "other",
+      "mosque",
+      "workers",
+      "pension",
+      "monthly",
+      "retired",
+      "ulemas",
+      "peshimams",
+      "muazzins",
+      "waqf",
+      "social",
+      "security",
+      "social"
+    ],
+    "priority": 87,
+    "translated": true
+  },
+  {
+    "id": "TN-BC-003",
+    "level": "state",
+    "source_id": "TN-BC-003",
+    "name": {
+      "en": "Financial Assistance for Jerusalem Pilgrimage for Christians",
+      "ta": "கிறிஸ்தவர்களுக்கு ஜெருசலேம் புனித யாத்திரை நிதி உதவி"
+    },
+    "department": {
+      "en": "BC, MBC & Minorities Welfare",
+      "ta": "பிற்படுத்தப்பட்டோர் மற்றும் சிறுபான்மையினர் நலத்துறை"
+    },
+    "categories": [
+      "social"
+    ],
+    "raw_category": "Religious Pilgrimage Assistance",
+    "beneficiary": "Christian Pilgrims",
+    "summary": {
+      "en": "Subsidy for Christian pilgrims undertaking Holy Land pilgrimage to Jerusalem.",
+      "ta": "கிறிஸ்தவ சமூகத்தினர் ஜெருசலேம் யாத்திரை செல்ல நிதி உதவி"
+    },
+    "benefit": {
+      "en": "Financial subsidy up to ₹60000 per pilgrim",
+      "ta": "பயண நிதி உதவி"
+    },
+    "eligibility_text": {
+      "en": "Permanent resident of TN belonging to Christian community; First-time pilgrim",
+      "ta": "கிறிஸ்தவ சமூகத்தைச் சேர்ந்த தமிழ்நாட்டின் நிரந்தர வசிப்பவர்; முதல் முறை யாத்திரை செல்பவர்"
+    },
+    "eligibility": {
+      "residency": "TN"
+    },
+    "documents": [
+      {
+        "en": "Community Certificate",
+        "ta": "Community Certificate"
+      },
+      {
+        "en": "Passport",
+        "ta": "Passport"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      },
+      {
+        "en": "Income Certificate",
+        "ta": "Income Certificate"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Offline",
+      "url": "https://bcmbcmw.tn.gov.in/",
+      "office": {
+        "en": "Online/Offline",
+        "ta": "Online/Offline"
+      }
+    },
+    "official_website": "https://bcmbcmw.tn.gov.in/",
+    "official_source": "https://bcmbcmw.tn.gov.in/welfare_schemes.htm",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "jerusalem",
+      "pilgrimage",
+      "christians",
+      "subsidy",
+      "christian",
+      "pilgrims",
+      "undertaking",
+      "holy",
+      "land",
+      "religious",
+      "social"
+    ],
+    "priority": 87,
+    "translated": true
+  },
+  {
+    "id": "TN-FS-001",
+    "level": "state",
+    "source_id": "TN-FS-001",
+    "name": {
+      "en": "Universal PDS Free Rice Scheme",
+      "ta": "அனைவருக்கும் இலவச அரிசி வழங்கும் திட்டம்"
+    },
+    "department": {
+      "en": "Food & Consumer Protection",
+      "ta": "கூட்டுறவு, உணவு மற்றும் நுகர்வோர் பாதுகாப்புத் துறை"
+    },
+    "categories": [
+      "utility",
+      "social"
+    ],
+    "raw_category": "Food Security",
+    "beneficiary": "Ration Card Holders (PHH / AAY / NPHH)",
+    "summary": {
+      "en": "Free monthly allotment of rice to all eligible priority household and non-priority ration card holders.",
+      "ta": "ரேஷன் அட்டைதாரர்களுக்கு நியாய விலைக் கடைகள் மூலம் இலவச அரிசி"
+    },
+    "benefit": {
+      "en": "Free Rice (up to 20kg per family/month or 35kg for AAY)",
+      "ta": "மாதம் ஒருவருக்கு இலவச அரிசி"
+    },
+    "eligibility_text": {
+      "en": "All valid Smart Ration Card holders in Tamil Nadu",
+      "ta": "தமிழ்நாட்டின் அனைத்து செல்லுபடியாகும் ஸ்மார்ட் ரேஷன் அட்டைதாரர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN"
+    },
+    "documents": [
+      {
+        "en": "Smart Ration Card / Aadhaar Linked Fingerprint",
+        "ta": "Smart Ration Card / Aadhaar Linked Fingerprint"
+      }
+    ],
+    "apply": {
+      "mode": "PDS Fair Price Shop",
+      "url": "https://tnpds.gov.in/",
+      "office": {
+        "en": "PDS Fair Price Shop",
+        "ta": "PDS Fair Price Shop"
+      }
+    },
+    "official_website": "https://tnpds.gov.in/",
+    "official_source": "https://tnpds.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "universal",
+      "free",
+      "rice",
+      "monthly",
+      "allotment",
+      "eligible",
+      "priority",
+      "household",
+      "ration",
+      "card",
+      "holders",
+      "nphh",
+      "food",
+      "security",
+      "utility",
+      "social"
+    ],
+    "priority": 87,
+    "translated": true
+  },
+  {
+    "id": "TN-FS-002",
+    "level": "state",
+    "source_id": "TN-FS-002",
+    "name": {
+      "en": "Special Public Distribution System (Subsidized Essential Commodities)",
+      "ta": "சிறப்பு பொது விநியோகத் திட்டம் (மானிய விலை அத்தியாவசியப் பொருட்கள்)"
+    },
+    "department": {
+      "en": "Food & Consumer Protection",
+      "ta": "கூட்டுறவு, உணவு மற்றும் நுகர்வோர் பாதுகாப்புத் துறை"
+    },
+    "categories": [
+      "utility",
+      "social"
+    ],
+    "raw_category": "Food Security",
+    "beneficiary": "Smart Ration Card Holders",
+    "summary": {
+      "en": "Supply of essential kitchen commodities like Toordal, Palmolein oil, and Sugar at heavily subsidized prices.",
+      "ta": "ரேஷன் அட்டைதாரர்களுக்கு மானிய விலையில் சர்க்கரை, பருப்பு, எண்ணெய் போன்ற பொருட்கள்"
+    },
+    "benefit": {
+      "en": "Highly subsidized Toor Dal (₹30/kg), Palmolein Oil (₹25/litre), Sugar (₹13.50/kg)",
+      "ta": "மானிய விலை அத்தியாவசியப் பொருட்கள்"
+    },
+    "eligibility_text": {
+      "en": "All valid Smart Ration Card holders in Tamil Nadu",
+      "ta": "தமிழ்நாட்டின் அனைத்து செல்லுபடியாகும் ஸ்மார்ட் ரேஷன் அட்டைதாரர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN"
+    },
+    "documents": [
+      {
+        "en": "Smart Ration Card",
+        "ta": "Smart Ration Card"
+      }
+    ],
+    "apply": {
+      "mode": "PDS Fair Price Shop",
+      "url": "https://tnpds.gov.in/",
+      "office": {
+        "en": "PDS Fair Price Shop",
+        "ta": "PDS Fair Price Shop"
+      }
+    },
+    "official_website": "https://tnpds.gov.in/",
+    "official_source": "https://tnpds.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "special",
+      "public",
+      "distribution",
+      "system",
+      "subsidized",
+      "essential",
+      "commodities",
+      "supply",
+      "kitchen",
+      "like",
+      "toordal",
+      "palmolein",
+      "sugar",
+      "heavily",
+      "prices",
+      "smart",
+      "ration",
+      "card",
+      "utility",
+      "social"
+    ],
+    "priority": 87,
+    "translated": true
+  },
+  {
+    "id": "TN-RD-001",
+    "level": "state",
+    "source_id": "TN-RD-001",
+    "name": {
+      "en": "Kalaignar Kanavu Illam Housing Scheme",
+      "ta": "கலைஞர் கனவு இல்லம் வீட்டுவசதித் திட்டம்"
+    },
+    "department": {
+      "en": "Rural Development & Panchayat Raj",
+      "ta": "ஊரக வளர்ச்சி மற்றும் ஊராட்சித் துறை"
+    },
+    "categories": [
+      "housing"
+    ],
+    "raw_category": "Rural Housing Welfare",
+    "beneficiary": "Rural Hut Dwellers / Homeless Poor",
+    "summary": {
+      "en": "Financial subsidy to build permanent concrete houses for poor rural families living in hutments.",
+      "ta": "கிராமப்புறங்களில் குடிசை வீடுகளில் வசிக்கும் ஏழைக் குடும்பங்களுக்கு இலவச கான்கிரீட் வீடு"
+    },
+    "benefit": {
+      "en": "Unit cost assistance of ₹3.5 Lakhs per house for concrete house construction",
+      "ta": "இலவச கான்கிரீட் வீடு"
+    },
+    "eligibility_text": {
+      "en": "Living in thatched/hut houses in rural areas; BPL family registered in Village Panchayat",
+      "ta": "கிராமப்புறங்களில் ஓலை/குடிசை வீடுகளில் வசிப்பவர்; கிராம ஊராட்சியில் பதிவு செய்யப்பட்ட வறுமைக் கோட்டிற்கு கீழ் உள்ள குடும்பம்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "flags_required": [
+        "is_low_income",
+        "is_rural"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Patta / Land Document",
+        "ta": "Patta / Land Document"
+      },
+      {
+        "en": "BPL Ration Card",
+        "ta": "BPL Ration Card"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      },
+      {
+        "en": "Bank Passbook",
+        "ta": "Bank Passbook"
+      }
+    ],
+    "apply": {
+      "mode": "Village Panchayat Level",
+      "url": "https://tnrd.tn.gov.in/",
+      "office": {
+        "en": "Village Panchayat Level",
+        "ta": "Village Panchayat Level"
+      }
+    },
+    "official_website": "https://tnrd.tn.gov.in/",
+    "official_source": "https://tnrd.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "kalaignar",
+      "kanavu",
+      "illam",
+      "housing",
+      "subsidy",
+      "build",
+      "permanent",
+      "concrete",
+      "houses",
+      "poor",
+      "rural",
+      "families",
+      "living",
+      "hutments",
+      "dwellers",
+      "homeless",
+      "housing"
+    ],
+    "priority": 87,
+    "translated": true
+  },
+  {
+    "id": "TN-HO-002",
+    "level": "state",
+    "source_id": "TN-HO-002",
+    "name": {
+      "en": "TNULM (Urban Livelihood Mission) Shelter for Urban Homeless",
+      "ta": "TNULM நகர்ப்புற வீடில்லாதோருக்கு தங்குமிடம்"
+    },
+    "department": {
+      "en": "Housing & Urban Development",
+      "ta": "நகர்ப்புற வாழ்வாதார இயக்கம்"
+    },
+    "categories": [
+      "housing"
+    ],
+    "raw_category": "Urban Welfare",
+    "beneficiary": "Urban Homeless Persons",
+    "summary": {
+      "en": "Providing 24x7 all-weather permanent shelters with basic amenities for the urban homeless.",
+      "ta": "நகர்ப்புறங்களில் வீடில்லாதவர்களுக்கு இலவச தங்குமிட வசதி"
+    },
+    "benefit": {
+      "en": "Free Shelter Accomodation, Food, Basic Medical Support",
+      "ta": "இலவச தங்குமிடம் மற்றும் அடிப்படை வசதிகள்"
+    },
+    "eligibility_text": {
+      "en": "Homeless individuals identified by urban local bodies",
+      "ta": "நகர்ப்புற உள்ளாட்சி அமைப்புகளால் அடையாளம் காணப்பட்ட வீடில்லாதவர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN"
+    },
+    "documents": [
+      {
+        "en": "None required",
+        "ta": "None required"
+      }
+    ],
+    "apply": {
+      "mode": "Direct Walk-in / Rescue",
+      "url": "Not Applicable",
+      "office": {
+        "en": "Direct Walk-in / Rescue",
+        "ta": "Direct Walk-in / Rescue"
+      }
+    },
+    "official_website": "https://www.tnurbantree.tn.gov.in/",
+    "official_source": "https://www.tnurbantree.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "tnulm",
+      "urban",
+      "livelihood",
+      "mission",
+      "shelter",
+      "homeless",
+      "providing",
+      "weather",
+      "permanent",
+      "shelters",
+      "basic",
+      "amenities",
+      "persons",
+      "housing"
+    ],
+    "priority": 87,
+    "translated": true
+  },
+  {
+    "id": "TN-HF-001",
+    "level": "state",
+    "source_id": "TN-HF-001",
+    "name": {
+      "en": "Dr. Muthulakshmi Reddy Maternity Benefit Scheme",
+      "ta": "டாக்டர் முத்துலட்சுமி ரெட்டி மகப்பேறு நல உதவித் திட்டம்"
+    },
+    "department": {
+      "en": "Health & Family Welfare",
+      "ta": "சுகாதாரம் மற்றும் குடும்ப நலத்துறை"
+    },
+    "categories": [
+      "women",
+      "health"
+    ],
+    "raw_category": "Maternity",
+    "beneficiary": "Pregnant Women",
+    "summary": {
+      "en": "Financial assistance and nutrition kits for pregnant women",
+      "ta": "கர்ப்பிணிப் பெண்களுக்கு ஊதிய இழப்பை ஈடுசெய்யவும் ஊட்டச்சத்து உறுதிசெய்யவும் பண உதவி"
+    },
+    "benefit": {
+      "en": "₹18000 + Nutrition Kit",
+      "ta": "ரூ.18,000 தவணைகளாக"
+    },
+    "eligibility_text": {
+      "en": "Pregnant women aged 19 and above; up to 2 deliveries",
+      "ta": "19 வயது மற்றும் அதற்கு மேற்பட்ட கர்ப்பிணிப் பெண்கள்; இரண்டு பிரசவங்கள் வரை"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "age": {
+        "min": 19
+      },
+      "gender": [
+        "female"
+      ],
+      "flags_required": [
+        "is_pregnant"
+      ]
+    },
+    "documents": [
+      {
+        "en": "PICME Registration",
+        "ta": "PICME Registration"
+      },
+      {
+        "en": "Aadhaar",
+        "ta": "Aadhaar"
+      },
+      {
+        "en": "Bank Details",
+        "ta": "Bank Details"
+      }
+    ],
+    "apply": {
+      "mode": "Online/PHC",
+      "url": "https://picme.tn.gov.in/",
+      "office": {
+        "en": "Online/PHC",
+        "ta": "Online/PHC"
+      }
+    },
+    "official_website": "https://picme.tn.gov.in/",
+    "official_source": "https://picme.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "muthulakshmi",
+      "reddy",
+      "maternity",
+      "benefit",
+      "nutrition",
+      "kits",
+      "pregnant",
+      "women",
+      "women",
+      "health"
+    ],
+    "priority": 86,
+    "translated": true
+  },
+  {
+    "id": "TN-HF-003",
+    "level": "state",
+    "source_id": "TN-HF-003",
+    "name": {
+      "en": "Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS)",
+      "ta": "முதலமைச்சரின் விரிவான மருத்துவக் காப்பீட்டுத் திட்டம் (CMCHIS)"
+    },
+    "department": {
+      "en": "Health & Family Welfare",
+      "ta": "சுகாதாரம் மற்றும் குடும்ப நலத்துறை"
+    },
+    "categories": [
+      "health"
+    ],
+    "raw_category": "Health Insurance",
+    "beneficiary": "BPL Families",
+    "summary": {
+      "en": "Cashless hospitalization coverage",
+      "ta": "குறைந்த வருமானக் குடும்பங்களுக்கு அரசு மற்றும் தனியார் மருத்துவமனைகளில் பணமில்லா சிகிச்சை"
+    },
+    "benefit": {
+      "en": "Medical Insurance up to ₹5L",
+      "ta": "ஒரு குடும்பத்திற்கு ஆண்டுக்கு ரூ.5 லட்சம் வரை"
+    },
+    "eligibility_text": {
+      "en": "Annual family income below ₹1.2 Lakhs",
+      "ta": "ஆண்டு குடும்ப வருமானம் ரூ.1.2 லட்சத்திற்கு கீழ்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "annual_income_max": 120000,
+      "flags_required": [
+        "is_low_income"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Income Certificate",
+        "ta": "Income Certificate"
+      },
+      {
+        "en": "Ration Card",
+        "ta": "Ration Card"
+      },
+      {
+        "en": "Aadhaar",
+        "ta": "Aadhaar"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Kiosk",
+      "url": "https://www.cmchistn.com/",
+      "office": {
+        "en": "Online/Kiosk",
+        "ta": "Online/Kiosk"
+      }
+    },
+    "official_website": "https://www.cmchistn.com/",
+    "official_source": "https://www.cmchistn.com/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "comprehensive",
+      "health",
+      "insurance",
+      "cmchis",
+      "cashless",
+      "hospitalization",
+      "coverage",
+      "families",
+      "health"
+    ],
+    "priority": 86,
+    "translated": true
+  },
+  {
+    "id": "TN-HF-006",
+    "level": "state",
+    "source_id": "TN-HF-006",
+    "name": {
+      "en": "Kannoli Kappom Thittam (Free Spectacles for Students)",
+      "ta": "கண்ணொளி காப்போம் திட்டம் (மாணவர்களுக்கு இலவச மூக்குக் கண்ணாடி)"
+    },
+    "department": {
+      "en": "Health & Family Welfare",
+      "ta": "சுகாதாரம் மற்றும் குடும்ப நலத்துறை"
+    },
+    "categories": [
+      "health"
+    ],
+    "raw_category": "Eye Care",
+    "beneficiary": "School Students",
+    "summary": {
+      "en": "Free eye screening for school students and distribution of free corrective spectacles.",
+      "ta": "பார்வைக் குறைபாடு உள்ள பள்ளி மாணவர்களுக்கு இலவச மூக்குக் கண்ணாடி"
+    },
+    "benefit": {
+      "en": "Free Refraction Testing and Prescription Spectacles",
+      "ta": "இலவச மூக்குக் கண்ணாடி"
+    },
+    "eligibility_text": {
+      "en": "Students in Tamil Nadu Government and Aided Schools diagnosed with refractive errors",
+      "ta": "பார்வைக் குறைபாடு கண்டறியப்பட்ட அரசு மற்றும் அரசு உதவிபெறும் பள்ளி மாணவர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "student"
+      ],
+      "flags_required": [
+        "govt_school_educated",
+        "is_student"
+      ]
+    },
+    "documents": [
+      {
+        "en": "School Record ID",
+        "ta": "School Record ID"
+      }
+    ],
+    "apply": {
+      "mode": "School Level",
+      "url": "Not Applicable",
+      "office": {
+        "en": "School Level",
+        "ta": "School Level"
+      }
+    },
+    "official_website": "https://nhm.tn.gov.in/",
+    "official_source": "https://nhm.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "kannoli",
+      "kappom",
+      "free",
+      "spectacles",
+      "students",
+      "screening",
+      "school",
+      "distribution",
+      "corrective",
+      "care",
+      "health"
+    ],
+    "priority": 86,
+    "translated": true
+  },
+  {
+    "id": "TN-HF-007",
+    "level": "state",
+    "source_id": "TN-HF-007",
+    "name": {
+      "en": "Chief Minister's Comprehensive Dental Care & Hearing Scheme (Integrated with CMCHIS)",
+      "ta": "முதலமைச்சரின் விரிவான பல் மற்றும் செவித்திறன் பராமரிப்புத் திட்டம்"
+    },
+    "department": {
+      "en": "Health & Family Welfare",
+      "ta": "சுகாதாரம் மற்றும் குடும்ப நலத்துறை"
+    },
+    "categories": [
+      "health"
+    ],
+    "raw_category": "Specialized Healthcare",
+    "beneficiary": "Children with Hearing Impairment (< 6 years)",
+    "summary": {
+      "en": "Cochlear implant surgery and free hearing aids for deaf children under 6 years.",
+      "ta": "கடுமையான செவித்திறன் இழப்புள்ள குழந்தைகளுக்கு சிகிச்சை மற்றும் உள்ளிணைப்பு அறுவை சிகிச்சை"
+    },
+    "benefit": {
+      "en": "Free Cochlear Implant Surgery (worth ₹6.5 Lakhs) and Auditory Verbal Therapy",
+      "ta": "இலவச சிகிச்சை மற்றும் கருவி"
+    },
+    "eligibility_text": {
+      "en": "Children under 6 years with severe bilateral sensorineural hearing loss from BPL families",
+      "ta": "வறுமைக் கோட்டிற்கு கீழ் உள்ள குடும்பங்களின், இரு காதுகளிலும் கடும் செவித்திறன் இழப்புள்ள 6 வயதுக்குட்பட்ட குழந்தைகள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "age": {
+        "max": 6
+      },
+      "flags_required": [
+        "is_low_income"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Audiology Test Report",
+        "ta": "Audiology Test Report"
+      },
+      {
+        "en": "Income Certificate",
+        "ta": "Income Certificate"
+      },
+      {
+        "en": "Smart Ration Card",
+        "ta": "Smart Ration Card"
+      },
+      {
+        "en": "Birth Certificate",
+        "ta": "Birth Certificate"
+      }
+    ],
+    "apply": {
+      "mode": "Hospital Level / CMCHIS Counter",
+      "url": "https://www.cmchistn.com/",
+      "office": {
+        "en": "Hospital Level / CMCHIS Counter",
+        "ta": "Hospital Level / CMCHIS Counter"
+      }
+    },
+    "official_website": "https://www.cmchistn.com/",
+    "official_source": "https://www.cmchistn.com/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "comprehensive",
+      "dental",
+      "care",
+      "hearing",
+      "integrated",
+      "cmchis",
+      "cochlear",
+      "implant",
+      "surgery",
+      "free",
+      "aids",
+      "deaf",
+      "children",
+      "years",
+      "impairment",
+      "specialized",
+      "healthcare",
+      "health"
+    ],
+    "priority": 86,
+    "translated": true
+  },
+  {
+    "id": "TN-YW-001",
+    "level": "state",
+    "source_id": "TN-YW-001",
+    "name": {
+      "en": "Chief Minister's State Youth Award",
+      "ta": "முதலமைச்சரின் மாநில இளைஞர் விருது"
+    },
+    "department": {
+      "en": "Youth Welfare & Sports Development",
+      "ta": "இளைஞர் நலன் மற்றும் விளையாட்டு மேம்பாட்டுத் துறை"
+    },
+    "categories": [
+      "education"
+    ],
+    "raw_category": "Youth Recognition",
+    "beneficiary": "Youth Volunteers",
+    "summary": {
+      "en": "Annual award recognizing outstanding community and social service by youth in Tamil Nadu.",
+      "ta": "சமூக சேவையில் சிறந்து விளங்கும் இளைஞர்களுக்கு விருது மற்றும் பண ஊக்கத்தொகை"
+    },
+    "benefit": {
+      "en": "Cash prize of ₹1,00,000, citation and medal",
+      "ta": "விருது மற்றும் பண ஊக்கத்தொகை"
+    },
+    "eligibility_text": {
+      "en": "Age 15-32; Demonstrated exceptional community service in the preceding financial year",
+      "ta": "15-32 வயது; முந்தைய நிதியாண்டில் சிறந்த சமூக சேவை செய்திருக்க வேண்டும்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "age": {
+        "min": 15,
+        "max": 32
+      }
+    },
+    "documents": [
+      {
+        "en": "Proof of Social Service",
+        "ta": "Proof of Social Service"
+      },
+      {
+        "en": "Age Certificate",
+        "ta": "Age Certificate"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      }
+    ],
+    "apply": {
+      "mode": "Online",
+      "url": "https://sdat.tn.gov.in/",
+      "office": {
+        "en": "Online",
+        "ta": "Online"
+      }
+    },
+    "official_website": "https://sdat.tn.gov.in/",
+    "official_source": "https://sdat.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "state",
+      "youth",
+      "award",
+      "annual",
+      "recognizing",
+      "outstanding",
+      "community",
+      "social",
+      "service",
+      "volunteers",
+      "recognition",
+      "education"
+    ],
+    "priority": 86,
+    "translated": true
+  },
+  {
+    "id": "TN-YW-002",
+    "level": "state",
+    "source_id": "TN-YW-002",
+    "name": {
+      "en": "Kalaignar Sports Kit Scheme",
+      "ta": "கலைஞர் விளையாட்டுப் பொருள் வழங்கும் திட்டம்"
+    },
+    "department": {
+      "en": "Youth Welfare & Sports Development",
+      "ta": "இளைஞர் நலன் மற்றும் விளையாட்டு மேம்பாட்டுத் துறை"
+    },
+    "categories": [
+      "education"
+    ],
+    "raw_category": "Sports Promotion",
+    "beneficiary": "Village Panchayats / Rural Youth",
+    "summary": {
+      "en": "Distribution of comprehensive sports equipment kits to all village panchayats to promote rural sports.",
+      "ta": "கிராம ஊராட்சிகளுக்கு இலவச விளையாட்டுப் பொருட்கள்"
+    },
+    "benefit": {
+      "en": "Free sports equipment kit (Cricket, Volleyball, Football, etc.)",
+      "ta": "இலவச விளையாட்டுப் பொருட்கள்"
+    },
+    "eligibility_text": {
+      "en": "All 12,500+ Village Panchayats in Tamil Nadu",
+      "ta": "தமிழ்நாட்டின் அனைத்து 12,500+ கிராம ஊராட்சிகள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "flags_required": [
+        "is_rural"
+      ]
+    },
+    "documents": [
+      {
+        "en": "None (Provided to Panchayat Level)",
+        "ta": "None (Provided to Panchayat Level)"
+      }
+    ],
+    "apply": {
+      "mode": "Direct Distribution",
+      "url": "Not Applicable",
+      "office": {
+        "en": "Direct Distribution",
+        "ta": "Direct Distribution"
+      }
+    },
+    "official_website": "https://sdat.tn.gov.in/",
+    "official_source": "https://sdat.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "kalaignar",
+      "sports",
+      "distribution",
+      "comprehensive",
+      "equipment",
+      "kits",
+      "village",
+      "panchayats",
+      "promote",
+      "rural",
+      "youth",
+      "promotion",
+      "education"
+    ],
+    "priority": 86,
+    "translated": true
+  },
+  {
+    "id": "TN-YW-003",
+    "level": "state",
+    "source_id": "TN-YW-003",
+    "name": {
+      "en": "Champion Development Scheme (CDS)",
+      "ta": "சாம்பியன் மேம்பாட்டுத் திட்டம் (CDS)"
+    },
+    "department": {
+      "en": "Youth Welfare & Sports Development",
+      "ta": "இளைஞர் நலன் மற்றும் விளையாட்டு மேம்பாட்டுத் துறை"
+    },
+    "categories": [
+      "education"
+    ],
+    "raw_category": "Sports Scholarship",
+    "beneficiary": "Elite Athletes",
+    "summary": {
+      "en": "Financial scholarship and high-performance training for elite sports persons of Tamil Nadu.",
+      "ta": "தேசிய மற்றும் சர்வதேச அளவில் பதக்கம் வென்ற வீரர்களுக்கு பயிற்சி மற்றும் நிதி ஆதரவு"
+    },
+    "benefit": {
+      "en": "Financial grant up to ₹2,00,000 per year for nutrition, equipment and training",
+      "ta": "பயிற்சி மற்றும் நிதி ஆதரவு"
+    },
+    "eligibility_text": {
+      "en": "Medal winners at National/International level competitions",
+      "ta": "தேசிய/சர்வதேச அளவிலான போட்டிகளில் பதக்கம் வென்றவர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN"
+    },
+    "documents": [
+      {
+        "en": "Sports Achievement Certificates",
+        "ta": "Sports Achievement Certificates"
+      },
+      {
+        "en": "Aadhaar",
+        "ta": "Aadhaar"
+      },
+      {
+        "en": "Bank Details",
+        "ta": "Bank Details"
+      }
+    ],
+    "apply": {
+      "mode": "Online / SDAT",
+      "url": "https://sdat.tn.gov.in/",
+      "office": {
+        "en": "Online / SDAT",
+        "ta": "Online / SDAT"
+      }
+    },
+    "official_website": "https://sdat.tn.gov.in/",
+    "official_source": "https://sdat.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "champion",
+      "development",
+      "scholarship",
+      "high",
+      "performance",
+      "training",
+      "elite",
+      "sports",
+      "persons",
+      "athletes",
+      "education"
+    ],
+    "priority": 86,
+    "translated": true
+  },
+  {
+    "id": "TN-SW-007-1",
+    "level": "state",
+    "source_id": "TN-SW-007-1",
+    "name": {
+      "en": "E.V.R. Maniammaiyar Ninaivu Marriage Assistance Scheme for Daughters of Poor Widows",
+      "ta": "ஈ.வெ.ரா. மணியம்மையார் நினைவு ஏழை விதவைகளின் மகள்கள் திருமண உதவித் திட்டம்"
+    },
+    "department": {
+      "en": "Social Welfare & Women Empowerment",
+      "ta": "சமூக நலன் மற்றும் மகளிர் உரிமைத் துறை"
+    },
+    "categories": [
+      "women",
+      "social"
+    ],
+    "raw_category": "Marriage Assistance",
+    "beneficiary": "Daughters of Poor Widows",
+    "summary": {
+      "en": "Financial assistance and gold for marriage of poor widows' daughters.",
+      "ta": "ஏழை விதவைகளின் மகள்களின் திருமணத்திற்கு நிதி உதவி"
+    },
+    "benefit": {
+      "en": "Financial assistance (₹25000/₹50000) + 8g Gold Coin",
+      "ta": "திருமண நிதி உதவி மற்றும் தங்கம்"
+    },
+    "eligibility_text": {
+      "en": "Mother must be a poor widow; Annual income < ₹72000; Bride age min 18 years",
+      "ta": "தாய் ஏழை விதவையாக இருக்க வேண்டும்; ஆண்டு வருமானம் ரூ.72,000க்கு கீழ்; மணமகள் வயது குறைந்தது 18"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "annual_income_max": 72000,
+      "gender": [
+        "female"
+      ],
+      "flags_required": [
+        "is_low_income",
+        "is_widow"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Widow Certificate of mother",
+        "ta": "Widow Certificate of mother"
+      },
+      {
+        "en": "Income Certificate",
+        "ta": "Income Certificate"
+      },
+      {
+        "en": "Age proof",
+        "ta": "Age proof"
+      },
+      {
+        "en": "Marriage Invitation",
+        "ta": "Marriage Invitation"
+      },
+      {
+        "en": "Marksheets",
+        "ta": "Marksheets"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Offline",
+      "url": "https://tnesevai.tn.gov.in/",
+      "office": {
+        "en": "Online/Offline",
+        "ta": "Online/Offline"
+      }
+    },
+    "official_website": "https://tnsocialwelfare.tn.gov.in/",
+    "official_source": "https://services.india.gov.in/service/detail/e-district-social-welfare-project-for-marriage-assistance-schemes-tamil-nadu",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "maniammaiyar",
+      "marriage",
+      "daughters",
+      "poor",
+      "widows",
+      "gold",
+      "women",
+      "social"
+    ],
+    "priority": 83,
+    "translated": true
+  },
+  {
+    "id": "TN-SW-009",
+    "level": "state",
+    "source_id": "TN-SW-009",
+    "name": {
+      "en": "Dr. Muthulakshmi Reddy Ninaivu Inter-Caste Marriage Assistance Scheme",
+      "ta": "டாக்டர் முத்துலட்சுமி ரெட்டி நினைவு கலப்புத் திருமண உதவித் திட்டம்"
+    },
+    "department": {
+      "en": "Social Welfare & Women Empowerment",
+      "ta": "சமூக நலன் மற்றும் மகளிர் உரிமைத் துறை"
+    },
+    "categories": [
+      "social"
+    ],
+    "raw_category": "Social Justice",
+    "beneficiary": "Inter-caste Couples",
+    "summary": {
+      "en": "Financial grant to promote inter-caste marriages and abolish caste discrimination.",
+      "ta": "கலப்புத் திருமணம் செய்யும் தம்பதிகளுக்கு நிதி உதவி"
+    },
+    "benefit": {
+      "en": "Financial assistance (₹25000/₹50000) + 8g Gold Coin",
+      "ta": "திருமண நிதி உதவி மற்றும் தங்கம்"
+    },
+    "eligibility_text": {
+      "en": "One spouse must belong to SC/ST community; Minimum bride age 18, groom age 21; No income limit",
+      "ta": "தம்பதியில் ஒருவர் ஆதிதிராவிடர்/பழங்குடியின சமூகத்தைச் சேர்ந்தவராக இருக்க வேண்டும்; மணமகள் வயது 18, மணமகன் 21"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "gender": [
+        "female"
+      ],
+      "social_category": [
+        "SC",
+        "ST"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Community Certificates of both spouses",
+        "ta": "Community Certificates of both spouses"
+      },
+      {
+        "en": "Marriage Registration Certificate",
+        "ta": "Marriage Registration Certificate"
+      },
+      {
+        "en": "Joint Photograph",
+        "ta": "Joint Photograph"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Offline",
+      "url": "https://tnesevai.tn.gov.in/",
+      "office": {
+        "en": "Online/Offline",
+        "ta": "Online/Offline"
+      }
+    },
+    "official_website": "https://tnsocialwelfare.tn.gov.in/",
+    "official_source": "https://services.india.gov.in/service/detail/e-district-social-welfare-project-for-marriage-assistance-schemes-tamil-nadu",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "muthulakshmi",
+      "reddy",
+      "inter",
+      "caste",
+      "marriage",
+      "grant",
+      "promote",
+      "marriages",
+      "abolish",
+      "discrimination",
+      "couples",
+      "social",
+      "justice",
+      "social"
+    ],
+    "priority": 83,
+    "translated": true
+  },
+  {
+    "id": "TN-SW-013",
+    "level": "state",
+    "source_id": "TN-SW-013",
+    "name": {
+      "en": "Transgender Pension Scheme",
+      "ta": "திருநங்கையர் ஓய்வூதியத் திட்டம்"
+    },
+    "department": {
+      "en": "Social Welfare & Women Empowerment",
+      "ta": "சமூக நலன் மற்றும் மகளிர் உரிமைத் துறை"
+    },
+    "categories": [
+      "social"
+    ],
+    "raw_category": "Social Security",
+    "beneficiary": "Transgender Persons",
+    "summary": {
+      "en": "Monthly pension for destitute transgender persons",
+      "ta": "ஆதரவற்ற திருநங்கையருக்கு மாதாந்திர ஓய்வூதியம்"
+    },
+    "benefit": {
+      "en": "Monthly ₹1500",
+      "ta": "மாதாந்திர ஓய்வூதியம்"
+    },
+    "eligibility_text": {
+      "en": "Age above 40; Must possess Transgender ID card; BPL category",
+      "ta": "40 வயதுக்கு மேல்; திருநங்கை அடையாள அட்டை இருக்க வேண்டும்; வறுமைக் கோட்டிற்கு கீழ் உள்ள பிரிவு"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "age": {
+        "min": 40
+      },
+      "flags_required": [
+        "is_low_income",
+        "is_transgender"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Transgender ID Card",
+        "ta": "Transgender ID Card"
+      },
+      {
+        "en": "Aadhaar",
+        "ta": "Aadhaar"
+      },
+      {
+        "en": "Bank Details",
+        "ta": "Bank Details"
+      }
+    ],
+    "apply": {
+      "mode": "Offline",
+      "url": "Not Available",
+      "office": {
+        "en": "Offline",
+        "ta": "Offline"
+      }
+    },
+    "official_website": "https://tnsocialwelfare.tn.gov.in/",
+    "official_source": "https://tnsocialwelfare.tn.gov.in/en/transgender/schemes",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "transgender",
+      "pension",
+      "monthly",
+      "destitute",
+      "persons",
+      "social",
+      "security",
+      "social"
+    ],
+    "priority": 83,
+    "translated": true
+  },
+  {
+    "id": "TN-SS-001",
+    "level": "state",
+    "source_id": "TN-SS-001",
+    "name": {
+      "en": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS)",
+      "ta": "இந்திரா காந்தி தேசிய முதியோர் ஓய்வூதியத் திட்டம் (IGNOAPS)"
+    },
+    "department": {
+      "en": "Revenue & Disaster Management",
+      "ta": "வருவாய் மற்றும் பேரிடர் மேலாண்மைத் துறை"
+    },
+    "categories": [
+      "social"
+    ],
+    "raw_category": "Social Security",
+    "beneficiary": "Senior Citizens (BPL)",
+    "summary": {
+      "en": "Monthly pension for destitute senior citizens",
+      "ta": "ஆதரவற்ற முதியோருக்கு மாதாந்திர ஓய்வூதியம்"
+    },
+    "benefit": {
+      "en": "Monthly ₹1200",
+      "ta": "மாதம் ரூ.1,000 மற்றும் இலவச அரிசி"
+    },
+    "eligibility_text": {
+      "en": "Age 60 or above; Destitute/BPL",
+      "ta": "60 வயது அல்லது அதற்கு மேல்; ஆதரவற்ற / வறுமைக் கோட்டிற்கு கீழ்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "age": {
+        "min": 60
+      },
+      "flags_required": [
+        "is_low_income"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Aadhaar",
+        "ta": "Aadhaar"
+      },
+      {
+        "en": "Age Proof",
+        "ta": "Age Proof"
+      },
+      {
+        "en": "Destitute Certificate",
+        "ta": "Destitute Certificate"
+      }
+    ],
+    "apply": {
+      "mode": "Taluk Office/Online",
+      "url": "https://tnesevai.tn.gov.in/",
+      "office": {
+        "en": "Taluk Office/Online",
+        "ta": "Taluk Office/Online"
+      }
+    },
+    "official_website": "https://cra.tn.gov.in/",
+    "official_source": "https://cra.tn.gov.in/social-security-scheme.php",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "indira",
+      "gandhi",
+      "national",
+      "pension",
+      "ignoaps",
+      "monthly",
+      "destitute",
+      "senior",
+      "citizens",
+      "social",
+      "security",
+      "social"
+    ],
+    "priority": 83,
+    "translated": true
+  },
+  {
+    "id": "TN-SS-002",
+    "level": "state",
+    "source_id": "TN-SS-002",
+    "name": {
+      "en": "Differently Abled Pension Scheme (DAPS)",
+      "ta": "மாற்றுத்திறனாளிகள் ஓய்வூதியத் திட்டம் (DAPS)"
+    },
+    "department": {
+      "en": "Revenue Administration",
+      "ta": "மாற்றுத்திறனாளிகள் நல்வாழ்வுத் துறை"
+    },
+    "categories": [
+      "social",
+      "elderly"
+    ],
+    "raw_category": "Social Security Pension",
+    "beneficiary": "Differently Abled Persons",
+    "summary": {
+      "en": "Monthly social security pension for destitute persons with disabilities.",
+      "ta": "ஊனமுற்றவர்களுக்கு மாதாந்திர பராமரிப்பு உதவித்தொகை"
+    },
+    "benefit": {
+      "en": "Monthly ₹1500 pension",
+      "ta": "மாதாந்திர ஓய்வூதியம் மற்றும் இலவச பேருந்து அனுமதி"
+    },
+    "eligibility_text": {
+      "en": "Minimum 40% disability certified by medical authority; Age 18 and above; Destitute status",
+      "ta": "மருத்துவ அதிகாரியால் சான்றளிக்கப்பட்ட குறைந்தபட்சம் 40% ஊனம்; 18 வயது மற்றும் அதற்கு மேல்; ஆதரவற்ற நிலை"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "age": {
+        "min": 18
+      },
+      "disability_percent_min": 40,
+      "flags_required": [
+        "is_disabled",
+        "is_low_income"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Disability Certificate / UDID",
+        "ta": "Disability Certificate / UDID"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      },
+      {
+        "en": "Bank Account details",
+        "ta": "Bank Account details"
+      },
+      {
+        "en": "Smart Ration Card",
+        "ta": "Smart Ration Card"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Taluk Office",
+      "url": "https://tnesevai.tn.gov.in/",
+      "office": {
+        "en": "Online/Taluk Office",
+        "ta": "Online/Taluk Office"
+      }
+    },
+    "official_website": "https://cra.tn.gov.in/",
+    "official_source": "https://cra.tn.gov.in/social-security-scheme.php",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "differently",
+      "abled",
+      "pension",
+      "daps",
+      "monthly",
+      "social",
+      "security",
+      "destitute",
+      "persons",
+      "disabilities",
+      "social",
+      "elderly"
+    ],
+    "priority": 83,
+    "translated": true
+  },
+  {
+    "id": "TN-SS-003",
+    "level": "state",
+    "source_id": "TN-SS-003",
+    "name": {
+      "en": "Destitute Widow Pension Scheme (DWPS)",
+      "ta": "ஆதரவற்ற விதவைகள் ஓய்வூதியத் திட்டம் (DWPS)"
+    },
+    "department": {
+      "en": "Revenue Administration",
+      "ta": "வருவாய் மற்றும் பேரிடர் மேலாண்மைத் துறை"
+    },
+    "categories": [
+      "social",
+      "elderly"
+    ],
+    "raw_category": "Social Security Pension",
+    "beneficiary": "Destitute Widows",
+    "summary": {
+      "en": "Monthly pension for poor, destitute widows without family support.",
+      "ta": "வருமான ஆதாரம் இல்லாத ஆதரவற்ற விதவைகளுக்கு மாதாந்திர ஓய்வூதியம்"
+    },
+    "benefit": {
+      "en": "Monthly ₹1200 pension",
+      "ta": "மாதம் ரூ.1,000 மற்றும் இலவச அரிசி"
+    },
+    "eligibility_text": {
+      "en": "Age 18 years and above; Destitute widow with no regular source of income",
+      "ta": "18 வயது மற்றும் அதற்கு மேல்; வழக்கமான வருமான ஆதாரம் இல்லாத ஆதரவற்ற விதவை"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "age": {
+        "min": 18
+      },
+      "gender": [
+        "female"
+      ],
+      "flags_required": [
+        "is_low_income",
+        "is_widow"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Husband's Death Certificate",
+        "ta": "Husband's Death Certificate"
+      },
+      {
+        "en": "Destitute Widow Certificate",
+        "ta": "Destitute Widow Certificate"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      },
+      {
+        "en": "Smart Ration Card",
+        "ta": "Smart Ration Card"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Taluk Office",
+      "url": "https://tnesevai.tn.gov.in/",
+      "office": {
+        "en": "Online/Taluk Office",
+        "ta": "Online/Taluk Office"
+      }
+    },
+    "official_website": "https://cra.tn.gov.in/",
+    "official_source": "https://cra.tn.gov.in/social-security-scheme.php",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "destitute",
+      "widow",
+      "pension",
+      "dwps",
+      "monthly",
+      "poor",
+      "widows",
+      "without",
+      "family",
+      "support",
+      "social",
+      "security",
+      "social",
+      "elderly"
+    ],
+    "priority": 83,
+    "translated": true
+  },
+  {
+    "id": "TN-SS-004",
+    "level": "state",
+    "source_id": "TN-SS-004",
+    "name": {
+      "en": "Destitute Deserted Wives Pension Scheme (DDWPS)",
+      "ta": "ஆதரவற்ற கைவிடப்பட்ட மனைவியர் ஓய்வூதியத் திட்டம் (DDWPS)"
+    },
+    "department": {
+      "en": "Revenue Administration",
+      "ta": "வருவாய் மற்றும் பேரிடர் மேலாண்மைத் துறை"
+    },
+    "categories": [
+      "social",
+      "elderly"
+    ],
+    "raw_category": "Social Security Pension",
+    "beneficiary": "Deserted Wives",
+    "summary": {
+      "en": "Monthly pension for destitute wives deserted by their husbands for over 5 years.",
+      "ta": "கணவரால் கைவிடப்பட்ட ஆதரவற்ற பெண்களுக்கு மாதாந்திர ஓய்வூதியம்"
+    },
+    "benefit": {
+      "en": "Monthly ₹1200 pension",
+      "ta": "மாதம் ரூ.1,000 மற்றும் இலவச அரிசி"
+    },
+    "eligibility_text": {
+      "en": "Age 30 years and above; Deserted for more than 5 years; Destitute status",
+      "ta": "30 வயது மற்றும் அதற்கு மேல்; 5 ஆண்டுகளுக்கு மேல் கைவிடப்பட்டவர்; ஆதரவற்ற நிலை"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "age": {
+        "min": 30
+      },
+      "gender": [
+        "female"
+      ],
+      "flags_required": [
+        "is_deserted_wife",
+        "is_low_income"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Deserted Wife Certificate issued by VAO/Revenue Inspector",
+        "ta": "Deserted Wife Certificate issued by VAO/Revenue Inspector"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      },
+      {
+        "en": "Bank Passbook",
+        "ta": "Bank Passbook"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Taluk Office",
+      "url": "https://tnesevai.tn.gov.in/",
+      "office": {
+        "en": "Online/Taluk Office",
+        "ta": "Online/Taluk Office"
+      }
+    },
+    "official_website": "https://cra.tn.gov.in/",
+    "official_source": "https://cra.tn.gov.in/social-security-scheme.php",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "destitute",
+      "deserted",
+      "wives",
+      "pension",
+      "ddwps",
+      "monthly",
+      "husbands",
+      "over",
+      "years",
+      "social",
+      "security",
+      "social",
+      "elderly"
+    ],
+    "priority": 83,
+    "translated": true
+  },
+  {
+    "id": "TN-SS-005",
+    "level": "state",
+    "source_id": "TN-SS-005",
+    "name": {
+      "en": "Destitute Unmarried Women Pension Scheme (DUWPS)",
+      "ta": "ஆதரவற்ற திருமணமாகாத பெண்கள் ஓய்வூதியத் திட்டம் (DUWPS)"
+    },
+    "department": {
+      "en": "Revenue Administration",
+      "ta": "வருவாய் மற்றும் பேரிடர் மேலாண்மைத் துறை"
+    },
+    "categories": [
+      "social",
+      "elderly"
+    ],
+    "raw_category": "Social Security Pension",
+    "beneficiary": "Destitute Unmarried Women",
+    "summary": {
+      "en": "Monthly financial assistance for poor, unmarried women aged 50 and above.",
+      "ta": "குடும்ப வருமானம் இல்லாத திருமணமாகாத ஏழைப் பெண்களுக்கு மாதாந்திர ஓய்வூதியம்"
+    },
+    "benefit": {
+      "en": "Monthly ₹1200 pension",
+      "ta": "மாதம் ரூ.1,000 மற்றும் இலவச அரிசி"
+    },
+    "eligibility_text": {
+      "en": "Unmarried female aged 50 years and above; Living in poverty with no family income",
+      "ta": "50 வயது மற்றும் அதற்கு மேற்பட்ட திருமணமாகாத பெண்; குடும்ப வருமானம் இல்லாத வறுமை நிலை"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "age": {
+        "min": 50
+      },
+      "gender": [
+        "female"
+      ],
+      "flags_required": [
+        "is_low_income",
+        "is_unmarried"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Unmarried Status Certificate from Revenue Dept",
+        "ta": "Unmarried Status Certificate from Revenue Dept"
+      },
+      {
+        "en": "Age Proof",
+        "ta": "Age Proof"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      },
+      {
+        "en": "Bank Passbook",
+        "ta": "Bank Passbook"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Taluk Office",
+      "url": "https://tnesevai.tn.gov.in/",
+      "office": {
+        "en": "Online/Taluk Office",
+        "ta": "Online/Taluk Office"
+      }
+    },
+    "official_website": "https://cra.tn.gov.in/",
+    "official_source": "https://cra.tn.gov.in/social-security-scheme.php",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "destitute",
+      "unmarried",
+      "women",
+      "pension",
+      "duwps",
+      "monthly",
+      "poor",
+      "aged",
+      "above",
+      "social",
+      "security",
+      "social",
+      "elderly"
+    ],
+    "priority": 83,
+    "translated": true
+  },
+  {
+    "id": "TN-SS-006",
+    "level": "state",
+    "source_id": "TN-SS-006",
+    "name": {
+      "en": "Chief Minister's Uzhavar Padhukappu Thittam (Farmers Security Scheme)",
+      "ta": "முதலமைச்சரின் உழவர் பாதுகாப்புத் திட்டம்"
+    },
+    "department": {
+      "en": "Revenue Administration",
+      "ta": "வேளாண்மை மற்றும் உழவர் நலத்துறை"
+    },
+    "categories": [
+      "social"
+    ],
+    "raw_category": "Social Security",
+    "beneficiary": "Registered Farmers and Agricultural Labourers",
+    "summary": {
+      "en": "Comprehensive insurance and financial relief scheme for farmers and agricultural labourers for education, marriage, and natural death.",
+      "ta": "பதிவு செய்யப்பட்ட விவசாயிகளுக்கு விபத்து மற்றும் ஆயுள் காப்பீடு மற்றும் நிவாரண உதவி"
+    },
+    "benefit": {
+      "en": "Financial assistance for marriage (₹8000-10000), educational grant, death relief (₹20000 to ₹100000)",
+      "ta": "விபத்து மரணத்திற்கு ரூ.1 லட்சம் வரை"
+    },
+    "eligibility_text": {
+      "en": "Small/marginal farmers and agricultural workers aged 18-65 registered with Uzhavar Card",
+      "ta": "உழவர் அட்டையுடன் பதிவு செய்யப்பட்ட 18-65 வயது சிறு/குறு விவசாயிகள் மற்றும் விவசாயத் தொழிலாளர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "age": {
+        "min": 18,
+        "max": 65
+      },
+      "occupation": [
+        "farmer"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Uzhavar Padhukappu ID Card",
+        "ta": "Uzhavar Padhukappu ID Card"
+      },
+      {
+        "en": "Chitta/Adangal land record",
+        "ta": "Chitta/Adangal land record"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      },
+      {
+        "en": "Bank Details",
+        "ta": "Bank Details"
+      }
+    ],
+    "apply": {
+      "mode": "Taluk Office",
+      "url": "Not Available",
+      "office": {
+        "en": "Taluk Office",
+        "ta": "Taluk Office"
+      }
+    },
+    "official_website": "https://cra.tn.gov.in/",
+    "official_source": "https://cra.tn.gov.in/social-security-scheme.php",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "uzhavar",
+      "padhukappu",
+      "farmers",
+      "security",
+      "comprehensive",
+      "insurance",
+      "relief",
+      "agricultural",
+      "labourers",
+      "education",
+      "marriage",
+      "natural",
+      "death",
+      "registered",
+      "social",
+      "social"
+    ],
+    "priority": 83,
+    "translated": true
+  },
+  {
+    "id": "TN-SS-007",
+    "level": "state",
+    "source_id": "TN-SS-007",
+    "name": {
+      "en": "Free House Site Patta Scheme",
+      "ta": "இலவச வீட்டு மனைப் பட்டா திட்டம்"
+    },
+    "department": {
+      "en": "Revenue Administration",
+      "ta": "வருவாய் மற்றும் பேரிடர் மேலாண்மைத் துறை"
+    },
+    "categories": [
+      "housing"
+    ],
+    "raw_category": "Housing & Land Rights",
+    "beneficiary": "Landless and Houseless Poor Families",
+    "summary": {
+      "en": "Assignment of free house site pattas to houseless poor families in urban and rural areas.",
+      "ta": "நிலமில்லாத ஏழைக் குடும்பங்களுக்கு இலவச வீட்டு மனைப் பட்டா"
+    },
+    "benefit": {
+      "en": "Free Assignment of House Site Land Patta",
+      "ta": "இலவச வீட்டு மனைப் பட்டா"
+    },
+    "eligibility_text": {
+      "en": "Annual family income < ₹72000; Must not own any house or house site anywhere in TN",
+      "ta": "ஆண்டு குடும்ப வருமானம் ரூ.72,000க்கு கீழ்; தமிழ்நாட்டில் எங்கும் வீடு அல்லது வீட்டு மனை இருக்கக் கூடாது"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "annual_income_max": 72000,
+      "flags_required": [
+        "is_low_income",
+        "is_rural"
+      ],
+      "flags_excluded": [
+        "owns_pucca_house"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Income Certificate",
+        "ta": "Income Certificate"
+      },
+      {
+        "en": "Ration Card",
+        "ta": "Ration Card"
+      },
+      {
+        "en": "Certificate of No Property",
+        "ta": "Certificate of No Property"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Taluk Office",
+      "url": "https://tnesevai.tn.gov.in/",
+      "office": {
+        "en": "Online/Taluk Office",
+        "ta": "Online/Taluk Office"
+      }
+    },
+    "official_website": "https://cra.tn.gov.in/",
+    "official_source": "https://cra.tn.gov.in/land-administration.php",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "free",
+      "house",
+      "site",
+      "patta",
+      "assignment",
+      "pattas",
+      "houseless",
+      "poor",
+      "families",
+      "urban",
+      "rural",
+      "areas",
+      "landless",
+      "housing",
+      "land",
+      "rights",
+      "housing"
+    ],
+    "priority": 83,
+    "translated": true
+  },
+  {
+    "id": "TN-DA-002",
+    "level": "state",
+    "source_id": "TN-DA-002",
+    "name": {
+      "en": "Marriage Assistance to Differently Abled Persons",
+      "ta": "மாற்றுத்திறனாளிகளுக்கு திருமண உதவி"
+    },
+    "department": {
+      "en": "Welfare of Differently Abled Persons",
+      "ta": "மாற்றுத்திறனாளிகள் நல்வாழ்வுத் துறை"
+    },
+    "categories": [
+      "women",
+      "social"
+    ],
+    "raw_category": "Marriage Assistance",
+    "beneficiary": "Differently Abled Bride or Groom",
+    "summary": {
+      "en": "Financial grant and gold coin for marriage of differently abled individuals.",
+      "ta": "மாற்றுத்திறனாளிகளின் திருமணத்திற்கு நிதி உதவி"
+    },
+    "benefit": {
+      "en": "Financial assistance (₹25000/₹50000 depending on degree/diploma) + 8g Gold Coin",
+      "ta": "திருமண நிதி உதவி"
+    },
+    "eligibility_text": {
+      "en": "Either or both spouses are differently abled (>40% disability); Minimum bride age 18, groom 21",
+      "ta": "தம்பதியில் ஒருவர் அல்லது இருவரும் மாற்றுத்திறனாளி (40%க்கு மேல் ஊனம்); மணமகள் வயது 18, மணமகன் 21"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "gender": [
+        "female"
+      ],
+      "disability_percent_min": 40,
+      "flags_required": [
+        "is_disabled"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Disability Certificate",
+        "ta": "Disability Certificate"
+      },
+      {
+        "en": "Educational Certificates",
+        "ta": "Educational Certificates"
+      },
+      {
+        "en": "Marriage Invitation",
+        "ta": "Marriage Invitation"
+      },
+      {
+        "en": "Aadhaar",
+        "ta": "Aadhaar"
+      }
+    ],
+    "apply": {
+      "mode": "Offline/District Office",
+      "url": "Not Available",
+      "office": {
+        "en": "Offline/District Office",
+        "ta": "Offline/District Office"
+      }
+    },
+    "official_website": "https://scd.tn.gov.in/",
+    "official_source": "https://scd.tn.gov.in/schemes.php",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "marriage",
+      "differently",
+      "abled",
+      "persons",
+      "grant",
+      "gold",
+      "coin",
+      "individuals",
+      "bride",
+      "groom",
+      "women",
+      "social"
+    ],
+    "priority": 83,
+    "translated": true
+  },
+  {
+    "id": "TN-DA-003",
+    "level": "state",
+    "source_id": "TN-DA-003",
+    "name": {
+      "en": "Unemployment Allowance for Differently Abled",
+      "ta": "மாற்றுத்திறனாளிகளுக்கு வேலையில்லாத் திண்டாட்ட உதவித்தொகை"
+    },
+    "department": {
+      "en": "Welfare of Differently Abled Persons",
+      "ta": "மாற்றுத்திறனாளிகள் நல்வாழ்வுத் துறை"
+    },
+    "categories": [
+      "employment",
+      "social"
+    ],
+    "raw_category": "Social Welfare / Employment",
+    "beneficiary": "Educated Unemployed Differently Abled",
+    "summary": {
+      "en": "Monthly allowance for educated unemployed persons with disabilities.",
+      "ta": "படித்த வேலையில்லாத மாற்றுத்திறனாளிகளுக்கு மாதாந்திர உதவித்தொகை"
+    },
+    "benefit": {
+      "en": "Monthly allowance ranging from ₹600 to ₹1000 based on educational qualification",
+      "ta": "மாதாந்திர வேலையில்லாத் திண்டாட்ட உதவித்தொகை"
+    },
+    "eligibility_text": {
+      "en": "Registered with Employment Exchange for > 1 year; Disability 40% or more; Unemployed",
+      "ta": "ஒரு ஆண்டுக்கு மேல் வேலைவாய்ப்பு அலுவலகத்தில் பதிவு; 40% அல்லது அதற்கு மேல் ஊனம்; வேலையில்லாதவர்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "unemployed"
+      ],
+      "disability_percent_min": 40,
+      "flags_required": [
+        "is_disabled",
+        "is_unemployed"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Employment Exchange Registration Card",
+        "ta": "Employment Exchange Registration Card"
+      },
+      {
+        "en": "Disability Certificate",
+        "ta": "Disability Certificate"
+      },
+      {
+        "en": "Marksheets",
+        "ta": "Marksheets"
+      },
+      {
+        "en": "Bank Passbook",
+        "ta": "Bank Passbook"
+      }
+    ],
+    "apply": {
+      "mode": "District Employment Office",
+      "url": "Not Available",
+      "office": {
+        "en": "District Employment Office",
+        "ta": "District Employment Office"
+      }
+    },
+    "official_website": "https://scd.tn.gov.in/",
+    "official_source": "https://scd.tn.gov.in/schemes.php",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "unemployment",
+      "allowance",
+      "differently",
+      "abled",
+      "monthly",
+      "educated",
+      "unemployed",
+      "persons",
+      "disabilities",
+      "social",
+      "employment",
+      "employment",
+      "social"
+    ],
+    "priority": 83,
+    "translated": true
+  },
+  {
+    "id": "TN-HO-001",
+    "level": "state",
+    "source_id": "TN-HO-001",
+    "name": {
+      "en": "Tamil Nadu Housing Board (TNHB) Subsidized LIG Flats",
+      "ta": "தமிழ்நாடு வீட்டுவசதி வாரியம் (TNHB) மானிய விலை குறைந்த வருமானக் குடியிருப்புகள்"
+    },
+    "department": {
+      "en": "Housing & Urban Development",
+      "ta": "வீட்டுவசதி மற்றும் நகர்ப்புற வளர்ச்சித் துறை"
+    },
+    "categories": [
+      "housing"
+    ],
+    "raw_category": "Housing",
+    "beneficiary": "LIG Citizens",
+    "summary": {
+      "en": "Allotment of affordable built-up flats and plots for Low Income Group categories.",
+      "ta": "குறைந்த வருமானக் குடும்பங்களுக்கு மானிய விலையில் குடியிருப்புகள்"
+    },
+    "benefit": {
+      "en": "Subsidized cost for flats/plots via draw of lots",
+      "ta": "மானிய விலை குடியிருப்பு"
+    },
+    "eligibility_text": {
+      "en": "Family income < ₹3,00,000 per year; Native of TN; Should not own house/flat in TN",
+      "ta": "குடும்ப வருமானம் ஆண்டுக்கு ரூ.3,00,000க்கு கீழ்; தமிழ்நாட்டைச் சேர்ந்தவர்; தமிழ்நாட்டில் வீடு/குடியிருப்பு இருக்கக் கூடாது"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "annual_income_max": 300000,
+      "flags_excluded": [
+        "owns_pucca_house"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Income Certificate",
+        "ta": "Income Certificate"
+      },
+      {
+        "en": "Nativity Certificate",
+        "ta": "Nativity Certificate"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      }
+    ],
+    "apply": {
+      "mode": "Online TNHB Portal",
+      "url": "https://tnhb.tn.gov.in/",
+      "office": {
+        "en": "Online TNHB Portal",
+        "ta": "Online TNHB Portal"
+      }
+    },
+    "official_website": "https://tnhb.tn.gov.in/",
+    "official_source": "https://tnhb.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "housing",
+      "board",
+      "tnhb",
+      "subsidized",
+      "flats",
+      "allotment",
+      "affordable",
+      "built",
+      "plots",
+      "income",
+      "group",
+      "categories",
+      "citizens",
+      "housing"
+    ],
+    "priority": 83,
+    "translated": true
+  },
+  {
+    "id": "TN-EX-001",
+    "level": "state",
+    "source_id": "TN-EX-001",
+    "name": {
+      "en": "Amalgamated Fund for Ex-Servicemen Welfare",
+      "ta": "முன்னாள் படைவீரர் நல ஒருங்கிணைந்த நிதி"
+    },
+    "department": {
+      "en": "Public (Ex-Servicemen Welfare)",
+      "ta": "முன்னாள் படைவீரர் நலத்துறை"
+    },
+    "categories": [
+      "social"
+    ],
+    "raw_category": "Ex-Servicemen Welfare",
+    "beneficiary": "Ex-Servicemen / Widows / Dependents",
+    "summary": {
+      "en": "Financial grants covering education, marriage, and housing repairs for ex-servicemen and their dependents.",
+      "ta": "முன்னாள் படைவீரர்கள் மற்றும் அவர்களது விதவைகளுக்கு நிதி உதவி"
+    },
+    "benefit": {
+      "en": "Marriage Grant, House Repair Grant, Education Scholarship",
+      "ta": "நிதி உதவி மற்றும் கல்வி ஆதரவு"
+    },
+    "eligibility_text": {
+      "en": "Registered Ex-Servicemen or Widows; Domiciled in Tamil Nadu",
+      "ta": "பதிவு செய்யப்பட்ட முன்னாள் படைவீரர் அல்லது விதவை; தமிழ்நாட்டில் வசிப்பவர்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "gender": [
+        "female"
+      ],
+      "flags_required": [
+        "is_ex_serviceman",
+        "is_widow"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Discharge Book",
+        "ta": "Discharge Book"
+      },
+      {
+        "en": "Ex-Servicemen ID Card",
+        "ta": "Ex-Servicemen ID Card"
+      },
+      {
+        "en": "Dependent Proof",
+        "ta": "Dependent Proof"
+      },
+      {
+        "en": "Aadhaar",
+        "ta": "Aadhaar"
+      }
+    ],
+    "apply": {
+      "mode": "District Soldier Board",
+      "url": "Not Available",
+      "office": {
+        "en": "District Soldier Board",
+        "ta": "District Soldier Board"
+      }
+    },
+    "official_website": "https://www.exwel.tn.gov.in/",
+    "official_source": "https://www.exwel.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "amalgamated",
+      "fund",
+      "servicemen",
+      "grants",
+      "covering",
+      "education",
+      "marriage",
+      "housing",
+      "repairs",
+      "dependents",
+      "widows",
+      "social"
+    ],
+    "priority": 83,
+    "translated": true
+  },
+  {
+    "id": "TN-EX-002",
+    "level": "state",
+    "source_id": "TN-EX-002",
+    "name": {
+      "en": "Life Time Monthly Financial Assistance for World War Veterans / Widows",
+      "ta": "இரண்டாம் உலகப் போர் வீரர்கள் / விதவைகளுக்கு வாழ்நாள் மாதாந்திர நிதி உதவி"
+    },
+    "department": {
+      "en": "Public (Ex-Servicemen Welfare)",
+      "ta": "முன்னாள் படைவீரர் நலத்துறை"
+    },
+    "categories": [
+      "social"
+    ],
+    "raw_category": "Ex-Servicemen Welfare",
+    "beneficiary": "WWII Veterans / Widows",
+    "summary": {
+      "en": "Monthly pension for veterans of World War II or their surviving widows.",
+      "ta": "இரண்டாம் உலகப் போர் வீரர்கள் மற்றும் அவர்களது விதவைகளுக்கு வாழ்நாள் மாதாந்திர உதவி"
+    },
+    "benefit": {
+      "en": "Monthly pension of ₹10,000",
+      "ta": "வாழ்நாள் மாதாந்திர நிதி உதவி"
+    },
+    "eligibility_text": {
+      "en": "Veteran of WWII not receiving any other military pension; Domiciled in TN",
+      "ta": "வேறு எந்த ராணுவ ஓய்வூதியமும் பெறாத இரண்டாம் உலகப் போர் வீரர்; தமிழ்நாட்டில் வசிப்பவர்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "gender": [
+        "female"
+      ],
+      "flags_required": [
+        "is_ex_serviceman",
+        "is_widow"
+      ],
+      "flags_excluded": [
+        "receives_other_pension"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Discharge Book proving WWII Service",
+        "ta": "Discharge Book proving WWII Service"
+      },
+      {
+        "en": "Non-Pensioner Certificate",
+        "ta": "Non-Pensioner Certificate"
+      },
+      {
+        "en": "Life Certificate",
+        "ta": "Life Certificate"
+      }
+    ],
+    "apply": {
+      "mode": "District Soldier Board",
+      "url": "Not Available",
+      "office": {
+        "en": "District Soldier Board",
+        "ta": "District Soldier Board"
+      }
+    },
+    "official_website": "https://www.exwel.tn.gov.in/",
+    "official_source": "https://www.exwel.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "life",
+      "time",
+      "monthly",
+      "world",
+      "veterans",
+      "widows",
+      "pension",
+      "surviving",
+      "wwii",
+      "servicemen",
+      "social"
+    ],
+    "priority": 83,
+    "translated": true
+  },
+  {
+    "id": "TN-SW-001",
+    "level": "state",
+    "source_id": "TN-SW-001",
+    "name": {
+      "en": "Moovalur Ramamirtham Ammaiyar Higher Education Assurance Scheme (Pudhumai Penn)",
+      "ta": "மூவலூர் ராமாமிர்தம் அம்மையார் உயர்கல்வி உறுதித் திட்டம் (புதுமைப் பெண்)"
+    },
+    "department": {
+      "en": "Social Welfare & Women Empowerment",
+      "ta": "சமூக நலன் மற்றும் மகளிர் உரிமைத் துறை"
+    },
+    "categories": [
+      "education"
+    ],
+    "raw_category": "Education",
+    "beneficiary": "Girl Students",
+    "summary": {
+      "en": "Monthly financial assistance to girls for higher education",
+      "ta": "அரசுப் பள்ளிகளில் படித்த மாணவிகள் உயர்கல்வி தொடர மாதாந்திர நிதி உதவி"
+    },
+    "benefit": {
+      "en": "Monthly ₹1000",
+      "ta": "மாதம் ரூ.1,000"
+    },
+    "eligibility_text": {
+      "en": "Girls who studied Class 6-12 in Govt schools",
+      "ta": "6 முதல் 12ஆம் வகுப்பு வரை அரசுப் பள்ளியில் படித்த மாணவிகள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "student"
+      ],
+      "flags_required": [
+        "govt_school_educated",
+        "is_student"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Aadhaar",
+        "ta": "Aadhaar"
+      },
+      {
+        "en": "EMIS",
+        "ta": "EMIS"
+      },
+      {
+        "en": "Bank Passbook",
+        "ta": "Bank Passbook"
+      }
+    ],
+    "apply": {
+      "mode": "Online",
+      "url": "https://pudhumaipenn.tn.gov.in/",
+      "office": {
+        "en": "Online",
+        "ta": "Online"
+      }
+    },
+    "official_website": "https://pudhumaipenn.tn.gov.in/",
+    "official_source": "https://pudhumaipenn.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "moovalur",
+      "ramamirtham",
+      "higher",
+      "education",
+      "assurance",
+      "pudhumai",
+      "penn",
+      "monthly",
+      "girls",
+      "girl",
+      "students",
+      "education"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-SW-003",
+    "level": "state",
+    "source_id": "TN-SW-003",
+    "name": {
+      "en": "Chief Minister's Girl Child Protection Scheme (Scheme II)",
+      "ta": "முதலமைச்சரின் பெண் குழந்தை பாதுகாப்புத் திட்டம்"
+    },
+    "department": {
+      "en": "Social Welfare & Women Empowerment",
+      "ta": "சமூக நலன் மற்றும் மகளிர் உரிமைத் துறை"
+    },
+    "categories": [
+      "women",
+      "education"
+    ],
+    "raw_category": "Girl Child Welfare",
+    "beneficiary": "Two Girl Children",
+    "summary": {
+      "en": "Financial deposit for families having two girl children and no male child.",
+      "ta": "ஆண் குழந்தை இல்லாத குடும்பங்களின் பெண் குழந்தைகளுக்கு நீண்டகால நிதி வைப்புத் தொகை"
+    },
+    "benefit": {
+      "en": "Fixed deposit of ₹25000 for each girl child",
+      "ta": "நீண்டகால நிதி வைப்புத் தொகை"
+    },
+    "eligibility_text": {
+      "en": "Family with 2 girl children and no male child; Sterilization undergone by parents; Income < ₹72000/yr",
+      "ta": "ஆண் குழந்தை இல்லாத, ஒன்று அல்லது இரண்டு பெண் குழந்தைகள் உள்ள வறுமைக் கோட்டிற்கு கீழ் உள்ள குடும்பங்கள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "annual_income_max": 72000,
+      "gender": [
+        "female"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Birth Certificates of both girls",
+        "ta": "Birth Certificates of both girls"
+      },
+      {
+        "en": "Income Certificate",
+        "ta": "Income Certificate"
+      },
+      {
+        "en": "Sterilization Certificate",
+        "ta": "Sterilization Certificate"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Offline",
+      "url": "https://tnesevai.tn.gov.in/",
+      "office": {
+        "en": "Online/Offline",
+        "ta": "Online/Offline"
+      }
+    },
+    "official_website": "https://tnsocialwelfare.tn.gov.in/",
+    "official_source": "https://services.india.gov.in/service/detail/e-district-social-welfare-project-for-girl-child-protection-schemes-tamil-nadu",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "girl",
+      "child",
+      "protection",
+      "deposit",
+      "families",
+      "having",
+      "children",
+      "male",
+      "women",
+      "education"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-ED-002",
+    "level": "state",
+    "source_id": "TN-ED-002",
+    "name": {
+      "en": "Thamizh Puthalvan Thittam",
+      "ta": "தமிழ்ப் புதல்வன் திட்டம்"
+    },
+    "department": {
+      "en": "Social Welfare & Women Empowerment",
+      "ta": "பள்ளிக் கல்வித் துறை"
+    },
+    "categories": [
+      "education"
+    ],
+    "raw_category": "Education",
+    "beneficiary": "Boy Students",
+    "summary": {
+      "en": "Monthly financial assistance to boys for higher education",
+      "ta": "அரசுப் பள்ளிகளில் படித்த மாணவர்கள் உயர்கல்வி தொடர மாதாந்திர நிதி உதவி"
+    },
+    "benefit": {
+      "en": "Monthly ₹1000",
+      "ta": "மாதம் ரூ.1,000"
+    },
+    "eligibility_text": {
+      "en": "Boys who studied Class 6-12 in Govt schools",
+      "ta": "6 முதல் 12ஆம் வகுப்பு வரை அரசுப் பள்ளியில் படித்த மாணவர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "gender": [
+        "male"
+      ],
+      "occupation": [
+        "student"
+      ],
+      "flags_required": [
+        "govt_school_educated",
+        "is_student"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Aadhaar",
+        "ta": "Aadhaar"
+      },
+      {
+        "en": "EMIS",
+        "ta": "EMIS"
+      },
+      {
+        "en": "Bank Passbook",
+        "ta": "Bank Passbook"
+      }
+    ],
+    "apply": {
+      "mode": "Online",
+      "url": "https://www.tamilputhalvan.tn.gov.in/",
+      "office": {
+        "en": "Online",
+        "ta": "Online"
+      }
+    },
+    "official_website": "https://www.tamilputhalvan.tn.gov.in/",
+    "official_source": "https://www.tamilputhalvan.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "thamizh",
+      "puthalvan",
+      "monthly",
+      "boys",
+      "higher",
+      "education",
+      "students",
+      "education"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-ED-004",
+    "level": "state",
+    "source_id": "TN-ED-004",
+    "name": {
+      "en": "Illam Thedi Kalvi",
+      "ta": "இல்லம் தேடிக் கல்வி"
+    },
+    "department": {
+      "en": "School Education",
+      "ta": "பள்ளிக் கல்வித் துறை"
+    },
+    "categories": [
+      "education"
+    ],
+    "raw_category": "Education",
+    "beneficiary": "Students (Class 1-8)",
+    "summary": {
+      "en": "After-school remedial tutoring program",
+      "ta": "பள்ளி நேரத்திற்கு வெளியே தன்னார்வலர்கள் மூலம் இலவச கூடுதல் கற்றல் ஆதரவு"
+    },
+    "benefit": {
+      "en": "After-school Tutoring",
+      "ta": "இலவச கூடுதல் வகுப்புகள்"
+    },
+    "eligibility_text": {
+      "en": "Students in Government and Aided Schools",
+      "ta": "அரசு மற்றும் அரசு உதவிபெறும் பள்ளிகளில் படிக்கும் மாணவர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "student"
+      ],
+      "flags_required": [
+        "govt_school_educated",
+        "is_student"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Aadhaar card",
+        "ta": "Aadhaar card"
+      }
+    ],
+    "apply": {
+      "mode": "Volunteer/Direct",
+      "url": "https://illamthedikalvi.tnschools.gov.in/",
+      "office": {
+        "en": "Volunteer/Direct",
+        "ta": "Volunteer/Direct"
+      }
+    },
+    "official_website": "https://illamthedikalvi.tnschools.gov.in/",
+    "official_source": "https://illamthedikalvi.tnschools.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "illam",
+      "thedi",
+      "kalvi",
+      "after",
+      "school",
+      "remedial",
+      "tutoring",
+      "students",
+      "class",
+      "education",
+      "education"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-ED-004-1",
+    "level": "state",
+    "source_id": "TN-ED-004-1",
+    "name": {
+      "en": "Naan Mudhalvan Skill Development Scheme",
+      "ta": "நான் முதல்வன் திறன் மேம்பாட்டுத் திட்டம்"
+    },
+    "department": {
+      "en": "Special Programme Implementation",
+      "ta": "உயர்கல்வித் துறை"
+    },
+    "categories": [
+      "education",
+      "employment"
+    ],
+    "raw_category": "Skill Development",
+    "beneficiary": "School & College Students",
+    "summary": {
+      "en": "Comprehensive skill development, career guidance, and industry training portal for youth.",
+      "ta": "மாணவர்களுக்கு தொழில்துறை சார்ந்த இலவச திறன் பயிற்சி, சான்றிதழ் மற்றும் வேலைவாய்ப்பு ஆதரவு"
+    },
+    "benefit": {
+      "en": "Free Industry Training, Certification, and Career Counselling",
+      "ta": "இலவச திறன் பயிற்சி மற்றும் சான்றிதழ்"
+    },
+    "eligibility_text": {
+      "en": "Students studying in TN High Schools, Colleges, Polytechnics, and Universities",
+      "ta": "தமிழ்நாட்டின் மேல்நிலைப் பள்ளிகள், கல்லூரிகள், பாலிடெக்னிக்குகள் மற்றும் பல்கலைக்கழகங்களில் படிக்கும் மாணவர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "student"
+      ],
+      "flags_required": [
+        "is_student"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Student Educational ID / Aadhaar",
+        "ta": "Student Educational ID / Aadhaar"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Institution",
+      "url": "https://www.naanmudhalvan.tn.gov.in/",
+      "office": {
+        "en": "Online/Institution",
+        "ta": "Online/Institution"
+      }
+    },
+    "official_website": "https://www.naanmudhalvan.tn.gov.in/",
+    "official_source": "https://www.naanmudhalvan.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "naan",
+      "mudhalvan",
+      "skill",
+      "development",
+      "comprehensive",
+      "career",
+      "guidance",
+      "industry",
+      "training",
+      "portal",
+      "youth",
+      "school",
+      "college",
+      "students",
+      "education",
+      "employment"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-AD-001",
+    "level": "state",
+    "source_id": "TN-AD-001",
+    "name": {
+      "en": "Post-Matric Scholarship Scheme for SC / ST Students",
+      "ta": "ஆதிதிராவிடர் / பழங்குடியின மாணவர்களுக்கான மேல்நிலைக் கல்வி உதவித்தொகை"
+    },
+    "department": {
+      "en": "Adi Dravidar & Tribal Welfare",
+      "ta": "ஆதிதிராவிடர் மற்றும் பழங்குடியினர் நலத்துறை"
+    },
+    "categories": [
+      "education"
+    ],
+    "raw_category": "Education / Scholarship",
+    "beneficiary": "SC and ST College Students",
+    "summary": {
+      "en": "Full financial support and compulsory fee exemption for SC/ST students in higher education.",
+      "ta": "ஆதிதிராவிடர் மற்றும் பழங்குடியின மாணவர்களுக்கு கல்விக் கட்டணம் மற்றும் பராமரிப்பு உதவித்தொகை"
+    },
+    "benefit": {
+      "en": "Full Tuition Fee Waiver, Hostel Fees, and Monthly Maintenance Allowance",
+      "ta": "முழு கல்விக் கட்டணம் மற்றும் பராமரிப்பு உதவித்தொகை"
+    },
+    "eligibility_text": {
+      "en": "SC/ST students pursuing post-matric courses; Annual family income < ₹2,50,000",
+      "ta": "மேல்நிலைப் படிப்புகளில் உள்ள SC/ST மாணவர்கள்; ஆண்டு குடும்ப வருமானம் ரூ.2,50,000க்கு கீழ்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "annual_income_max": 250000,
+      "occupation": [
+        "student"
+      ],
+      "social_category": [
+        "SC",
+        "ST"
+      ],
+      "flags_required": [
+        "is_student"
+      ]
+    },
+    "documents": [
+      {
+        "en": "SC/ST Community Certificate",
+        "ta": "SC/ST Community Certificate"
+      },
+      {
+        "en": "Income Certificate",
+        "ta": "Income Certificate"
+      },
+      {
+        "en": "Marksheets",
+        "ta": "Marksheets"
+      },
+      {
+        "en": "Bank Passbook",
+        "ta": "Bank Passbook"
+      },
+      {
+        "en": "Aadhaar",
+        "ta": "Aadhaar"
+      }
+    ],
+    "apply": {
+      "mode": "Online",
+      "url": "https://tnadwscholarship.tn.gov.in/",
+      "office": {
+        "en": "Online",
+        "ta": "Online"
+      }
+    },
+    "official_website": "https://tnadwscholarship.tn.gov.in/",
+    "official_source": "https://tnadwscholarship.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "post",
+      "matric",
+      "scholarship",
+      "students",
+      "full",
+      "support",
+      "compulsory",
+      "exemption",
+      "higher",
+      "education",
+      "college",
+      "education"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-BC-001",
+    "level": "state",
+    "source_id": "TN-BC-001",
+    "name": {
+      "en": "Free Bicycle Scheme for BC / MBC / Minority Class 11 Students",
+      "ta": "பிற்படுத்தப்பட்டோர்/மிகப் பிற்படுத்தப்பட்டோர்/சிறுபான்மையினர் 11ஆம் வகுப்பு மாணவர்களுக்கு இலவச மிதிவண்டி"
+    },
+    "department": {
+      "en": "BC, MBC & Minorities Welfare",
+      "ta": "பிற்படுத்தப்பட்டோர் மற்றும் சிறுபான்மையினர் நலத்துறை"
+    },
+    "categories": [
+      "education"
+    ],
+    "raw_category": "Education Welfare",
+    "beneficiary": "Class 11 Students",
+    "summary": {
+      "en": "Supply of free bicycles to Class 11 students in government and government-aided schools.",
+      "ta": "11ஆம் வகுப்பு மாணவர்களுக்கு பள்ளிக்குச் செல்ல இலவச மிதிவண்டி"
+    },
+    "benefit": {
+      "en": "Free Bicycle",
+      "ta": "இலவச மிதிவண்டி"
+    },
+    "eligibility_text": {
+      "en": "Students studying in Class 11 in Govt or Aided schools belonging to BC/MBC/DNT/Minority or General categories",
+      "ta": "BC/MBC/DNT/சிறுபான்மையினர் அல்லது பொதுப் பிரிவைச் சேர்ந்த, அரசு அல்லது அரசு உதவிபெறும் பள்ளிகளில் 11ஆம் வகுப்பு படிக்கும் மாணவர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "student"
+      ],
+      "social_category": [
+        "BC",
+        "MBC",
+        "DNC"
+      ],
+      "flags_required": [
+        "govt_school_educated",
+        "is_student"
+      ]
+    },
+    "documents": [
+      {
+        "en": "School Enrollment Certificate",
+        "ta": "School Enrollment Certificate"
+      }
+    ],
+    "apply": {
+      "mode": "Institution Level",
+      "url": "Not Applicable",
+      "office": {
+        "en": "Institution Level",
+        "ta": "Institution Level"
+      }
+    },
+    "official_website": "https://bcmbcmw.tn.gov.in/",
+    "official_source": "https://bcmbcmw.tn.gov.in/welfare_schemes.htm",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "free",
+      "bicycle",
+      "minority",
+      "class",
+      "students",
+      "supply",
+      "bicycles",
+      "aided",
+      "schools",
+      "education",
+      "education"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-LAB-002",
+    "level": "state",
+    "source_id": "TN-LAB-002",
+    "name": {
+      "en": "Tamil Nadu Unorganized Workers Welfare Board",
+      "ta": "தமிழ்நாடு அமைப்புசாரா தொழிலாளர் நல வாரியம்"
+    },
+    "department": {
+      "en": "Labour Welfare & Skill Development",
+      "ta": "தொழிலாளர் நலன் மற்றும் திறன் மேம்பாட்டுத் துறை"
+    },
+    "categories": [
+      "employment"
+    ],
+    "raw_category": "Labour Welfare",
+    "beneficiary": "Registered Unorganized Workers",
+    "summary": {
+      "en": "Social security and financial assistance",
+      "ta": "அமைப்புசாரா துறை தொழிலாளர்களுக்கு நல பலன்கள்"
+    },
+    "benefit": {
+      "en": "Assistance for Marriage/Education/Accident",
+      "ta": "விபத்து நிவாரணம் மற்றும் கல்வி உதவி"
+    },
+    "eligibility_text": {
+      "en": "Registered under specific unorganized sectors",
+      "ta": "குறிப்பிட்ட அமைப்புசாரா துறைகளில் பதிவு செய்யப்பட்டவர்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "daily_wage_labourer"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Board ID",
+        "ta": "Board ID"
+      },
+      {
+        "en": "Relevant Certificates",
+        "ta": "Relevant Certificates"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Labour Office",
+      "url": "https://tnuwwb.tn.gov.in/",
+      "office": {
+        "en": "Online/Labour Office",
+        "ta": "Online/Labour Office"
+      }
+    },
+    "official_website": "https://tnuwwb.tn.gov.in/",
+    "official_source": "https://tnuwwb.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "unorganized",
+      "workers",
+      "board",
+      "social",
+      "security",
+      "registered",
+      "labour",
+      "employment"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-ED-005",
+    "level": "state",
+    "source_id": "TN-ED-005",
+    "name": {
+      "en": "7.5 Percent Horizontal Reservation in Professional Courses",
+      "ta": "தொழிற்கல்விப் படிப்புகளில் 7.5 சதவீத கிடைமட்ட இட ஒதுக்கீடு"
+    },
+    "department": {
+      "en": "Higher Education",
+      "ta": "உயர்கல்வித் துறை"
+    },
+    "categories": [
+      "education"
+    ],
+    "raw_category": "Education / Social Justice",
+    "beneficiary": "Govt School Students",
+    "summary": {
+      "en": "Horizontal preferential reservation for government school students in professional admissions (Engineering, Agriculture, Law, Veterinary, MBBS).",
+      "ta": "அரசுப் பள்ளி மாணவர்களுக்கு தொழிற்கல்விப் படிப்புகளில் சிறப்பு இட ஒதுக்கீடு"
+    },
+    "benefit": {
+      "en": "7.5% Reserved Seats & Full Fee/Hostel Subsidy by Govt",
+      "ta": "7.5% இட ஒதுக்கீடு"
+    },
+    "eligibility_text": {
+      "en": "Students who studied from Class 6 to 12 continuously in Tamil Nadu Govt schools",
+      "ta": "6 முதல் 12ஆம் வகுப்பு வரை தொடர்ந்து தமிழ்நாடு அரசுப் பள்ளிகளில் படித்த மாணவர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "student"
+      ],
+      "flags_required": [
+        "govt_school_educated",
+        "is_student"
+      ]
+    },
+    "documents": [
+      {
+        "en": "School Study Certificate (Class 6-12)",
+        "ta": "School Study Certificate (Class 6-12)"
+      },
+      {
+        "en": "EMIS ID",
+        "ta": "EMIS ID"
+      },
+      {
+        "en": "Marksheets",
+        "ta": "Marksheets"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Counselling",
+      "url": "https://www.tneaonline.org/",
+      "office": {
+        "en": "Online/Counselling",
+        "ta": "Online/Counselling"
+      }
+    },
+    "official_website": "https://www.tndte.gov.in/",
+    "official_source": "https://www.tn.gov.in/scheme/data_view/88167",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "percent",
+      "horizontal",
+      "reservation",
+      "professional",
+      "courses",
+      "preferential",
+      "school",
+      "students",
+      "admissions",
+      "engineering",
+      "agriculture",
+      "veterinary",
+      "mbbs",
+      "education",
+      "social",
+      "justice",
+      "education"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-ED-006",
+    "level": "state",
+    "source_id": "TN-ED-006",
+    "name": {
+      "en": "Free Laptop Scheme for Students",
+      "ta": "மாணவர்களுக்கான இலவச மடிக்கணினித் திட்டம்"
+    },
+    "department": {
+      "en": "School Education",
+      "ta": "பள்ளிக் கல்வித் துறை"
+    },
+    "categories": [
+      "education"
+    ],
+    "raw_category": "Education / Technology",
+    "beneficiary": "School and College Students",
+    "summary": {
+      "en": "Distribution of free laptop computers to students in government and aided schools/colleges.",
+      "ta": "அரசு மற்றும் அரசு உதவிபெறும் நிறுவன மாணவர்களுக்கு இலவச மடிக்கணினி"
+    },
+    "benefit": {
+      "en": "Free Laptop Computer",
+      "ta": "இலவச மடிக்கணினி"
+    },
+    "eligibility_text": {
+      "en": "Students studying in Class 12 and ITI/Polytechnic/College in Govt & Aided institutions",
+      "ta": "அரசு மற்றும் அரசு உதவிபெறும் நிறுவனங்களில் 12ஆம் வகுப்பு மற்றும் ITI/பாலிடெக்னிக்/கல்லூரியில் படிக்கும் மாணவர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "student"
+      ],
+      "flags_required": [
+        "govt_school_educated",
+        "is_student"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Student ID Card",
+        "ta": "Student ID Card"
+      },
+      {
+        "en": "School Roll Number",
+        "ta": "School Roll Number"
+      }
+    ],
+    "apply": {
+      "mode": "Institution Level",
+      "url": "Not Applicable",
+      "office": {
+        "en": "Institution Level",
+        "ta": "Institution Level"
+      }
+    },
+    "official_website": "https://tnschools.gov.in/",
+    "official_source": "https://www.tn.gov.in/scheme/data_view/44584",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "free",
+      "laptop",
+      "students",
+      "distribution",
+      "computers",
+      "aided",
+      "schools",
+      "colleges",
+      "school",
+      "college",
+      "education",
+      "technology",
+      "education"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-ED-007",
+    "level": "state",
+    "source_id": "TN-ED-007",
+    "name": {
+      "en": "Free Textbook and Educational Kit Scheme",
+      "ta": "இலவச பாடநூல் மற்றும் கல்விப் பொருள் வழங்கும் திட்டம்"
+    },
+    "department": {
+      "en": "School Education",
+      "ta": "பள்ளிக் கல்வித் துறை"
+    },
+    "categories": [
+      "education"
+    ],
+    "raw_category": "Education",
+    "beneficiary": "Govt School Students (Class 1-12)",
+    "summary": {
+      "en": "Free supply of textbooks, notebooks, school bags, footwear, and geometry boxes to government school students.",
+      "ta": "மாணவர்களுக்கு இலவச பாடநூல்கள், நோட்டுப் புத்தகங்கள், சீருடை மற்றும் கல்விப் பொருட்கள்"
+    },
+    "benefit": {
+      "en": "Free Textbooks, Notebooks, School Bags, Footwear, Uniforms",
+      "ta": "இலவச பாடநூல்கள் மற்றும் கல்விப் பொருட்கள்"
+    },
+    "eligibility_text": {
+      "en": "Students enrolled in Tamil Nadu Government and Aided Schools",
+      "ta": "தமிழ்நாடு அரசு மற்றும் அரசு உதவிபெறும் பள்ளிகளில் சேர்ந்த மாணவர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "student"
+      ],
+      "flags_required": [
+        "govt_school_educated",
+        "is_student"
+      ]
+    },
+    "documents": [
+      {
+        "en": "School Admission Record / EMIS Number",
+        "ta": "School Admission Record / EMIS Number"
+      }
+    ],
+    "apply": {
+      "mode": "Institution Level",
+      "url": "Not Applicable",
+      "office": {
+        "en": "Institution Level",
+        "ta": "Institution Level"
+      }
+    },
+    "official_website": "https://tnschools.gov.in/",
+    "official_source": "https://tnschools.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "free",
+      "textbook",
+      "educational",
+      "supply",
+      "textbooks",
+      "notebooks",
+      "school",
+      "bags",
+      "footwear",
+      "geometry",
+      "boxes",
+      "students",
+      "class",
+      "education",
+      "education"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-ED-008",
+    "level": "state",
+    "source_id": "TN-ED-008",
+    "name": {
+      "en": "Chief Minister's Talent Search Scheme",
+      "ta": "முதலமைச்சரின் திறன் தேடல் திட்டம்"
+    },
+    "department": {
+      "en": "School Education",
+      "ta": "பள்ளிக் கல்வித் துறை"
+    },
+    "categories": [
+      "education"
+    ],
+    "raw_category": "Education / Scholarship",
+    "beneficiary": "Class 11 Meritorious Students",
+    "summary": {
+      "en": "Scholarship grant for top-performing Class 11 students selected through a state-level competitive talent exam.",
+      "ta": "திறன் தேடல் தேர்வில் வெற்றி பெறும் மாணவர்களுக்கு உதவித்தொகை"
+    },
+    "benefit": {
+      "en": "Monthly stipend of ₹1000 for 10 months/year until completion of graduation",
+      "ta": "உதவித்தொகை"
+    },
+    "eligibility_text": {
+      "en": "Class 11 students in TN schools passing the CM Talent Search Exam",
+      "ta": "முதலமைச்சர் திறன் தேடல் தேர்வில் தேர்ச்சி பெற்ற 11ஆம் வகுப்பு மாணவர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "student"
+      ],
+      "flags_required": [
+        "is_student"
+      ]
+    },
+    "documents": [
+      {
+        "en": "School ID",
+        "ta": "School ID"
+      },
+      {
+        "en": "Exam Hall Ticket",
+        "ta": "Exam Hall Ticket"
+      },
+      {
+        "en": "Bank Account details",
+        "ta": "Bank Account details"
+      }
+    ],
+    "apply": {
+      "mode": "School Level / Online Exam Portal",
+      "url": "https://dge.tn.gov.in/",
+      "office": {
+        "en": "School Level / Online Exam Portal",
+        "ta": "School Level / Online Exam Portal"
+      }
+    },
+    "official_website": "https://dge.tn.gov.in/",
+    "official_source": "https://dge.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "talent",
+      "search",
+      "scholarship",
+      "grant",
+      "performing",
+      "class",
+      "students",
+      "selected",
+      "state",
+      "level",
+      "competitive",
+      "exam",
+      "meritorious",
+      "education",
+      "education"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-BC-004",
+    "level": "state",
+    "source_id": "TN-BC-004",
+    "name": {
+      "en": "Post-Matric Scholarship for BC, MBC and DNT Students",
+      "ta": "பிற்படுத்தப்பட்டோர், மிகப் பிற்படுத்தப்பட்டோர் மற்றும் சீர்மரபினர் மாணவர்களுக்கான மேல்நிலைக் கல்வி உதவித்தொகை"
+    },
+    "department": {
+      "en": "BC, MBC & Minorities Welfare",
+      "ta": "பிற்படுத்தப்பட்டோர் மற்றும் சிறுபான்மையினர் நலத்துறை"
+    },
+    "categories": [
+      "education"
+    ],
+    "raw_category": "Education / Scholarship",
+    "beneficiary": "BC, MBC, DNT Post-Matric Students",
+    "summary": {
+      "en": "Scholarship and tuition fee reimbursement for post-matriculation studies for BC/MBC students.",
+      "ta": "BC, MBC, DNT மாணவர்களுக்கு கல்விக் கட்டணத் திருப்பிச் செலுத்துதல் மற்றும் பராமரிப்பு உதவித்தொகை"
+    },
+    "benefit": {
+      "en": "Full tuition fee reimbursement and maintenance allowance",
+      "ta": "கல்விக் கட்டணம் மற்றும் பராமரிப்பு உதவித்தொகை"
+    },
+    "eligibility_text": {
+      "en": "Students of BC/MBC/DNT categories; Annual family income < ₹2,50,000",
+      "ta": "BC/MBC/DNT பிரிவு மாணவர்கள்; ஆண்டு குடும்ப வருமானம் ரூ.2,50,000க்கு கீழ்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "annual_income_max": 250000,
+      "occupation": [
+        "student"
+      ],
+      "social_category": [
+        "BC",
+        "MBC",
+        "DNC"
+      ],
+      "flags_required": [
+        "is_student"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Community Certificate",
+        "ta": "Community Certificate"
+      },
+      {
+        "en": "Income Certificate",
+        "ta": "Income Certificate"
+      },
+      {
+        "en": "Marksheets",
+        "ta": "Marksheets"
+      },
+      {
+        "en": "Bank Passbook",
+        "ta": "Bank Passbook"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Institution",
+      "url": "https://tnadwscholarship.tn.gov.in/",
+      "office": {
+        "en": "Online/Institution",
+        "ta": "Online/Institution"
+      }
+    },
+    "official_website": "https://bcmbcmw.tn.gov.in/",
+    "official_source": "https://bcmbcmw.tn.gov.in/welfare_schemes.htm",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "post",
+      "matric",
+      "scholarship",
+      "students",
+      "tuition",
+      "reimbursement",
+      "matriculation",
+      "studies",
+      "education",
+      "education"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-AD-002",
+    "level": "state",
+    "source_id": "TN-AD-002",
+    "name": {
+      "en": "Chief Minister's Overseas Scholarship for SC / ST Students",
+      "ta": "ஆதிதிராவிடர் / பழங்குடியின மாணவர்களுக்கான முதலமைச்சரின் வெளிநாட்டுக் கல்வி உதவித்தொகை"
+    },
+    "department": {
+      "en": "Adi Dravidar & Tribal Welfare",
+      "ta": "ஆதிதிராவிடர் மற்றும் பழங்குடியினர் நலத்துறை"
+    },
+    "categories": [
+      "education"
+    ],
+    "raw_category": "Higher Education / International",
+    "beneficiary": "Meritorious SC / ST Graduates",
+    "summary": {
+      "en": "Financial assistance for meritorious SC/ST students to pursue Master's or Ph.D. in foreign universities.",
+      "ta": "வெளிநாட்டுப் பல்கலைக்கழகங்களில் உயர்கல்வி பயில SC/ST மாணவர்களுக்கு முழு நிதி உதவி"
+    },
+    "benefit": {
+      "en": "Financial grant up to ₹36 Lakhs covering tuition fees, living expense, and airfare",
+      "ta": "கல்விக் கட்டணம், பயணம் மற்றும் வாழ்க்கைச் செலவு"
+    },
+    "eligibility_text": {
+      "en": "SC/ST student with admit letter from top ranked foreign university; Family income < ₹8 Lakhs/yr",
+      "ta": "உயர்தர வெளிநாட்டுப் பல்கலைக்கழகத்தின் சேர்க்கைக் கடிதம் உள்ள SC/ST மாணவர்; குடும்ப வருமானம் ஆண்டுக்கு ரூ.8 லட்சத்திற்கு கீழ்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "annual_income_max": 800000,
+      "occupation": [
+        "student"
+      ],
+      "social_category": [
+        "SC",
+        "ST"
+      ],
+      "flags_required": [
+        "is_student"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Foreign University Admission Letter",
+        "ta": "Foreign University Admission Letter"
+      },
+      {
+        "en": "Community Certificate",
+        "ta": "Community Certificate"
+      },
+      {
+        "en": "Income Certificate",
+        "ta": "Income Certificate"
+      },
+      {
+        "en": "Passport",
+        "ta": "Passport"
+      }
+    ],
+    "apply": {
+      "mode": "Online",
+      "url": "https://tnadwscholarship.tn.gov.in/",
+      "office": {
+        "en": "Online",
+        "ta": "Online"
+      }
+    },
+    "official_website": "https://tnadwscholarship.tn.gov.in/",
+    "official_source": "https://tnadwscholarship.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "overseas",
+      "scholarship",
+      "students",
+      "meritorious",
+      "pursue",
+      "master",
+      "foreign",
+      "universities",
+      "graduates",
+      "higher",
+      "education",
+      "international",
+      "education"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-LB-003",
+    "level": "state",
+    "source_id": "TN-LB-003",
+    "name": {
+      "en": "Tamil Nadu Drivers Welfare Board Assistance Scheme",
+      "ta": "தமிழ்நாடு ஓட்டுநர் நல வாரிய உதவித் திட்டம்"
+    },
+    "department": {
+      "en": "Labour Welfare & Skill Development",
+      "ta": "தொழிலாளர் நலன் மற்றும் திறன் மேம்பாட்டுத் துறை"
+    },
+    "categories": [
+      "employment"
+    ],
+    "raw_category": "Labour Welfare",
+    "beneficiary": "Registered Transport Drivers",
+    "summary": {
+      "en": "Welfare assistance for auto, taxi, heavy vehicle, and commercial transport drivers.",
+      "ta": "பதிவு செய்யப்பட்ட வணிக ஓட்டுநர்களுக்கு விபத்து நிவாரணம் மற்றும் நல பலன்கள்"
+    },
+    "benefit": {
+      "en": "Accidental Death Relief (₹5 Lakhs), Spectacles Allowance, Educational Support",
+      "ta": "விபத்து நிவாரணம் மற்றும் குடும்ப நல உதவி"
+    },
+    "eligibility_text": {
+      "en": "Commercial Driving License holder registered with TN Drivers Welfare Board",
+      "ta": "தமிழ்நாடு ஓட்டுநர் நல வாரியத்தில் பதிவு செய்யப்பட்ட வணிக ஓட்டுநர் உரிமம் வைத்திருப்பவர்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "auto_driver"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Driver Badge / License",
+        "ta": "Driver Badge / License"
+      },
+      {
+        "en": "Welfare Board ID",
+        "ta": "Welfare Board ID"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      },
+      {
+        "en": "Bank Details",
+        "ta": "Bank Details"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Labour Portal",
+      "url": "https://tnuwwb.tn.gov.in/",
+      "office": {
+        "en": "Online/Labour Portal",
+        "ta": "Online/Labour Portal"
+      }
+    },
+    "official_website": "https://tnuwwb.tn.gov.in/",
+    "official_source": "https://tnuwwb.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "drivers",
+      "board",
+      "auto",
+      "taxi",
+      "heavy",
+      "vehicle",
+      "commercial",
+      "transport",
+      "registered",
+      "labour",
+      "employment"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-AG-001",
+    "level": "state",
+    "source_id": "TN-AG-001",
+    "name": {
+      "en": "Free Electricity Supply for Agricultural Pump Sets",
+      "ta": "விவசாய மின் இறைப்பு அமைப்புகளுக்கு இலவச மின்சாரம்"
+    },
+    "department": {
+      "en": "Agriculture & Farmers Welfare / TANGEDCO",
+      "ta": "வேளாண்மை மற்றும் உழவர் நலத்துறை"
+    },
+    "categories": [
+      "agriculture"
+    ],
+    "raw_category": "Agricultural Subsidy",
+    "beneficiary": "Farmers with Agricultural Land",
+    "summary": {
+      "en": "Uninterrupted free electricity supply to farmers for agricultural irrigation pumpsets.",
+      "ta": "விவசாயிகளின் மின் இறைப்பு அமைப்புகளுக்கு இலவச மின்சாரம்"
+    },
+    "benefit": {
+      "en": "100% Free Power for Agri Pumps",
+      "ta": "இலவச விவசாய மின்சாரம்"
+    },
+    "eligibility_text": {
+      "en": "Farmers holding agricultural land with authorized TANGEDCO power connection",
+      "ta": "அனுமதிக்கப்பட்ட TANGEDCO மின் இணைப்புடன் விவசாய நிலம் வைத்திருக்கும் விவசாயிகள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "farmer"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Patta/Chitta",
+        "ta": "Patta/Chitta"
+      },
+      {
+        "en": "TANGEDCO Connection Record",
+        "ta": "TANGEDCO Connection Record"
+      },
+      {
+        "en": "Aadhaar",
+        "ta": "Aadhaar"
+      }
+    ],
+    "apply": {
+      "mode": "TANGEDCO / Agri Dept",
+      "url": "https://www.tangedco.gov.in/",
+      "office": {
+        "en": "TANGEDCO / Agri Dept",
+        "ta": "TANGEDCO / Agri Dept"
+      }
+    },
+    "official_website": "https://www.tangedco.gov.in/",
+    "official_source": "https://www.tangedco.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "free",
+      "electricity",
+      "supply",
+      "agricultural",
+      "pump",
+      "sets",
+      "uninterrupted",
+      "farmers",
+      "irrigation",
+      "pumpsets",
+      "land",
+      "subsidy",
+      "agriculture"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-AG-003",
+    "level": "state",
+    "source_id": "TN-AG-003",
+    "name": {
+      "en": "Chief Minister's Solar Powered Pump Sets Scheme",
+      "ta": "முதலமைச்சரின் சூரிய சக்தி மின் இறைப்பு அமைப்புத் திட்டம்"
+    },
+    "department": {
+      "en": "Agriculture & Farmers Welfare / TEDA",
+      "ta": "வேளாண்மை மற்றும் உழவர் நலத்துறை"
+    },
+    "categories": [
+      "utility",
+      "agriculture"
+    ],
+    "raw_category": "Renewable Energy Subsidy",
+    "beneficiary": "Farmers",
+    "summary": {
+      "en": "70% capital subsidy for farmers installing off-grid solar-powered agricultural water pumpsets.",
+      "ta": "மின் இணைப்பு இல்லாத விவசாயிகளுக்கு சூரிய சக்தி மின் இறைப்பு அமைப்பு மானியம்"
+    },
+    "benefit": {
+      "en": "70% Subsidy for 5HP / 7.5HP / 10HP Standalone Solar Water Pumping Systems",
+      "ta": "சூரிய சக்தி மின் இறைப்பு அமைப்புக்கு மானியம்"
+    },
+    "eligibility_text": {
+      "en": "Farmers with agricultural land water source not having free grid power connection",
+      "ta": "இலவச மின் இணைப்பு இல்லாத நீர் ஆதாரம் கொண்ட விவசாய நிலம் உள்ள விவசாயிகள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "farmer"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Patta / Chitta",
+        "ta": "Patta / Chitta"
+      },
+      {
+        "en": "Well/Borewell Certificate",
+        "ta": "Well/Borewell Certificate"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      },
+      {
+        "en": "Bank Details",
+        "ta": "Bank Details"
+      }
+    ],
+    "apply": {
+      "mode": "Agri Dept / Online Portal",
+      "url": "https://tnagrisnet.tn.gov.in/",
+      "office": {
+        "en": "Agri Dept / Online Portal",
+        "ta": "Agri Dept / Online Portal"
+      }
+    },
+    "official_website": "https://tnagrisnet.tn.gov.in/",
+    "official_source": "https://tnagrisnet.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "solar",
+      "powered",
+      "pump",
+      "sets",
+      "capital",
+      "subsidy",
+      "farmers",
+      "installing",
+      "grid",
+      "agricultural",
+      "water",
+      "pumpsets",
+      "renewable",
+      "energy",
+      "utility",
+      "agriculture"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-AG-004",
+    "level": "state",
+    "source_id": "TN-AG-004",
+    "name": {
+      "en": "Kuruvai Cultivation Package Scheme",
+      "ta": "குறுவை சாகுபடி தொகுப்புத் திட்டம்"
+    },
+    "department": {
+      "en": "Agriculture & Farmers Welfare",
+      "ta": "வேளாண்மை மற்றும் உழவர் நலத்துறை"
+    },
+    "categories": [
+      "agriculture"
+    ],
+    "raw_category": "Agricultural Relief & Subsidy",
+    "beneficiary": "Delta Region Farmers",
+    "summary": {
+      "en": "Special subsidized input kit package (fertilizers, certified seeds, micro-nutrients) for Cauvery Delta farmers.",
+      "ta": "டெல்டா மாவட்டங்களில் குறுவை நெல் சாகுபடிக்கு இடுபொருள் உதவி"
+    },
+    "benefit": {
+      "en": "100% Subsidized Paddy Seeds, Bio-fertilizers, Micro-nutrient mixtures, Mechanized Transplanting Subsidy",
+      "ta": "மானிய விதை, உரம் மற்றும் இடுபொருட்கள்"
+    },
+    "eligibility_text": {
+      "en": "Farmers cultivating Kuruvai paddy crop in Delta districts",
+      "ta": "டெல்டா மாவட்டங்களில் குறுவை நெல் பயிரிடும் விவசாயிகள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "farmer"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Chitta/Adangal",
+        "ta": "Chitta/Adangal"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      },
+      {
+        "en": "Bank Account details",
+        "ta": "Bank Account details"
+      }
+    ],
+    "apply": {
+      "mode": "Agri Extension Centre / Uzhavan App",
+      "url": "https://tnagrisnet.tn.gov.in/",
+      "office": {
+        "en": "Agri Extension Centre / Uzhavan App",
+        "ta": "Agri Extension Centre / Uzhavan App"
+      }
+    },
+    "official_website": "https://tnagrisnet.tn.gov.in/",
+    "official_source": "https://tnagrisnet.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "kuruvai",
+      "cultivation",
+      "package",
+      "special",
+      "subsidized",
+      "input",
+      "fertilizers",
+      "certified",
+      "seeds",
+      "micro",
+      "nutrients",
+      "cauvery",
+      "delta",
+      "farmers",
+      "region",
+      "agricultural",
+      "relief",
+      "subsidy",
+      "agriculture"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-FI-001",
+    "level": "state",
+    "source_id": "TN-FI-001",
+    "name": {
+      "en": "Fishermen Ban Period Relief Scheme",
+      "ta": "மீனவர் தடைக் கால நிவாரணத் திட்டம்"
+    },
+    "department": {
+      "en": "Fisheries & Fishermen Welfare",
+      "ta": "மீன்வளம் மற்றும் மீனவர் நலத்துறை"
+    },
+    "categories": [
+      "employment"
+    ],
+    "raw_category": "Livelihood Assistance",
+    "beneficiary": "Marine Fishermen Families",
+    "summary": {
+      "en": "Special financial relief allowance to marine fishermen families during the 61-day annual fishing ban period.",
+      "ta": "மீன்பிடித் தடைக் காலத்தில் மீனவர் குடும்பங்களுக்கு நிவாரணத் தொகை"
+    },
+    "benefit": {
+      "en": "Financial assistance of ₹8000 per family for the ban period",
+      "ta": "தடைக் கால நிவாரணத் தொகை"
+    },
+    "eligibility_text": {
+      "en": "Registered active marine fisherman in coastal Tamil Nadu; Member of Fishermen Co-op Society",
+      "ta": "கடலோர தமிழ்நாட்டில் பதிவு செய்யப்பட்ட செயலில் உள்ள கடல் மீனவர்; மீனவர் கூட்டுறவு சங்க உறுப்பினர்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "fisherman"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Fishermen Co-op Society Membership Card",
+        "ta": "Fishermen Co-op Society Membership Card"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      },
+      {
+        "en": "Bank Account details",
+        "ta": "Bank Account details"
+      }
+    ],
+    "apply": {
+      "mode": "Fisheries Dept / Co-op Society",
+      "url": "https://fisheries.tn.gov.in/",
+      "office": {
+        "en": "Fisheries Dept / Co-op Society",
+        "ta": "Fisheries Dept / Co-op Society"
+      }
+    },
+    "official_website": "https://fisheries.tn.gov.in/",
+    "official_source": "https://fisheries.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "fishermen",
+      "period",
+      "relief",
+      "special",
+      "allowance",
+      "marine",
+      "families",
+      "during",
+      "annual",
+      "fishing",
+      "livelihood",
+      "employment"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-TR-002",
+    "level": "state",
+    "source_id": "TN-TR-002",
+    "name": {
+      "en": "Free Student Bus Pass Scheme",
+      "ta": "மாணவர் இலவசப் பேருந்து அனுமதி அட்டைத் திட்டம்"
+    },
+    "department": {
+      "en": "Transport",
+      "ta": "போக்குவரத்துத் துறை"
+    },
+    "categories": [
+      "utility",
+      "education"
+    ],
+    "raw_category": "Transport / Education Welfare",
+    "beneficiary": "School and College Students",
+    "summary": {
+      "en": "Free travel pass in State Transport Corporation buses for school and college students.",
+      "ta": "மாணவர்கள் கல்வி நிலையங்களுக்குச் செல்ல இலவசப் பேருந்து அனுமதி அட்டை"
+    },
+    "benefit": {
+      "en": "Free Smart Bus Pass for daily commute between residence and educational institution",
+      "ta": "இலவசப் பேருந்து அனுமதி அட்டை"
+    },
+    "eligibility_text": {
+      "en": "Students studying in recognized schools, ITIs, Polytechnics, and Govt Colleges",
+      "ta": "அங்கீகரிக்கப்பட்ட பள்ளிகள், ITI, பாலிடெக்னிக் மற்றும் அரசு கல்லூரிகளில் படிக்கும் மாணவர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "student"
+      ],
+      "flags_required": [
+        "is_student"
+      ]
+    },
+    "documents": [
+      {
+        "en": "School/College Bonafide Certificate",
+        "ta": "School/College Bonafide Certificate"
+      },
+      {
+        "en": "Student Photo",
+        "ta": "Student Photo"
+      },
+      {
+        "en": "Aadhaar",
+        "ta": "Aadhaar"
+      }
+    ],
+    "apply": {
+      "mode": "Institution Level / Online Transport Portal",
+      "url": "https://tnstc.in/",
+      "office": {
+        "en": "Institution Level / Online Transport Portal",
+        "ta": "Institution Level / Online Transport Portal"
+      }
+    },
+    "official_website": "https://tnstc.in/",
+    "official_source": "https://tnstc.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "free",
+      "student",
+      "pass",
+      "travel",
+      "state",
+      "transport",
+      "corporation",
+      "buses",
+      "school",
+      "college",
+      "students",
+      "education",
+      "utility",
+      "education"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-CO-001",
+    "level": "state",
+    "source_id": "TN-CO-001",
+    "name": {
+      "en": "Crop Loan Scheme (Co-operative Societies)",
+      "ta": "பயிர்க் கடன் திட்டம் (கூட்டுறவு சங்கங்கள்)"
+    },
+    "department": {
+      "en": "Co-operation, Food & Consumer Protection",
+      "ta": "கூட்டுறவு, உணவு மற்றும் நுகர்வோர் பாதுகாப்புத் துறை"
+    },
+    "categories": [
+      "agriculture"
+    ],
+    "raw_category": "Agriculture Finance",
+    "beneficiary": "Farmers",
+    "summary": {
+      "en": "Interest-free short-term crop loans distributed through Primary Agricultural Cooperative Credit Societies (PACCS).",
+      "ta": "கூட்டுறவு சங்கங்கள் மூலம் விவசாயிகளுக்கு வட்டியில்லா குறுகிய கால பயிர்க் கடன்"
+    },
+    "benefit": {
+      "en": "Interest-free crop loan if repaid within due date",
+      "ta": "வட்டியில்லா பயிர்க் கடன்"
+    },
+    "eligibility_text": {
+      "en": "Member of PACCS; Owning agricultural land or cultivating as tenant",
+      "ta": "PACCS உறுப்பினர்; விவசாய நிலம் வைத்திருப்பவர் அல்லது குத்தகைக்கு பயிரிடுபவர்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "farmer"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Chitta/Adangal",
+        "ta": "Chitta/Adangal"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      },
+      {
+        "en": "Passport Photo",
+        "ta": "Passport Photo"
+      }
+    ],
+    "apply": {
+      "mode": "PACCS Branch Level",
+      "url": "Not Available",
+      "office": {
+        "en": "PACCS Branch Level",
+        "ta": "PACCS Branch Level"
+      }
+    },
+    "official_website": "https://www.tncu.tn.gov.in/",
+    "official_source": "https://www.tncu.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "crop",
+      "loan",
+      "operative",
+      "societies",
+      "interest",
+      "free",
+      "short",
+      "term",
+      "loans",
+      "distributed",
+      "primary",
+      "agricultural",
+      "cooperative",
+      "credit",
+      "paccs",
+      "farmers",
+      "agriculture",
+      "finance",
+      "agriculture"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-CO-002",
+    "level": "state",
+    "source_id": "TN-CO-002",
+    "name": {
+      "en": "Kisan Credit Card (KCC) Scheme via Co-operatives",
+      "ta": "கூட்டுறவு சங்கங்கள் மூலம் கிசான் கடன் அட்டை (KCC)"
+    },
+    "department": {
+      "en": "Co-operation, Food & Consumer Protection",
+      "ta": "கூட்டுறவு, உணவு மற்றும் நுகர்வோர் பாதுகாப்புத் துறை"
+    },
+    "categories": [
+      "agriculture"
+    ],
+    "raw_category": "Agriculture Finance",
+    "beneficiary": "Farmers and Fishermen",
+    "summary": {
+      "en": "Issuance of Kisan Credit Cards to farmers through cooperative banks for timely agriculture credit.",
+      "ta": "விவசாயிகளுக்கு பயிர் உற்பத்தி மற்றும் வீட்டுச் செலவுகளுக்கு குறைந்த வட்டி கடன் அட்டை"
+    },
+    "benefit": {
+      "en": "Credit limit based on crop cultivation with subsidized interest rate",
+      "ta": "குறைந்த வட்டியில் ரூ.3 லட்சம் வரை கடன்"
+    },
+    "eligibility_text": {
+      "en": "Farmers, Tenant Farmers, Sharecroppers, and Fishermen",
+      "ta": "விவசாயிகள், குத்தகை விவசாயிகள், பங்கு சாகுபடியாளர்கள் மற்றும் மீனவர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "farmer",
+        "fisherman"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Land holding record / Fisheries license",
+        "ta": "Land holding record / Fisheries license"
+      },
+      {
+        "en": "Aadhaar",
+        "ta": "Aadhaar"
+      },
+      {
+        "en": "Bank Details",
+        "ta": "Bank Details"
+      }
+    ],
+    "apply": {
+      "mode": "PACCS Branch Level",
+      "url": "Not Available",
+      "office": {
+        "en": "PACCS Branch Level",
+        "ta": "PACCS Branch Level"
+      }
+    },
+    "official_website": "https://www.tncu.tn.gov.in/",
+    "official_source": "https://www.tncu.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "kisan",
+      "credit",
+      "card",
+      "operatives",
+      "issuance",
+      "cards",
+      "farmers",
+      "cooperative",
+      "banks",
+      "timely",
+      "agriculture",
+      "fishermen",
+      "finance",
+      "agriculture"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-CO-003",
+    "level": "state",
+    "source_id": "TN-CO-003",
+    "name": {
+      "en": "Pledge Loan for Farmers against Agricultural Produce",
+      "ta": "வேளாண் விளைபொருள் அடமானக் கடன்"
+    },
+    "department": {
+      "en": "Co-operation, Food & Consumer Protection",
+      "ta": "கூட்டுறவு, உணவு மற்றும் நுகர்வோர் பாதுகாப்புத் துறை"
+    },
+    "categories": [
+      "agriculture"
+    ],
+    "raw_category": "Agriculture Finance",
+    "beneficiary": "Farmers",
+    "summary": {
+      "en": "Loans issued against the pledge of agricultural produce stored in regulated market godowns to avoid distress selling.",
+      "ta": "ஒழுங்குமுறை விற்பனைக் கூடங்களில் விளைபொருளை சேமிக்கும் விவசாயிகளுக்கு அடமானக் கடன்"
+    },
+    "benefit": {
+      "en": "Pledge loan up to 75% of produce value or ₹3,00,000 maximum at low interest",
+      "ta": "விளைபொருள் மீது அடமானக் கடன்"
+    },
+    "eligibility_text": {
+      "en": "Farmers storing produce in Regulated Market Godowns",
+      "ta": "ஒழுங்குமுறை விற்பனைக் கூட கிடங்குகளில் விளைபொருளை சேமிக்கும் விவசாயிகள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "farmer"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Godown Receipt",
+        "ta": "Godown Receipt"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      },
+      {
+        "en": "Bank Passbook",
+        "ta": "Bank Passbook"
+      }
+    ],
+    "apply": {
+      "mode": "Regulated Market Office",
+      "url": "Not Available",
+      "office": {
+        "en": "Regulated Market Office",
+        "ta": "Regulated Market Office"
+      }
+    },
+    "official_website": "https://tnagrimarketing.tn.gov.in/",
+    "official_source": "https://tnagrimarketing.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "pledge",
+      "loan",
+      "farmers",
+      "against",
+      "agricultural",
+      "produce",
+      "loans",
+      "issued",
+      "stored",
+      "regulated",
+      "market",
+      "godowns",
+      "avoid",
+      "distress",
+      "selling",
+      "agriculture",
+      "finance",
+      "agriculture"
+    ],
+    "priority": 82,
+    "translated": true
+  },
+  {
+    "id": "TN-SW-008-1",
+    "level": "state",
+    "source_id": "TN-SW-008-1",
+    "name": {
+      "en": "Annai Theresa Ninaivu Marriage Assistance Scheme for Orphan Girls",
+      "ta": "அன்னை தெரசா நினைவு அனாதைப் பெண்கள் திருமண உதவித் திட்டம்"
+    },
+    "department": {
+      "en": "Social Welfare & Women Empowerment",
+      "ta": "சமூக நலன் மற்றும் மகளிர் உரிமைத் துறை"
+    },
+    "categories": [
+      "women",
+      "social"
+    ],
+    "raw_category": "Marriage Assistance",
+    "beneficiary": "Orphan Girls",
+    "summary": {
+      "en": "Financial grant and gold coin for the marriage of orphan girls.",
+      "ta": "அனாதைப் பெண்களின் திருமணத்திற்கு நிதி உதவி"
+    },
+    "benefit": {
+      "en": "Financial assistance (₹25000/₹50000) + 8g Gold Coin",
+      "ta": "திருமண நிதி உதவி மற்றும் தங்கம்"
+    },
+    "eligibility_text": {
+      "en": "Bride must be an orphan girl; Age minimum 18 years; No income limit",
+      "ta": "மணமகள் அனாதைப் பெண்ணாக இருக்க வேண்டும்; வயது குறைந்தது 18; வருமான வரம்பு இல்லை"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "gender": [
+        "female"
+      ],
+      "flags_required": [
+        "is_orphan"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Orphan Certificate from Revenue Dept",
+        "ta": "Orphan Certificate from Revenue Dept"
+      },
+      {
+        "en": "Age proof",
+        "ta": "Age proof"
+      },
+      {
+        "en": "Marriage invitation card",
+        "ta": "Marriage invitation card"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Offline",
+      "url": "https://tnesevai.tn.gov.in/",
+      "office": {
+        "en": "Online/Offline",
+        "ta": "Online/Offline"
+      }
+    },
+    "official_website": "https://tnsocialwelfare.tn.gov.in/",
+    "official_source": "https://services.india.gov.in/service/detail/e-district-social-welfare-project-for-marriage-assistance-schemes-tamil-nadu",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "annai",
+      "theresa",
+      "marriage",
+      "orphan",
+      "girls",
+      "grant",
+      "gold",
+      "coin",
+      "women",
+      "social"
+    ],
+    "priority": 79,
+    "translated": true
+  },
+  {
+    "id": "TN-SW-007",
+    "level": "state",
+    "source_id": "TN-SW-007",
+    "name": {
+      "en": "Kalaignar Magalir Urimai Thittam",
+      "ta": "கலைஞர் மகளிர் உரிமைத் திட்டம்"
+    },
+    "department": {
+      "en": "Social Welfare & Women Empowerment",
+      "ta": "சமூக நலன் மற்றும் மகளிர் உரிமைத் துறை"
+    },
+    "categories": [
+      "women"
+    ],
+    "raw_category": "Women Welfare",
+    "beneficiary": "Eligible Women Heads of Family",
+    "summary": {
+      "en": "Monthly financial assistance to eligible women heads of families",
+      "ta": "தகுதியுள்ள குடும்பத் தலைவி பெண்களுக்கு மாதாந்திர உரிமைத் தொகை"
+    },
+    "benefit": {
+      "en": "Monthly ₹1000",
+      "ta": "மாதம் ரூ.1,000"
+    },
+    "eligibility_text": {
+      "en": "Annual family income below ₹2.5 Lakhs and land ownership within limits",
+      "ta": "ஆண்டு குடும்ப வருமானம் ரூ.2.5 லட்சத்திற்கு குறைவாக இருக்க வேண்டும்; நில உரிமை வரம்பிற்குள் இருக்க வேண்டும்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "annual_income_max": 250000,
+      "gender": [
+        "female"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Aadhaar",
+        "ta": "Aadhaar"
+      },
+      {
+        "en": "Ration Card",
+        "ta": "Ration Card"
+      },
+      {
+        "en": "Bank Account",
+        "ta": "Bank Account"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Camp",
+      "url": "https://kmut.tn.gov.in/",
+      "office": {
+        "en": "Online/Camp",
+        "ta": "Online/Camp"
+      }
+    },
+    "official_website": "https://kmut.tn.gov.in/",
+    "official_source": "https://kmut.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "kalaignar",
+      "magalir",
+      "urimai",
+      "monthly",
+      "eligible",
+      "women",
+      "heads",
+      "families",
+      "family",
+      "women"
+    ],
+    "priority": 78,
+    "translated": true
+  },
+  {
+    "id": "TN-SW-008",
+    "level": "state",
+    "source_id": "TN-SW-008",
+    "name": {
+      "en": "Sathiyavani Muthu Ammaiyar Free Sewing Machine Scheme",
+      "ta": "சத்தியவாணி முத்து அம்மையார் இலவச தையல் இயந்திரத் திட்டம்"
+    },
+    "department": {
+      "en": "Social Welfare & Women Empowerment",
+      "ta": "சமூக நலன் மற்றும் மகளிர் உரிமைத் துறை"
+    },
+    "categories": [
+      "employment"
+    ],
+    "raw_category": "Livelihood",
+    "beneficiary": "Widows / Destitute Women",
+    "summary": {
+      "en": "Provision of free sewing machines to enhance livelihood",
+      "ta": "ஏழைப் பெண்கள் சுயவேலைவாய்ப்பு பெற இலவச தையல் இயந்திரம்"
+    },
+    "benefit": {
+      "en": "Free Sewing Machine",
+      "ta": "இலவச தையல் இயந்திரம்"
+    },
+    "eligibility_text": {
+      "en": "Age 20-40 years; BPL category",
+      "ta": "வயது 20-40; வறுமைக் கோட்டிற்கு கீழ் உள்ள பிரிவு"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "age": {
+        "min": 20,
+        "max": 40
+      },
+      "gender": [
+        "female"
+      ],
+      "flags_required": [
+        "is_low_income",
+        "is_widow"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Income Certificate",
+        "ta": "Income Certificate"
+      },
+      {
+        "en": "Age Proof",
+        "ta": "Age Proof"
+      },
+      {
+        "en": "Destitute Certificate",
+        "ta": "Destitute Certificate"
+      }
+    ],
+    "apply": {
+      "mode": "Offline",
+      "url": "Not Available",
+      "office": {
+        "en": "Offline",
+        "ta": "Offline"
+      }
+    },
+    "official_website": "https://tnsocialwelfare.tn.gov.in/",
+    "official_source": "https://www.tn.gov.in/scheme/data_view/44583",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "sathiyavani",
+      "muthu",
+      "free",
+      "sewing",
+      "machine",
+      "provision",
+      "machines",
+      "enhance",
+      "livelihood",
+      "widows",
+      "destitute",
+      "women",
+      "employment"
+    ],
+    "priority": 78,
+    "translated": true
+  },
+  {
+    "id": "TN-SW-006",
+    "level": "state",
+    "source_id": "TN-SW-006",
+    "name": {
+      "en": "Dr. Dharmambal Ammaiyar Ninaivu Widow Remarriage Assistance Scheme",
+      "ta": "டாக்டர் தர்மாம்பாள் அம்மையார் நினைவு விதவை மறுமணப் பேருதவித் திட்டம்"
+    },
+    "department": {
+      "en": "Social Welfare & Women Empowerment",
+      "ta": "சமூக நலன் மற்றும் மகளிர் உரிமைத் துறை"
+    },
+    "categories": [
+      "women"
+    ],
+    "raw_category": "Women Welfare",
+    "beneficiary": "Remarried Widows",
+    "summary": {
+      "en": "Financial assistance and gold coin for widow remarriage to rehabilitate widows.",
+      "ta": "மறுமணம் செய்யும் விதவைகளுக்கு நிதி உதவி"
+    },
+    "benefit": {
+      "en": "Financial assistance (₹25000/₹50000 depending on qualification) + 8g Gold Coin",
+      "ta": "திருமண நிதி உதவி"
+    },
+    "eligibility_text": {
+      "en": "Widow remarrying; Minimum age 20 for bride, groom age max 40; No income limit",
+      "ta": "மறுமணம் செய்யும் விதவை; மணமகளுக்கு குறைந்தபட்ச வயது 20, மணமகனுக்கு அதிகபட்ச வயது 40; வருமான வரம்பு இல்லை"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "age": {
+        "max": 40
+      },
+      "gender": [
+        "female"
+      ],
+      "flags_required": [
+        "is_widow"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Death Certificate of first husband",
+        "ta": "Death Certificate of first husband"
+      },
+      {
+        "en": "Age proof",
+        "ta": "Age proof"
+      },
+      {
+        "en": "Educational qualification certificate",
+        "ta": "Educational qualification certificate"
+      },
+      {
+        "en": "Marriage invitation",
+        "ta": "Marriage invitation"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Offline",
+      "url": "https://tnesevai.tn.gov.in/",
+      "office": {
+        "en": "Online/Offline",
+        "ta": "Online/Offline"
+      }
+    },
+    "official_website": "https://tnsocialwelfare.tn.gov.in/",
+    "official_source": "https://services.india.gov.in/service/detail/e-district-social-welfare-project-for-marriage-assistance-schemes-tamil-nadu",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "dharmambal",
+      "widow",
+      "remarriage",
+      "gold",
+      "coin",
+      "rehabilitate",
+      "widows",
+      "remarried",
+      "women",
+      "women"
+    ],
+    "priority": 78,
+    "translated": true
+  },
+  {
+    "id": "TN-TR-001",
+    "level": "state",
+    "source_id": "TN-TR-001",
+    "name": {
+      "en": "Vidiyal Payanam (Free Bus Travel for Women)",
+      "ta": "விடியல் பயணம் (மகளிர் இலவசப் பேருந்துப் பயணம்)"
+    },
+    "department": {
+      "en": "Transport",
+      "ta": "போக்குவரத்துத் துறை"
+    },
+    "categories": [
+      "utility"
+    ],
+    "raw_category": "Transport Welfare",
+    "beneficiary": "Women, Transgender Persons, and Differently Abled + Attendant",
+    "summary": {
+      "en": "Zero-fare travel for women, transpersons, and differently abled in town ordinary public transport buses.",
+      "ta": "பெண்கள் மற்றும் திருநங்கையருக்கு சாதாரணப் பேருந்துகளில் இலவசப் பயணம்"
+    },
+    "benefit": {
+      "en": "100% Free Bus Travel in Ordinary Town Service Buses (Pink Buses)",
+      "ta": "இலவசப் பேருந்துப் பயணம்"
+    },
+    "eligibility_text": {
+      "en": "All women and transpersons living in or visiting Tamil Nadu",
+      "ta": "தமிழ்நாட்டில் வசிக்கும் அல்லது வருகை தரும் அனைத்துப் பெண்கள் மற்றும் திருநங்கையர்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "gender": [
+        "female"
+      ],
+      "flags_required": [
+        "is_disabled",
+        "is_transgender"
+      ]
+    },
+    "documents": [
+      {
+        "en": "None required for women",
+        "ta": "None required for women"
+      },
+      {
+        "en": "Disability Card for differently abled",
+        "ta": "Disability Card for differently abled"
+      }
+    ],
+    "apply": {
+      "mode": "Automatic / Direct Boarding",
+      "url": "Not Applicable",
+      "office": {
+        "en": "Automatic / Direct Boarding",
+        "ta": "Automatic / Direct Boarding"
+      }
+    },
+    "official_website": "https://www.tn.gov.in/",
+    "official_source": "https://www.tn.gov.in/scheme/data_view/88166",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "vidiyal",
+      "payanam",
+      "free",
+      "travel",
+      "women",
+      "zero",
+      "fare",
+      "transpersons",
+      "differently",
+      "abled",
+      "town",
+      "ordinary",
+      "public",
+      "transport",
+      "buses",
+      "transgender",
+      "persons",
+      "attendant",
+      "utility"
+    ],
+    "priority": 78,
+    "translated": true
+  },
+  {
+    "id": "TN-LB-002",
+    "level": "state",
+    "source_id": "TN-LB-002",
+    "name": {
+      "en": "Tamil Nadu Construction Workers Welfare Board Assistance Scheme",
+      "ta": "தமிழ்நாடு கட்டுமானத் தொழிலாளர் நல வாரிய உதவித் திட்டம்"
+    },
+    "department": {
+      "en": "Labour Welfare & Skill Development",
+      "ta": "தொழிலாளர் நலன் மற்றும் திறன் மேம்பாட்டுத் துறை"
+    },
+    "categories": [
+      "employment"
+    ],
+    "raw_category": "Labour Welfare",
+    "beneficiary": "Registered Construction Workers",
+    "summary": {
+      "en": "Educational, medical, maternity, and pension support for registered construction workers.",
+      "ta": "பதிவு செய்யப்பட்ட கட்டுமானத் தொழிலாளர்களுக்கு விபத்து நிவாரணம், கல்வி உதவி மற்றும் ஓய்வூதியம்"
+    },
+    "benefit": {
+      "en": "Monthly Pension (₹1000 at age 60), Educational assistance for children, Accidental insurance",
+      "ta": "விபத்து நிவாரணம், கல்வி உதவி மற்றும் ஓய்வூதியம்"
+    },
+    "eligibility_text": {
+      "en": "Registered construction worker in TN with active membership",
+      "ta": "செயலில் உள்ள உறுப்பினர் அங்கத்துவத்துடன் தமிழ்நாட்டில் பதிவு செய்யப்பட்ட கட்டுமானத் தொழிலாளி"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "construction_worker"
+      ],
+      "flags_required": [
+        "is_pregnant"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Construction Welfare Board Smart Card",
+        "ta": "Construction Welfare Board Smart Card"
+      },
+      {
+        "en": "Aadhaar",
+        "ta": "Aadhaar"
+      },
+      {
+        "en": "Bank Passbook",
+        "ta": "Bank Passbook"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Labour Portal",
+      "url": "https://tnuwwb.tn.gov.in/",
+      "office": {
+        "en": "Online/Labour Portal",
+        "ta": "Online/Labour Portal"
+      }
+    },
+    "official_website": "https://tnuwwb.tn.gov.in/",
+    "official_source": "https://tnuwwb.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "construction",
+      "workers",
+      "board",
+      "educational",
+      "medical",
+      "maternity",
+      "pension",
+      "support",
+      "registered",
+      "labour",
+      "employment"
+    ],
+    "priority": 78,
+    "translated": true
+  },
+  {
+    "id": "TN-AD-003",
+    "level": "state",
+    "source_id": "TN-AD-003",
+    "name": {
+      "en": "Annal Ambedkar Business Champions Scheme (AABCS)",
+      "ta": "அண்ணல் அம்பேத்கர் தொழில் முன்னோடிகள் திட்டம் (AABCS)"
+    },
+    "department": {
+      "en": "MSME / TAHDCO",
+      "ta": "ஆதிதிராவிடர் மற்றும் பழங்குடியினர் நலத்துறை"
+    },
+    "categories": [
+      "business"
+    ],
+    "raw_category": "Entrepreneurship Welfare",
+    "beneficiary": "SC / ST First Generation Entrepreneurs",
+    "summary": {
+      "en": "Capital subsidy and interest subvention scheme to promote first-generation SC/ST entrepreneurs.",
+      "ta": "ஆதிதிராவிடர் மற்றும் பழங்குடியின தொழில்முனைவோருக்கு மானியம் மற்றும் கடன் ஆதரவு"
+    },
+    "benefit": {
+      "en": "35% Capital Subsidy (up to ₹1.5 Crore) + 6% Interest Subvention",
+      "ta": "மூலதன மானியம் மற்றும் வங்கிக் கடன்"
+    },
+    "eligibility_text": {
+      "en": "SC/ST entrepreneurs starting manufacturing, trading, or service enterprises in TN",
+      "ta": "தமிழ்நாட்டில் உற்பத்தி, வணிகம் அல்லது சேவைத் தொழில் தொடங்கும் SC/ST தொழில்முனைவோர்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "small_business"
+      ],
+      "social_category": [
+        "SC",
+        "ST"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Community Certificate",
+        "ta": "Community Certificate"
+      },
+      {
+        "en": "Project Report",
+        "ta": "Project Report"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      },
+      {
+        "en": "Bank Loan Approval Letter",
+        "ta": "Bank Loan Approval Letter"
+      }
+    ],
+    "apply": {
+      "mode": "Online",
+      "url": "https://msmeonline.tn.gov.in/",
+      "office": {
+        "en": "Online",
+        "ta": "Online"
+      }
+    },
+    "official_website": "https://tahdco.tn.gov.in/",
+    "official_source": "https://msmeonline.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "annal",
+      "ambedkar",
+      "business",
+      "champions",
+      "aabcs",
+      "capital",
+      "subsidy",
+      "interest",
+      "subvention",
+      "promote",
+      "first",
+      "generation",
+      "entrepreneurs",
+      "entrepreneurship",
+      "business"
+    ],
+    "priority": 78,
+    "translated": true
+  },
+  {
+    "id": "TN-AD-004",
+    "level": "state",
+    "source_id": "TN-AD-004",
+    "name": {
+      "en": "TAHDCO Economic Assistance Scheme for Land Purchase",
+      "ta": "நிலம் வாங்குவதற்கான TAHDCO பொருளாதார உதவித் திட்டம்"
+    },
+    "department": {
+      "en": "Adi Dravidar & Tribal Welfare / TAHDCO",
+      "ta": "தமிழ்நாடு ஆதிதிராவிடர் வீட்டுவசதி மற்றும் மேம்பாட்டுக் கழகம்"
+    },
+    "categories": [
+      "agriculture"
+    ],
+    "raw_category": "Agricultural Livelihood",
+    "beneficiary": "SC / ST Poor Women Farmers",
+    "summary": {
+      "en": "Financial subsidy to poor SC/ST women to buy agricultural land.",
+      "ta": "ஆதிதிராவிடர் மற்றும் பழங்குடியின பெண்கள் விவசாய நிலம் வாங்க நிதி உதவி"
+    },
+    "benefit": {
+      "en": "50% Subsidy on land purchase cost (up to ₹5,00,000)",
+      "ta": "நிலம் வாங்க மானியம் மற்றும் கடன்"
+    },
+    "eligibility_text": {
+      "en": "SC/ST women aged 18 to 55; Family annual income < ₹3,00,000",
+      "ta": "18 முதல் 55 வயதுள்ள SC/ST பெண்கள்; குடும்ப ஆண்டு வருமானம் ரூ.3,00,000க்கு கீழ்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "age": {
+        "min": 18,
+        "max": 55
+      },
+      "annual_income_max": 300000,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "farmer"
+      ],
+      "social_category": [
+        "SC",
+        "ST"
+      ],
+      "flags_required": [
+        "is_low_income"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Community Certificate",
+        "ta": "Community Certificate"
+      },
+      {
+        "en": "Income Certificate",
+        "ta": "Income Certificate"
+      },
+      {
+        "en": "Land Sale Agreement",
+        "ta": "Land Sale Agreement"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      }
+    ],
+    "apply": {
+      "mode": "Online/TAHDCO Portal",
+      "url": "https://tahdco.tn.gov.in/",
+      "office": {
+        "en": "Online/TAHDCO Portal",
+        "ta": "Online/TAHDCO Portal"
+      }
+    },
+    "official_website": "https://tahdco.tn.gov.in/",
+    "official_source": "https://tahdco.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "tahdco",
+      "economic",
+      "land",
+      "purchase",
+      "subsidy",
+      "poor",
+      "women",
+      "agricultural",
+      "farmers",
+      "livelihood",
+      "agriculture"
+    ],
+    "priority": 78,
+    "translated": true
+  },
+  {
+    "id": "TN-LB-001",
+    "level": "state",
+    "source_id": "TN-LB-001",
+    "name": {
+      "en": "Tamil Nadu Manual Workers Welfare Board Social Security Benefit Scheme",
+      "ta": "தமிழ்நாடு உடல் உழைப்புத் தொழிலாளர் நல வாரிய சமூகப் பாதுகாப்புத் திட்டம்"
+    },
+    "department": {
+      "en": "Labour Welfare & Skill Development",
+      "ta": "தொழிலாளர் நலன் மற்றும் திறன் மேம்பாட்டுத் துறை"
+    },
+    "categories": [
+      "employment"
+    ],
+    "raw_category": "Labour Welfare",
+    "beneficiary": "Registered Manual Unorganized Workers",
+    "summary": {
+      "en": "Comprehensive welfare benefits (marriage, education, maternity, natural/accidental death) for unorganized manual workers.",
+      "ta": "பதிவு செய்யப்பட்ட உடல் உழைப்புத் தொழிலாளர்களுக்கு விபத்து, கல்வி, திருமணம் மற்றும் ஓய்வூதிய பலன்கள்"
+    },
+    "benefit": {
+      "en": "Financial grant for marriage (₹20000), education (₹1000-8000), death relief (₹50000-500000)",
+      "ta": "விபத்து நிவாரணம், கல்வி உதவி மற்றும் ஓய்வூதியம்"
+    },
+    "eligibility_text": {
+      "en": "Registered member of Tamil Nadu Manual Workers Welfare Board aged 18 to 60",
+      "ta": "18 முதல் 60 வயதுள்ள தமிழ்நாடு உடல் உழைப்புத் தொழிலாளர் நல வாரியத்தின் பதிவு செய்யப்பட்ட உறுப்பினர்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "age": {
+        "min": 18,
+        "max": 60
+      },
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "daily_wage_labourer"
+      ],
+      "flags_required": [
+        "is_pregnant"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Welfare Board Membership Card",
+        "ta": "Welfare Board Membership Card"
+      },
+      {
+        "en": "Aadhaar",
+        "ta": "Aadhaar"
+      },
+      {
+        "en": "Bank Details",
+        "ta": "Bank Details"
+      },
+      {
+        "en": "Claim-specific proofs",
+        "ta": "Claim-specific proofs"
+      }
+    ],
+    "apply": {
+      "mode": "Online/Labour Portal",
+      "url": "https://tnuwwb.tn.gov.in/",
+      "office": {
+        "en": "Online/Labour Portal",
+        "ta": "Online/Labour Portal"
+      }
+    },
+    "official_website": "https://tnuwwb.tn.gov.in/",
+    "official_source": "https://tnuwwb.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "manual",
+      "workers",
+      "board",
+      "social",
+      "security",
+      "benefit",
+      "comprehensive",
+      "benefits",
+      "marriage",
+      "education",
+      "maternity",
+      "natural",
+      "accidental",
+      "death",
+      "unorganized",
+      "registered",
+      "labour",
+      "employment"
+    ],
+    "priority": 78,
+    "translated": true
+  },
+  {
+    "id": "TN-AG-002",
+    "level": "state",
+    "source_id": "TN-AG-002",
+    "name": {
+      "en": "Kalaignarin All Village Integrated Agriculture Development Programme",
+      "ta": "கலைஞரின் அனைத்து கிராம ஒருங்கிணைந்த வேளாண் வளர்ச்சித் திட்டம்"
+    },
+    "department": {
+      "en": "Agriculture & Farmers Welfare",
+      "ta": "வேளாண்மை மற்றும் உழவர் நலத்துறை"
+    },
+    "categories": [
+      "agriculture"
+    ],
+    "raw_category": "Agriculture Development",
+    "beneficiary": "Farmers in Selected Village Panchayats",
+    "summary": {
+      "en": "Integrated agricultural kit distribution, free saplings, micro-irrigation subsidies, and soil testing.",
+      "ta": "தேர்ந்தெடுக்கப்பட்ட கிராமங்களில் விவசாயிகளுக்கு ஒருங்கிணைந்த இடுபொருள் மற்றும் தொழில்நுட்ப ஆதரவு"
+    },
+    "benefit": {
+      "en": "Free Seed Kits, Coconut Saplings, Spraying Equipment, Micro-Irrigation 100% Subsidy for Small Farmers",
+      "ta": "மானிய இடுபொருட்கள் மற்றும் தொழில்நுட்ப ஆதரவு"
+    },
+    "eligibility_text": {
+      "en": "Resident farmer in designated village panchayat; Chitta holder",
+      "ta": "குறிப்பிட்ட கிராம ஊராட்சியில் வசிக்கும் விவசாயி; சிட்டா வைத்திருப்பவர்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "occupation": [
+        "farmer"
+      ],
+      "flags_required": [
+        "is_rural"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Patta/Chitta",
+        "ta": "Patta/Chitta"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      },
+      {
+        "en": "Bank Passbook",
+        "ta": "Bank Passbook"
+      }
+    ],
+    "apply": {
+      "mode": "Agri Dept / Uzhavan App",
+      "url": "https://tnagrisnet.tn.gov.in/",
+      "office": {
+        "en": "Agri Dept / Uzhavan App",
+        "ta": "Agri Dept / Uzhavan App"
+      }
+    },
+    "official_website": "https://tnagrisnet.tn.gov.in/",
+    "official_source": "https://tnagrisnet.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "kalaignarin",
+      "village",
+      "integrated",
+      "agriculture",
+      "development",
+      "agricultural",
+      "distribution",
+      "free",
+      "saplings",
+      "micro",
+      "irrigation",
+      "subsidies",
+      "soil",
+      "testing",
+      "farmers",
+      "selected",
+      "panchayats",
+      "agriculture"
+    ],
+    "priority": 78,
+    "translated": true
+  },
+  {
+    "id": "TN-AH-001",
+    "level": "state",
+    "source_id": "TN-AH-001",
+    "name": {
+      "en": "Free Distribution of Milch Cows and Goats / Sheep Scheme",
+      "ta": "இலவச கறவை மாடுகள் மற்றும் ஆடுகள் வழங்கும் திட்டம்"
+    },
+    "department": {
+      "en": "Animal Husbandry, Dairying & Fisheries",
+      "ta": "கால்நடை பராமரிப்பு, பால்வளம் மற்றும் மீன்வளத் துறை"
+    },
+    "categories": [
+      "employment"
+    ],
+    "raw_category": "Livelihood / Rural Development",
+    "beneficiary": "Rural Poor Women",
+    "summary": {
+      "en": "Free distribution of milch cows or goats/sheep to poor rural women to boost rural dairy economy.",
+      "ta": "நிலமில்லாத கிராமப்புறப் பெண்களுக்கு வாழ்வாதாரம் உருவாக்க இலவச கால்நடைகள்"
+    },
+    "benefit": {
+      "en": "1 Free Milch Cow or 4 Free Goats/Sheep",
+      "ta": "இலவச கறவை மாடு அல்லது ஆடு/செம்மறி அலகு"
+    },
+    "eligibility_text": {
+      "en": "Landless rural women from BPL families; Resident of selected village panchayat",
+      "ta": "வறுமைக் கோட்டிற்கு கீழ் உள்ள நிலமில்லாத கிராமப்புறப் பெண்கள்; தேர்ந்தெடுக்கப்பட்ட கிராம ஊராட்சியில் வசிப்பவர்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "gender": [
+        "female"
+      ],
+      "flags_required": [
+        "is_low_income",
+        "is_rural"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Income Certificate",
+        "ta": "Income Certificate"
+      },
+      {
+        "en": "Community Certificate",
+        "ta": "Community Certificate"
+      },
+      {
+        "en": "BPL Card / Ration Card",
+        "ta": "BPL Card / Ration Card"
+      },
+      {
+        "en": "Aadhaar",
+        "ta": "Aadhaar"
+      }
+    ],
+    "apply": {
+      "mode": "Offline/Grama Sabha Selection",
+      "url": "Not Available",
+      "office": {
+        "en": "Offline/Grama Sabha Selection",
+        "ta": "Offline/Grama Sabha Selection"
+      }
+    },
+    "official_website": "https://www.tn.gov.in/",
+    "official_source": "https://www.tn.gov.in/scheme/data_view/44585",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "free",
+      "distribution",
+      "milch",
+      "cows",
+      "goats",
+      "sheep",
+      "poor",
+      "rural",
+      "women",
+      "boost",
+      "dairy",
+      "economy",
+      "livelihood",
+      "development",
+      "employment"
+    ],
+    "priority": 78,
+    "translated": true
+  },
+  {
+    "id": "TN-FI-002",
+    "level": "state",
+    "source_id": "TN-FI-002",
+    "name": {
+      "en": "Fisherwomen Lean Period Special Allowance Scheme",
+      "ta": "மீனவப் பெண்கள் தொழில் இல்லாக் கால சிறப்பு உதவித்தொகை"
+    },
+    "department": {
+      "en": "Fisheries & Fishermen Welfare",
+      "ta": "மீன்வளம் மற்றும் மீனவர் நலத்துறை"
+    },
+    "categories": [
+      "employment"
+    ],
+    "raw_category": "Livelihood Assistance",
+    "beneficiary": "Registered Fisherwomen",
+    "summary": {
+      "en": "Financial savings-cum-relief allowance for fisherwomen during the lean fishing season.",
+      "ta": "தொழில் இல்லாக் காலத்தில் மீனவப் பெண்களுக்கு சிறப்பு உதவித்தொகை"
+    },
+    "benefit": {
+      "en": "Relief assistance of ₹6000 per year",
+      "ta": "சிறப்பு உதவித்தொகை"
+    },
+    "eligibility_text": {
+      "en": "Member of Fisherwomen Co-operative Society in coastal districts of TN",
+      "ta": "தமிழ்நாட்டின் கடலோர மாவட்டங்களில் மீனவப் பெண்கள் கூட்டுறவு சங்க உறுப்பினர்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "fisherman"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Fisherwomen Co-op Society ID",
+        "ta": "Fisherwomen Co-op Society ID"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      },
+      {
+        "en": "Bank Passbook",
+        "ta": "Bank Passbook"
+      }
+    ],
+    "apply": {
+      "mode": "Fisheries Dept / Co-op Society",
+      "url": "https://fisheries.tn.gov.in/",
+      "office": {
+        "en": "Fisheries Dept / Co-op Society",
+        "ta": "Fisheries Dept / Co-op Society"
+      }
+    },
+    "official_website": "https://fisheries.tn.gov.in/",
+    "official_source": "https://fisheries.tn.gov.in/",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "fisherwomen",
+      "lean",
+      "period",
+      "special",
+      "allowance",
+      "savings",
+      "relief",
+      "during",
+      "fishing",
+      "season",
+      "registered",
+      "livelihood",
+      "employment"
+    ],
+    "priority": 78,
+    "translated": true
+  },
+  {
+    "id": "TN-DA-004",
+    "level": "state",
+    "source_id": "TN-DA-004",
+    "name": {
+      "en": "Maintenance Allowance for Severely Differently Abled Persons",
+      "ta": "கடுமையான மாற்றுத்திறனாளிகளுக்கு பராமரிப்பு உதவித்தொகை"
+    },
+    "department": {
+      "en": "Welfare of Differently Abled Persons",
+      "ta": "மாற்றுத்திறனாளிகள் நல்வாழ்வுத் துறை"
+    },
+    "categories": [
+      "social"
+    ],
+    "raw_category": "Social Security",
+    "beneficiary": "Severely Disabled / Intellectually Impaired Persons",
+    "summary": {
+      "en": "Monthly maintenance grant for persons with severe disabilities, intellectual disability, or muscular dystrophy.",
+      "ta": "கடுமையான ஊனமுற்றவர்களுக்கு மாதாந்திர பராமரிப்பு உதவித்தொகை"
+    },
+    "benefit": {
+      "en": "Monthly ₹2000 allowance direct bank transfer",
+      "ta": "மாதாந்திர பராமரிப்பு உதவித்தொகை"
+    },
+    "eligibility_text": {
+      "en": "Disability percentage 75% and above or Intellectual Disability / Muscular Dystrophy; Not receiving other pension",
+      "ta": "75% மற்றும் அதற்கு மேல் ஊனம் அல்லது அறிவுசார் குறைபாடு / தசைச் சிதைவு நோய்; வேறு ஓய்வூதியம் பெறாதவர்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "disability_percent_min": 75,
+      "flags_required": [
+        "is_disabled"
+      ],
+      "flags_excluded": [
+        "receives_other_pension"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Medical Board Certificate / UDID Card",
+        "ta": "Medical Board Certificate / UDID Card"
+      },
+      {
+        "en": "Bank Account Details",
+        "ta": "Bank Account Details"
+      },
+      {
+        "en": "Aadhaar Card",
+        "ta": "Aadhaar Card"
+      }
+    ],
+    "apply": {
+      "mode": "District Welfare Office",
+      "url": "Not Available",
+      "office": {
+        "en": "District Welfare Office",
+        "ta": "District Welfare Office"
+      }
+    },
+    "official_website": "https://scd.tn.gov.in/",
+    "official_source": "https://scd.tn.gov.in/schemes.php",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "maintenance",
+      "allowance",
+      "severely",
+      "differently",
+      "abled",
+      "persons",
+      "monthly",
+      "grant",
+      "severe",
+      "disabilities",
+      "intellectual",
+      "disability",
+      "muscular",
+      "dystrophy",
+      "disabled",
+      "intellectually",
+      "impaired",
+      "social",
+      "social"
+    ],
+    "priority": 77,
+    "translated": true
+  },
+  {
+    "id": "TN-DA-001",
+    "level": "state",
+    "source_id": "TN-DA-001",
+    "name": {
+      "en": "Free Motorized Tricycles / Retrofitted Scooters for Differently Abled",
+      "ta": "மாற்றுத்திறனாளிகளுக்கு இலவச மோட்டார் பொருத்திய முச்சக்கர வண்டி / ஸ்கூட்டர்"
+    },
+    "department": {
+      "en": "Welfare of Differently Abled Persons",
+      "ta": "மாற்றுத்திறனாளிகள் நல்வாழ்வுத் துறை"
+    },
+    "categories": [
+      "disability"
+    ],
+    "raw_category": "Mobility & Rehabilitation",
+    "beneficiary": "Locomotor Disabled Persons",
+    "summary": {
+      "en": "Supply of retrofitted motor scooters / motorized tricycles for mobility-impaired persons.",
+      "ta": "கடுமையான இயக்கக் குறைபாடு உள்ளவர்களுக்கு நடமாட்ட உதவிக்கு இலவச வாகனம்"
+    },
+    "benefit": {
+      "en": "Free Motorized Retrofitted Scooter / Tricycle",
+      "ta": "இலவச மோட்டார் முச்சக்கர வண்டி அல்லது ஸ்கூட்டர்"
+    },
+    "eligibility_text": {
+      "en": "Locomotor disability 75% and above; Students or employed/self-employed persons aged 18 to 45",
+      "ta": "75% மற்றும் அதற்கு மேல் இயக்கக் குறைபாடு; 18 முதல் 45 வயதுள்ள மாணவர்கள் அல்லது வேலை/சுயவேலை செய்பவர்கள்"
+    },
+    "eligibility": {
+      "residency": "TN",
+      "age": {
+        "min": 18,
+        "max": 45
+      },
+      "occupation": [
+        "student"
+      ],
+      "disability_percent_min": 75,
+      "flags_required": [
+        "is_disabled",
+        "is_student"
+      ]
+    },
+    "documents": [
+      {
+        "en": "Disability Certificate / UDID",
+        "ta": "Disability Certificate / UDID"
+      },
+      {
+        "en": "Income Certificate",
+        "ta": "Income Certificate"
+      },
+      {
+        "en": "Employment/Student ID",
+        "ta": "Employment/Student ID"
+      },
+      {
+        "en": "Driving License",
+        "ta": "Driving License"
+      }
+    ],
+    "apply": {
+      "mode": "Offline/District Office",
+      "url": "Not Available",
+      "office": {
+        "en": "Offline/District Office",
+        "ta": "Offline/District Office"
+      }
+    },
+    "official_website": "https://scd.tn.gov.in/",
+    "official_source": "https://scd.tn.gov.in/schemes.php",
+    "status": "Active",
+    "last_verified": "2026-07-30",
+    "keywords": [
+      "free",
+      "motorized",
+      "tricycles",
+      "retrofitted",
+      "scooters",
+      "differently",
+      "abled",
+      "supply",
+      "motor",
+      "mobility",
+      "impaired",
+      "persons",
+      "locomotor",
+      "disabled",
+      "rehabilitation",
+      "disability"
+    ],
+    "priority": 72,
+    "translated": true
+  }
+]

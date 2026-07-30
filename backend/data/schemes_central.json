@@ -1,0 +1,502 @@
+[
+  {
+    "id": "in-pmjay",
+    "level": "central",
+    "name": { "en": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PM-JAY)", "ta": "ஆயுஷ்மான் பாரத் - பிரதமர் ஜன் ஆரோக்ய யோஜனா (PM-JAY)" },
+    "department": { "en": "National Health Authority, Government of India", "ta": "தேசிய சுகாதார ஆணையம், இந்திய அரசு" },
+    "categories": ["health"],
+    "summary": { "en": "Cashless health cover of Rs 5 lakh per family per year for secondary and tertiary hospital care.", "ta": "இரண்டாம் நிலை மற்றும் மூன்றாம் நிலை மருத்துவமனை சிகிச்சைக்கு ஒரு குடும்பத்திற்கு ஆண்டுக்கு ரூ.5 லட்சம் பணமில்லா காப்பீடு." },
+    "benefit": { "en": "Rs 5,00,000 per family per year, covering 1,900+ procedures at empanelled hospitals nationwide.", "ta": "ஒரு குடும்பத்திற்கு ஆண்டுக்கு ரூ.5,00,000; நாடு முழுவதும் பட்டியலிடப்பட்ட மருத்துவமனைகளில் 1,900+ சிகிச்சைகள்." },
+    "eligibility": { "residency": "IN", "annual_income_max": 250000 },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Family ration card", "ta": "குடும்ப ரேஷன் அட்டை" },
+      { "en": "Mobile number linked to Aadhaar", "ta": "ஆதாருடன் இணைக்கப்பட்ட கைபேசி எண்" }
+    ],
+    "apply": { "mode": "online", "url": "https://pmjay.gov.in/", "office": { "en": "Common Service Centre (CSC) or any empanelled hospital's Ayushman Mitra desk", "ta": "பொது சேவை மையம் (CSC) அல்லது பட்டியலிடப்பட்ட மருத்துவமனையின் ஆயுஷ்மான் மித்ரா மையம்" } },
+    "keywords": ["health", "hospital", "surgery", "insurance", "treatment", "ayushman", "மருத்துவம்", "மருத்துவமனை", "காப்பீடு", "சிகிச்சை"],
+    "priority": 95
+  },
+  {
+    "id": "in-pmkisan",
+    "level": "central",
+    "name": { "en": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)", "ta": "பிரதமர் கிசான் சம்மான் நிதி (PM-KISAN)" },
+    "department": { "en": "Ministry of Agriculture and Farmers Welfare", "ta": "வேளாண்மை மற்றும் உழவர் நல அமைச்சகம்" },
+    "categories": ["agriculture"],
+    "summary": { "en": "Direct income support of Rs 6,000 a year to all landholding farmer families, paid in three instalments.", "ta": "நிலம் வைத்திருக்கும் அனைத்து விவசாயக் குடும்பங்களுக்கும் ஆண்டுக்கு ரூ.6,000 நேரடி வருமான ஆதரவு, மூன்று தவணைகளாக." },
+    "benefit": { "en": "Rs 6,000 per year in three instalments of Rs 2,000, credited directly to the bank account.", "ta": "ஆண்டுக்கு ரூ.6,000, ரூ.2,000 வீதம் மூன்று தவணைகளாக வங்கிக் கணக்கில் நேரடியாக." },
+    "eligibility": { "residency": "IN", "age": { "min": 18 }, "occupation": ["farmer"], "flags_required": ["owns_land"], "flags_excluded": ["govt_employee", "income_tax_payer"] },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Land ownership records (Chitta/Adangal/Patta)", "ta": "நில உரிமை ஆவணங்கள் (சிட்டா/அடங்கல்/பட்டா)" },
+      { "en": "Bank passbook", "ta": "வங்கி கணக்குப் புத்தகம்" },
+      { "en": "Mobile number", "ta": "கைபேசி எண்" }
+    ],
+    "apply": { "mode": "online", "url": "https://pmkisan.gov.in/", "office": { "en": "Village Administrative Officer or Common Service Centre", "ta": "கிராம நிர்வாக அலுவலர் அல்லது பொது சேவை மையம்" } },
+    "keywords": ["farmer", "agriculture", "land", "income support", "crop", "விவசாயி", "வேளாண்மை", "நிலம்", "வருமான ஆதரவு", "பயிர்"],
+    "priority": 93
+  },
+  {
+    "id": "in-mgnrega",
+    "level": "central",
+    "name": { "en": "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)", "ta": "மகாத்மா காந்தி தேசிய ஊரக வேலை உறுதித் திட்டம் (MGNREGA)" },
+    "department": { "en": "Ministry of Rural Development", "ta": "ஊரக வளர்ச்சி அமைச்சகம்" },
+    "categories": ["employment"],
+    "summary": { "en": "Legal guarantee of 100 days of paid unskilled manual work per year for every rural household that wants it.", "ta": "விரும்பும் ஒவ்வொரு கிராமப்புற குடும்பத்திற்கும் ஆண்டுக்கு 100 நாட்கள் ஊதியத்துடன் கூடிய வேலை சட்டப்பூர்வ உத்தரவாதம்." },
+    "benefit": { "en": "100 days of guaranteed wage employment per household per year at the notified state wage rate.", "ta": "ஒரு குடும்பத்திற்கு ஆண்டுக்கு 100 நாட்கள் உறுதியான ஊதிய வேலை, அறிவிக்கப்பட்ட மாநில ஊதிய விகிதத்தில்." },
+    "eligibility": { "residency": "IN", "age": { "min": 18 }, "flags_required": ["is_rural"] },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Family photograph", "ta": "குடும்பப் புகைப்படம்" },
+      { "en": "Residence proof", "ta": "வசிப்பிட ஆதாரம்" },
+      { "en": "Bank passbook", "ta": "வங்கி கணக்குப் புத்தகம்" }
+    ],
+    "apply": { "mode": "offline", "url": "https://nrega.nic.in/", "office": { "en": "Village Panchayat office - ask for a job card", "ta": "கிராம ஊராட்சி அலுவலகம் - வேலை அட்டை கேட்கவும்" } },
+    "keywords": ["job", "work", "employment", "wage", "rural", "labour", "job card", "வேலை", "கூலி", "வேலைவாய்ப்பு", "கிராமம்", "வேலை அட்டை"],
+    "priority": 91
+  },
+  {
+    "id": "in-pmay-g",
+    "level": "central",
+    "name": { "en": "Pradhan Mantri Awas Yojana - Gramin (Rural Housing)", "ta": "பிரதமர் ஆவாஸ் யோஜனா - கிராமீன் (ஊரக வீட்டுவசதி)" },
+    "department": { "en": "Ministry of Rural Development", "ta": "ஊரக வளர்ச்சி அமைச்சகம்" },
+    "categories": ["housing"],
+    "summary": { "en": "Financial assistance to rural households without a pucca house to build a permanent home.", "ta": "நிரந்தர வீடு இல்லாத கிராமப்புறக் குடும்பங்கள் நிரந்தர வீடு கட்ட நிதி உதவி." },
+    "benefit": { "en": "Rs 1.20 lakh in plain areas (Rs 1.30 lakh in hilly areas), plus MGNREGA labour days and a toilet grant.", "ta": "சமவெளிப் பகுதிகளில் ரூ.1.20 லட்சம் (மலைப் பகுதிகளில் ரூ.1.30 லட்சம்), MGNREGA வேலை நாட்கள் மற்றும் கழிப்பறை மானியம்." },
+    "eligibility": { "residency": "IN", "annual_income_max": 120000, "flags_required": ["is_rural", "needs_housing"], "flags_excluded": ["owns_pucca_house"] },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Job card (MGNREGA)", "ta": "வேலை அட்டை (MGNREGA)" },
+      { "en": "Bank passbook", "ta": "வங்கி கணக்குப் புத்தகம்" },
+      { "en": "Land ownership document", "ta": "நில உரிமை ஆவணம்" }
+    ],
+    "apply": { "mode": "offline", "url": "https://pmayg.nic.in/", "office": { "en": "Village Panchayat or Block Development Office", "ta": "கிராம ஊராட்சி அல்லது ஒன்றிய வளர்ச்சி அலுவலகம்" } },
+    "keywords": ["house", "home", "housing", "shelter", "rural", "pucca", "வீடு", "வீட்டுவசதி", "கிராமம்", "நிரந்தர வீடு"],
+    "priority": 90
+  },
+  {
+    "id": "in-pmay-u",
+    "level": "central",
+    "name": { "en": "Pradhan Mantri Awas Yojana - Urban (Housing for All)", "ta": "பிரதமர் ஆவாஸ் யோஜனா - நகர்ப்புறம் (அனைவருக்கும் வீடு)" },
+    "department": { "en": "Ministry of Housing and Urban Affairs", "ta": "வீட்டுவசதி மற்றும் நகர்ப்புற விவகார அமைச்சகம்" },
+    "categories": ["housing"],
+    "summary": { "en": "Interest subsidy on home loans and construction assistance for urban low and middle income families.", "ta": "நகர்ப்புற குறைந்த மற்றும் நடுத்தர வருமானக் குடும்பங்களுக்கு வீட்டுக் கடன் வட்டி மானியம் மற்றும் கட்டுமான உதவி." },
+    "benefit": { "en": "Credit-linked interest subsidy up to Rs 2.67 lakh, or up to Rs 2.50 lakh construction assistance.", "ta": "ரூ.2.67 லட்சம் வரை கடன் இணைப்பு வட்டி மானியம் அல்லது ரூ.2.50 லட்சம் வரை கட்டுமான உதவி." },
+    "eligibility": { "residency": "IN", "annual_income_max": 900000, "flags_required": ["needs_housing"], "flags_excluded": ["owns_pucca_house"] },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Income proof / salary slip", "ta": "வருமான ஆதாரம் / சம்பள சீட்டு" },
+      { "en": "Bank statements", "ta": "வங்கி அறிக்கைகள்" },
+      { "en": "Property documents", "ta": "சொத்து ஆவணங்கள்" }
+    ],
+    "apply": { "mode": "online", "url": "https://pmay-urban.gov.in/", "office": { "en": "Municipal Corporation office or Common Service Centre", "ta": "மாநகராட்சி அலுவலகம் அல்லது பொது சேவை மையம்" } },
+    "keywords": ["house", "home", "urban", "city", "home loan", "subsidy", "வீடு", "நகரம்", "வீட்டுக் கடன்", "மானியம்"],
+    "priority": 87
+  },
+  {
+    "id": "in-svanidhi",
+    "level": "central",
+    "name": { "en": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)", "ta": "பிரதமர் தெருவோர வியாபாரிகள் ஆத்மநிர்பர் நிதி (PM SVANidhi)" },
+    "department": { "en": "Ministry of Housing and Urban Affairs", "ta": "வீட்டுவசதி மற்றும் நகர்ப்புற விவகார அமைச்சகம்" },
+    "categories": ["business", "employment"],
+    "summary": { "en": "Collateral-free working capital loans for street vendors, with interest subsidy and cashback on digital payments.", "ta": "தெருவோர வியாபாரிகளுக்கு பிணையமில்லா நடைமுறை மூலதனக் கடன், வட்டி மானியம் மற்றும் டிஜிட்டல் பணப்பரிவர்த்தனைக்கு பணத் திரும்பப்பெறல்." },
+    "benefit": { "en": "First loan Rs 10,000, then Rs 20,000 and Rs 50,000 on timely repayment, with 7% interest subsidy.", "ta": "முதல் கடன் ரூ.10,000, சரியான திருப்பிச் செலுத்துதலுக்குப் பின் ரூ.20,000 மற்றும் ரூ.50,000; 7% வட்டி மானியம்." },
+    "eligibility": { "residency": "IN", "age": { "min": 18 }, "occupation": ["street_vendor", "small_business"] },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Vending certificate or letter of recommendation from ULB", "ta": "வியாபார சான்றிதழ் அல்லது நகர்ப்புற உள்ளாட்சி பரிந்துரைக் கடிதம்" },
+      { "en": "Bank passbook", "ta": "வங்கி கணக்குப் புத்தகம்" }
+    ],
+    "apply": { "mode": "online", "url": "https://pmsvanidhi.mohua.gov.in/", "office": { "en": "Municipal office or any bank branch / CSC", "ta": "நகராட்சி அலுவலகம் அல்லது எந்த வங்கிக் கிளை / CSC" } },
+    "keywords": ["street vendor", "shop", "small business", "loan", "hawker", "petty shop", "தெருவோர வியாபாரி", "கடை", "சிறு தொழில்", "கடன்"],
+    "priority": 86
+  },
+  {
+    "id": "in-mudra",
+    "level": "central",
+    "name": { "en": "Pradhan Mantri MUDRA Yojana (PMMY)", "ta": "பிரதமர் முத்ரா யோஜனா (PMMY)" },
+    "department": { "en": "Ministry of Finance", "ta": "நிதி அமைச்சகம்" },
+    "categories": ["business", "employment"],
+    "summary": { "en": "Collateral-free business loans up to Rs 20 lakh for micro and small non-farm enterprises.", "ta": "நுண் மற்றும் சிறு வேளாண் அல்லாத நிறுவனங்களுக்கு ரூ.20 லட்சம் வரை பிணையமில்லா தொழில் கடன்." },
+    "benefit": { "en": "Shishu up to Rs 50,000; Kishore Rs 50,000-5 lakh; Tarun Rs 5-10 lakh; Tarun Plus up to Rs 20 lakh.", "ta": "சிசு ரூ.50,000 வரை; கிஷோர் ரூ.50,000-5 லட்சம்; தருண் ரூ.5-10 லட்சம்; தருண் பிளஸ் ரூ.20 லட்சம் வரை." },
+    "eligibility": { "residency": "IN", "age": { "min": 18, "max": 65 } },
+    "documents": [
+      { "en": "Aadhaar card and PAN card", "ta": "ஆதார் அட்டை மற்றும் பான் அட்டை" },
+      { "en": "Business plan / quotation", "ta": "தொழில் திட்டம் / விலைப்புள்ளி" },
+      { "en": "Bank statements (6 months)", "ta": "வங்கி அறிக்கைகள் (6 மாதங்கள்)" },
+      { "en": "Business address proof", "ta": "தொழில் முகவரி ஆதாரம்" }
+    ],
+    "apply": { "mode": "online", "url": "https://www.mudra.org.in/", "office": { "en": "Any bank branch, NBFC or microfinance institution", "ta": "எந்த வங்கிக் கிளை, NBFC அல்லது நுண்நிதி நிறுவனம்" } },
+    "keywords": ["business", "loan", "mudra", "enterprise", "shop", "self employment", "தொழில்", "கடன்", "முத்ரா", "சுயவேலை"],
+    "priority": 85
+  },
+  {
+    "id": "in-ujjwala",
+    "level": "central",
+    "name": { "en": "Pradhan Mantri Ujjwala Yojana (Free LPG Connection)", "ta": "பிரதமர் உஜ்வாலா யோஜனா (இலவச சமையல் எரிவாயு இணைப்பு)" },
+    "department": { "en": "Ministry of Petroleum and Natural Gas", "ta": "பெட்ரோலியம் மற்றும் இயற்கை எரிவாயு அமைச்சகம்" },
+    "categories": ["women", "utility"],
+    "summary": { "en": "Free LPG connection with stove and first refill for women from poor households.", "ta": "ஏழைக் குடும்பப் பெண்களுக்கு அடுப்பு மற்றும் முதல் நிரப்புதலுடன் இலவச சமையல் எரிவாயு இணைப்பு." },
+    "benefit": { "en": "Free connection, free first refill and a free gas stove, plus subsidy on refills.", "ta": "இலவச இணைப்பு, இலவச முதல் நிரப்புதல், இலவச எரிவாயு அடுப்பு மற்றும் நிரப்புதல்களுக்கு மானியம்." },
+    "eligibility": { "residency": "IN", "gender": ["female"], "age": { "min": 18 }, "annual_income_max": 120000, "flags_excluded": ["has_lpg_connection"] },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Family ration card", "ta": "குடும்ப ரேஷன் அட்டை" },
+      { "en": "Bank passbook", "ta": "வங்கி கணக்குப் புத்தகம்" },
+      { "en": "Self-declaration of no existing LPG connection", "ta": "ஏற்கனவே எரிவாயு இணைப்பு இல்லை என்ற சுய அறிவிப்பு" }
+    ],
+    "apply": { "mode": "online", "url": "https://www.pmuy.gov.in/", "office": { "en": "Nearest LPG distributor (Indane, HP Gas, Bharat Gas)", "ta": "அருகிலுள்ள எரிவாயு விநியோகஸ்தர் (இண்டேன், HP கேஸ், பாரத் கேஸ்)" } },
+    "keywords": ["lpg", "gas", "cylinder", "cooking", "stove", "ujjwala", "எரிவாயு", "சிலிண்டர்", "சமையல்", "அடுப்பு"],
+    "priority": 84
+  },
+  {
+    "id": "in-pmmvy",
+    "level": "central",
+    "name": { "en": "Pradhan Mantri Matru Vandana Yojana (PMMVY)", "ta": "பிரதமர் மாத்ரு வந்தனா யோஜனா (PMMVY)" },
+    "department": { "en": "Ministry of Women and Child Development", "ta": "மகளிர் மற்றும் குழந்தைகள் மேம்பாட்டு அமைச்சகம்" },
+    "categories": ["women", "health"],
+    "summary": { "en": "Maternity benefit to compensate wage loss for pregnant women and lactating mothers.", "ta": "கர்ப்பிணிப் பெண்கள் மற்றும் பாலூட்டும் தாய்மார்களின் ஊதிய இழப்பை ஈடுசெய்ய மகப்பேறு பலன்." },
+    "benefit": { "en": "Rs 5,000 for the first child; Rs 6,000 for a second child if it is a girl.", "ta": "முதல் குழந்தைக்கு ரூ.5,000; இரண்டாவது குழந்தை பெண் என்றால் ரூ.6,000." },
+    "eligibility": { "residency": "IN", "gender": ["female"], "age": { "min": 19, "max": 49 }, "flags_required": ["is_pregnant"] },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "MCP (Mother and Child Protection) card", "ta": "தாய் சேய் பாதுகாப்பு (MCP) அட்டை" },
+      { "en": "Bank passbook", "ta": "வங்கி கணக்குப் புத்தகம்" },
+      { "en": "Husband's Aadhaar card", "ta": "கணவரின் ஆதார் அட்டை" }
+    ],
+    "apply": { "mode": "online", "url": "https://pmmvy.wcd.gov.in/", "office": { "en": "Anganwadi centre or Primary Health Centre", "ta": "அங்கன்வாடி மையம் அல்லது ஆரம்ப சுகாதார நிலையம்" } },
+    "keywords": ["pregnant", "maternity", "mother", "baby", "child", "delivery", "கர்ப்பிணி", "மகப்பேறு", "தாய்", "குழந்தை"],
+    "priority": 88
+  },
+  {
+    "id": "in-sukanya",
+    "level": "central",
+    "name": { "en": "Sukanya Samriddhi Yojana", "ta": "சுகன்யா சம்ரிதி யோஜனா" },
+    "department": { "en": "Ministry of Finance / India Post", "ta": "நிதி அமைச்சகம் / இந்திய அஞ்சல்" },
+    "categories": ["women", "education"],
+    "summary": { "en": "High-interest small savings scheme for a girl child's education and marriage expenses.", "ta": "பெண் குழந்தையின் கல்வி மற்றும் திருமணச் செலவுகளுக்கான அதிக வட்டி சிறு சேமிப்புத் திட்டம்." },
+    "benefit": { "en": "Around 8.2% annual interest, tax-free, with maturity when the girl turns 21.", "ta": "ஆண்டுக்கு சுமார் 8.2% வட்டி, வரி விலக்கு, பெண் 21 வயதை அடையும்போது முதிர்வு." },
+    "eligibility": { "residency": "IN", "flags_required": ["has_girl_child_under_10"] },
+    "documents": [
+      { "en": "Girl child's birth certificate", "ta": "பெண் குழந்தையின் பிறப்புச் சான்றிதழ்" },
+      { "en": "Parent's Aadhaar and PAN card", "ta": "பெற்றோரின் ஆதார் மற்றும் பான் அட்டை" },
+      { "en": "Address proof", "ta": "முகவரி ஆதாரம்" }
+    ],
+    "apply": { "mode": "offline", "url": "https://www.indiapost.gov.in/", "office": { "en": "Any post office or authorised bank branch", "ta": "எந்த அஞ்சல் அலுவலகம் அல்லது அங்கீகரிக்கப்பட்ட வங்கிக் கிளை" } },
+    "keywords": ["girl child", "savings", "daughter", "education", "marriage", "deposit", "பெண் குழந்தை", "சேமிப்பு", "மகள்", "கல்வி", "திருமணம்"],
+    "priority": 79
+  },
+  {
+    "id": "in-atal-pension",
+    "level": "central",
+    "name": { "en": "Atal Pension Yojana (APY)", "ta": "அடல் ஓய்வூதியத் திட்டம் (APY)" },
+    "department": { "en": "Pension Fund Regulatory and Development Authority", "ta": "ஓய்வூதிய நிதி ஒழுங்குமுறை மற்றும் மேம்பாட்டு ஆணையம்" },
+    "categories": ["social", "elderly"],
+    "summary": { "en": "Guaranteed monthly pension after age 60 for workers in the unorganised sector.", "ta": "அமைப்புசாரா துறையில் பணிபுரிபவர்களுக்கு 60 வயதுக்குப் பின் உறுதியான மாதாந்திர ஓய்வூதியம்." },
+    "benefit": { "en": "Guaranteed pension of Rs 1,000 to Rs 5,000 per month from age 60, based on contributions.", "ta": "பங்களிப்புகளின் அடிப்படையில் 60 வயதிலிருந்து மாதம் ரூ.1,000 முதல் ரூ.5,000 வரை உறுதியான ஓய்வூதியம்." },
+    "eligibility": { "residency": "IN", "age": { "min": 18, "max": 40 }, "flags_excluded": ["income_tax_payer"] },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Savings bank account", "ta": "சேமிப்பு வங்கிக் கணக்கு" },
+      { "en": "Mobile number", "ta": "கைபேசி எண்" }
+    ],
+    "apply": { "mode": "offline", "url": "https://www.npscra.nsdl.co.in/scheme-details.php", "office": { "en": "Your bank branch or post office", "ta": "உங்கள் வங்கிக் கிளை அல்லது அஞ்சல் அலுவலகம்" } },
+    "keywords": ["pension", "retirement", "savings", "old age", "unorganised", "ஓய்வூதியம்", "ஓய்வு", "சேமிப்பு", "முதுமை"],
+    "priority": 78
+  },
+  {
+    "id": "in-jan-dhan",
+    "level": "central",
+    "name": { "en": "Pradhan Mantri Jan Dhan Yojana (PMJDY)", "ta": "பிரதமர் ஜன் தன் யோஜனா (PMJDY)" },
+    "department": { "en": "Ministry of Finance", "ta": "நிதி அமைச்சகம்" },
+    "categories": ["social", "utility"],
+    "summary": { "en": "Zero-balance bank account with free RuPay debit card, accident insurance and overdraft facility.", "ta": "இலவச ருபே டெபிட் அட்டை, விபத்துக் காப்பீடு மற்றும் ஓவர்டிராஃப்ட் வசதியுடன் பூஜ்ஜிய இருப்பு வங்கிக் கணக்கு." },
+    "benefit": { "en": "No minimum balance, Rs 2 lakh accident insurance, Rs 10,000 overdraft after 6 months.", "ta": "குறைந்தபட்ச இருப்பு தேவையில்லை, ரூ.2 லட்சம் விபத்துக் காப்பீடு, 6 மாதங்களுக்குப் பின் ரூ.10,000 ஓவர்டிராஃப்ட்." },
+    "eligibility": { "residency": "IN", "age": { "min": 10 }, "flags_excluded": ["has_bank_account"] },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Passport size photograph", "ta": "பாஸ்போர்ட் அளவு புகைப்படம்" }
+    ],
+    "apply": { "mode": "offline", "url": "https://pmjdy.gov.in/", "office": { "en": "Any bank branch or Bank Mitra business correspondent", "ta": "எந்த வங்கிக் கிளை அல்லது வங்கி மித்ரா" } },
+    "keywords": ["bank account", "zero balance", "debit card", "jan dhan", "banking", "வங்கிக் கணக்கு", "பூஜ்ஜிய இருப்பு", "டெபிட் அட்டை"],
+    "priority": 74
+  },
+  {
+    "id": "in-ignwps",
+    "level": "central",
+    "name": { "en": "Indira Gandhi National Widow Pension Scheme (IGNWPS)", "ta": "இந்திரா காந்தி தேசிய விதவை ஓய்வூதியத் திட்டம் (IGNWPS)" },
+    "department": { "en": "Ministry of Rural Development (NSAP)", "ta": "ஊரக வளர்ச்சி அமைச்சகம் (NSAP)" },
+    "categories": ["widow", "social"],
+    "summary": { "en": "Central pension support for widows from below-poverty-line households, aged 40 to 79.", "ta": "வறுமைக் கோட்டிற்கு கீழ் உள்ள 40 முதல் 79 வயது விதவைகளுக்கு மத்திய ஓய்வூதிய ஆதரவு." },
+    "benefit": { "en": "Rs 300 per month central share (topped up by the state), rising to Rs 500 after age 80.", "ta": "மாதம் ரூ.300 மத்திய பங்கு (மாநிலத்தால் கூடுதலாக), 80 வயதுக்குப் பின் ரூ.500." },
+    "eligibility": { "residency": "IN", "gender": ["female"], "age": { "min": 40, "max": 79 }, "annual_income_max": 100000, "flags_required": ["is_widow"] },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Husband's death certificate", "ta": "கணவரின் இறப்புச் சான்றிதழ்" },
+      { "en": "BPL ration card", "ta": "வறுமைக் கோட்டிற்கு கீழ் ரேஷன் அட்டை" },
+      { "en": "Age proof", "ta": "வயது ஆதாரம்" }
+    ],
+    "apply": { "mode": "offline", "url": "https://nsap.nic.in/", "office": { "en": "Taluk office or Village Panchayat", "ta": "வட்டாட்சியர் அலுவலகம் அல்லது கிராம ஊராட்சி" } },
+    "keywords": ["widow", "pension", "husband died", "bpl", "விதவை", "ஓய்வூதியம்", "கணவர் இறப்பு"],
+    "priority": 88
+  },
+  {
+    "id": "in-nfbs",
+    "level": "central",
+    "name": { "en": "National Family Benefit Scheme (NFBS)", "ta": "தேசிய குடும்ப நல உதவித் திட்டம் (NFBS)" },
+    "department": { "en": "Ministry of Rural Development (NSAP)", "ta": "ஊரக வளர்ச்சி அமைச்சகம் (NSAP)" },
+    "categories": ["social", "widow"],
+    "summary": { "en": "One-time lump sum assistance to a poor family on the death of its primary breadwinner.", "ta": "குடும்பத்தின் முதன்மை வருமானம் ஈட்டுபவர் இறந்தால் ஏழைக் குடும்பத்திற்கு ஒரு முறை மொத்தத் தொகை உதவி." },
+    "benefit": { "en": "One-time payment of Rs 20,000 to the surviving head of the household.", "ta": "உயிர் வாழும் குடும்பத் தலைவருக்கு ஒரு முறை ரூ.20,000 வழங்கப்படும்." },
+    "eligibility": { "residency": "IN", "annual_income_max": 100000, "flags_required": ["breadwinner_died"] },
+    "documents": [
+      { "en": "Death certificate of the breadwinner", "ta": "வருமானம் ஈட்டியவரின் இறப்புச் சான்றிதழ்" },
+      { "en": "Aadhaar card of applicant", "ta": "விண்ணப்பதாரரின் ஆதார் அட்டை" },
+      { "en": "BPL ration card", "ta": "வறுமைக் கோட்டிற்கு கீழ் ரேஷன் அட்டை" },
+      { "en": "Bank passbook", "ta": "வங்கி கணக்குப் புத்தகம்" }
+    ],
+    "apply": { "mode": "offline", "url": "https://nsap.nic.in/", "office": { "en": "Taluk office (Tahsildar)", "ta": "வட்டாட்சியர் அலுவலகம்" } },
+    "keywords": ["death", "breadwinner", "family", "lump sum", "bereavement", "இறப்பு", "குடும்பம்", "உதவித் தொகை"],
+    "priority": 86
+  },
+  {
+    "id": "in-fasal-bima",
+    "level": "central",
+    "name": { "en": "Pradhan Mantri Fasal Bima Yojana (Crop Insurance)", "ta": "பிரதமர் பசல் பீமா யோஜனா (பயிர்க் காப்பீடு)" },
+    "department": { "en": "Ministry of Agriculture and Farmers Welfare", "ta": "வேளாண்மை மற்றும் உழவர் நல அமைச்சகம்" },
+    "categories": ["agriculture"],
+    "summary": { "en": "Subsidised crop insurance covering yield loss from drought, flood, pests and unseasonal rain.", "ta": "வறட்சி, வெள்ளம், பூச்சிகள் மற்றும் பருவமழையல்லாத மழையால் ஏற்படும் விளைச்சல் இழப்பை ஈடுசெய்யும் மானியப் பயிர்க் காப்பீடு." },
+    "benefit": { "en": "Farmer pays only 2% premium for kharif and 1.5% for rabi crops; the rest is subsidised.", "ta": "விவசாயி காரீஃப் பயிருக்கு 2%, ரபி பயிருக்கு 1.5% மட்டுமே பிரீமியம் செலுத்துவார்; மீதம் மானியம்." },
+    "eligibility": { "residency": "IN", "age": { "min": 18 }, "occupation": ["farmer"] },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Land records (Chitta/Adangal)", "ta": "நில ஆவணங்கள் (சிட்டா/அடங்கல்)" },
+      { "en": "Sowing certificate", "ta": "விதைப்புச் சான்றிதழ்" },
+      { "en": "Bank passbook", "ta": "வங்கி கணக்குப் புத்தகம்" }
+    ],
+    "apply": { "mode": "online", "url": "https://pmfby.gov.in/", "office": { "en": "Bank branch, Common Service Centre or insurance agent", "ta": "வங்கிக் கிளை, பொது சேவை மையம் அல்லது காப்பீட்டு முகவர்" } },
+    "keywords": ["crop insurance", "farmer", "drought", "flood", "crop loss", "pest", "பயிர்க் காப்பீடு", "விவசாயி", "வறட்சி", "வெள்ளம்", "பயிர் இழப்பு"],
+    "priority": 87
+  },
+  {
+    "id": "in-kcc",
+    "level": "central",
+    "name": { "en": "Kisan Credit Card (KCC)", "ta": "கிசான் கடன் அட்டை (KCC)" },
+    "department": { "en": "Ministry of Agriculture / NABARD", "ta": "வேளாண்மை அமைச்சகம் / நபார்டு" },
+    "categories": ["agriculture"],
+    "summary": { "en": "Low-interest credit card for farmers to meet crop production, equipment and household expenses.", "ta": "பயிர் உற்பத்தி, உபகரணங்கள் மற்றும் வீட்டுச் செலவுகளை சமாளிக்க விவசாயிகளுக்கு குறைந்த வட்டி கடன் அட்டை." },
+    "benefit": { "en": "Credit up to Rs 3 lakh at 4% effective interest with timely repayment; also covers dairy and fisheries.", "ta": "சரியான திருப்பிச் செலுத்துதலுடன் 4% வட்டியில் ரூ.3 லட்சம் வரை கடன்; பால்வளம் மற்றும் மீன்வளத்திற்கும் பொருந்தும்." },
+    "eligibility": { "residency": "IN", "age": { "min": 18, "max": 75 }, "occupation": ["farmer", "fisherman"] },
+    "documents": [
+      { "en": "Aadhaar card and PAN card", "ta": "ஆதார் அட்டை மற்றும் பான் அட்டை" },
+      { "en": "Land records or lease agreement", "ta": "நில ஆவணங்கள் அல்லது குத்தகை ஒப்பந்தம்" },
+      { "en": "Passport size photographs", "ta": "பாஸ்போர்ட் அளவு புகைப்படங்கள்" }
+    ],
+    "apply": { "mode": "offline", "url": "https://www.nabard.org/", "office": { "en": "Any bank branch or co-operative society", "ta": "எந்த வங்கிக் கிளை அல்லது கூட்டுறவு சங்கம்" } },
+    "keywords": ["kisan credit card", "farmer", "loan", "credit", "agriculture", "கிசான் கடன் அட்டை", "விவசாயி", "கடன்", "வேளாண்மை"],
+    "priority": 84
+  },
+  {
+    "id": "in-vishwakarma",
+    "level": "central",
+    "name": { "en": "PM Vishwakarma Scheme", "ta": "பிரதமர் விஸ்வகர்மா திட்டம்" },
+    "department": { "en": "Ministry of Micro, Small and Medium Enterprises", "ta": "நுண், சிறு மற்றும் நடுத்தர தொழில் அமைச்சகம்" },
+    "categories": ["business", "employment"],
+    "summary": { "en": "Support for traditional artisans and craftspeople: skill training, toolkit grant and cheap credit.", "ta": "பாரம்பரிய கைவினைஞர்கள் மற்றும் கலைஞர்களுக்கு ஆதரவு: திறன் பயிற்சி, கருவிப் பெட்டி மானியம் மற்றும் மலிவான கடன்." },
+    "benefit": { "en": "Rs 15,000 toolkit grant, Rs 500/day training stipend, and loans up to Rs 3 lakh at 5% interest.", "ta": "ரூ.15,000 கருவிப் பெட்டி மானியம், நாளொன்றுக்கு ரூ.500 பயிற்சி உதவித்தொகை, 5% வட்டியில் ரூ.3 லட்சம் வரை கடன்." },
+    "eligibility": { "residency": "IN", "age": { "min": 18 }, "occupation": ["artisan", "carpenter", "blacksmith", "tailor", "potter", "weaver"], "flags_excluded": ["govt_employee"] },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Family ration card", "ta": "குடும்ப ரேஷன் அட்டை" },
+      { "en": "Bank passbook", "ta": "வங்கி கணக்குப் புத்தகம்" },
+      { "en": "Mobile number linked to Aadhaar", "ta": "ஆதாருடன் இணைக்கப்பட்ட கைபேசி எண்" }
+    ],
+    "apply": { "mode": "online", "url": "https://pmvishwakarma.gov.in/", "office": { "en": "Common Service Centre (CSC)", "ta": "பொது சேவை மையம் (CSC)" } },
+    "keywords": ["artisan", "carpenter", "blacksmith", "potter", "tailor", "craft", "toolkit", "கைவினைஞர்", "தச்சர்", "கொல்லர்", "குயவர்", "தையல்"],
+    "priority": 83
+  },
+  {
+    "id": "in-stand-up-india",
+    "level": "central",
+    "name": { "en": "Stand-Up India Scheme", "ta": "ஸ்டாண்ட்-அப் இந்தியா திட்டம்" },
+    "department": { "en": "Department of Financial Services, Ministry of Finance", "ta": "நிதிச் சேவைத் துறை, நிதி அமைச்சகம்" },
+    "categories": ["business", "women"],
+    "summary": { "en": "Bank loans between Rs 10 lakh and Rs 1 crore for SC/ST and women entrepreneurs starting a new enterprise.", "ta": "புதிய நிறுவனம் தொடங்கும் SC/ST மற்றும் பெண் தொழில்முனைவோருக்கு ரூ.10 லட்சம் முதல் ரூ.1 கோடி வரை வங்கிக் கடன்." },
+    "benefit": { "en": "Composite loan of Rs 10 lakh to Rs 1 crore covering 85% of the project cost, with a 7-year repayment.", "ta": "திட்டச் செலவில் 85% வரை ரூ.10 லட்சம் முதல் ரூ.1 கோடி கடன், 7 ஆண்டு திருப்பிச் செலுத்தும் காலம்." },
+    "eligibility": { "residency": "IN", "age": { "min": 18 } },
+    "documents": [
+      { "en": "Aadhaar card and PAN card", "ta": "ஆதார் அட்டை மற்றும் பான் அட்டை" },
+      { "en": "Community certificate (for SC/ST applicants)", "ta": "சாதிச் சான்றிதழ் (SC/ST விண்ணப்பதாரர்களுக்கு)" },
+      { "en": "Detailed project report", "ta": "விரிவான திட்ட அறிக்கை" },
+      { "en": "Business address proof", "ta": "தொழில் முகவரி ஆதாரம்" }
+    ],
+    "apply": { "mode": "online", "url": "https://www.standupmitra.in/", "office": { "en": "Any scheduled commercial bank branch", "ta": "எந்த வணிக வங்கிக் கிளை" } },
+    "keywords": ["business", "entrepreneur", "sc", "st", "women", "loan", "startup", "தொழில்முனைவோர்", "பெண்", "கடன்", "தொழில்"],
+    "priority": 80
+  },
+  {
+    "id": "in-nrlm",
+    "level": "central",
+    "name": { "en": "Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (Self Help Groups)", "ta": "தீன்தயாள் அந்த்யோதயா யோஜனா - தேசிய ஊரக வாழ்வாதார இயக்கம் (சுய உதவிக் குழுக்கள்)" },
+    "department": { "en": "Ministry of Rural Development", "ta": "ஊரக வளர்ச்சி அமைச்சகம்" },
+    "categories": ["women", "employment", "business"],
+    "summary": { "en": "Organises rural women into self-help groups with revolving funds, cheap bank credit and livelihood training.", "ta": "கிராமப்புறப் பெண்களை சுய உதவிக் குழுக்களாக ஒருங்கிணைத்து சுழல் நிதி, மலிவான வங்கிக் கடன் மற்றும் வாழ்வாதாரப் பயிற்சி வழங்குகிறது." },
+    "benefit": { "en": "Revolving fund of Rs 10,000-15,000 per group, community investment funds and bank loans at 7% interest.", "ta": "ஒரு குழுவிற்கு ரூ.10,000-15,000 சுழல் நிதி, சமூக முதலீட்டு நிதி மற்றும் 7% வட்டியில் வங்கிக் கடன்." },
+    "eligibility": { "residency": "IN", "gender": ["female"], "age": { "min": 18 }, "flags_required": ["is_rural"] },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Family ration card", "ta": "குடும்ப ரேஷன் அட்டை" },
+      { "en": "Bank passbook", "ta": "வங்கி கணக்குப் புத்தகம்" }
+    ],
+    "apply": { "mode": "offline", "url": "https://aajeevika.gov.in/", "office": { "en": "Village Panchayat or Mahalir Thittam office (TNSRLM)", "ta": "கிராம ஊராட்சி அல்லது மகளிர் திட்ட அலுவலகம் (TNSRLM)" } },
+    "keywords": ["self help group", "shg", "women", "rural", "loan", "mahalir", "சுய உதவிக் குழு", "மகளிர்", "கிராமம்", "கடன்", "மகளிர் திட்டம்"],
+    "priority": 85
+  },
+  {
+    "id": "in-surya-ghar",
+    "level": "central",
+    "name": { "en": "PM Surya Ghar Muft Bijli Yojana (Rooftop Solar)", "ta": "பிரதமர் சூர்ய கர் இலவச மின்சாரத் திட்டம் (கூரை சூரிய மின்சாரம்)" },
+    "department": { "en": "Ministry of New and Renewable Energy", "ta": "புதிய மற்றும் புதுப்பிக்கத்தக்க எரிசக்தி அமைச்சகம்" },
+    "categories": ["utility", "housing"],
+    "summary": { "en": "Subsidy for installing rooftop solar panels, giving households up to 300 units of free electricity a month.", "ta": "கூரை சூரிய மின் தகடுகள் நிறுவ மானியம், மாதம் 300 யூனிட் வரை இலவச மின்சாரம்." },
+    "benefit": { "en": "Subsidy up to Rs 78,000 for a 3 kW rooftop system, plus up to 300 free units per month.", "ta": "3 கிலோவாட் கூரை அமைப்புக்கு ரூ.78,000 வரை மானியம், மாதம் 300 யூனிட் வரை இலவசம்." },
+    "eligibility": { "residency": "IN", "flags_required": ["owns_house"] },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Latest electricity bill", "ta": "சமீபத்திய மின் கட்டண ரசீது" },
+      { "en": "Proof of house ownership", "ta": "வீட்டு உரிமை ஆதாரம்" },
+      { "en": "Bank passbook", "ta": "வங்கி கணக்குப் புத்தகம்" }
+    ],
+    "apply": { "mode": "online", "url": "https://pmsuryaghar.gov.in/", "office": { "en": "Apply online, then contact a registered TANGEDCO solar vendor", "ta": "ஆன்லைனில் விண்ணப்பித்து, பதிவுசெய்யப்பட்ட TANGEDCO சூரிய மின் விற்பனையாளரைத் தொடர்பு கொள்ளவும்" } },
+    "keywords": ["solar", "electricity", "rooftop", "power", "current bill", "சூரிய மின்சாரம்", "மின்சாரம்", "கூரை", "மின் கட்டணம்"],
+    "priority": 77
+  },
+  {
+    "id": "in-ayushman-vay-vandana",
+    "level": "central",
+    "name": { "en": "Ayushman Vay Vandana (Free Health Cover for Seniors 70+)", "ta": "ஆயுஷ்மான் வய வந்தனா (70+ முதியோருக்கு இலவச மருத்துவக் காப்பீடு)" },
+    "department": { "en": "National Health Authority", "ta": "தேசிய சுகாதார ஆணையம்" },
+    "categories": ["health", "elderly"],
+    "summary": { "en": "Free health insurance cover for every citizen aged 70 and above, regardless of income.", "ta": "வருமானம் எதுவாக இருந்தாலும் 70 வயது மற்றும் அதற்கு மேற்பட்ட ஒவ்வொரு குடிமகனுக்கும் இலவச மருத்துவக் காப்பீடு." },
+    "benefit": { "en": "Rs 5 lakh per year of free hospital treatment, available to all seniors 70+ with no income test.", "ta": "ஆண்டுக்கு ரூ.5 லட்சம் இலவச மருத்துவமனை சிகிச்சை; 70+ அனைவருக்கும், வருமானச் சோதனை இல்லை." },
+    "eligibility": { "residency": "IN", "age": { "min": 70 } },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Mobile number linked to Aadhaar", "ta": "ஆதாருடன் இணைக்கப்பட்ட கைபேசி எண்" }
+    ],
+    "apply": { "mode": "online", "url": "https://pmjay.gov.in/", "office": { "en": "Common Service Centre or Ayushman Mitra desk at any empanelled hospital", "ta": "பொது சேவை மையம் அல்லது பட்டியலிடப்பட்ட மருத்துவமனையின் ஆயுஷ்மான் மித்ரா மையம்" } },
+    "keywords": ["senior", "elderly", "70", "health", "hospital", "insurance", "முதியோர்", "மருத்துவம்", "காப்பீடு", "மருத்துவமனை"],
+    "priority": 92
+  },
+  {
+    "id": "in-pmsby",
+    "level": "central",
+    "name": { "en": "Pradhan Mantri Suraksha Bima Yojana (Accident Insurance)", "ta": "பிரதமர் சுரக்ஷா பீமா யோஜனா (விபத்துக் காப்பீடு)" },
+    "department": { "en": "Ministry of Finance", "ta": "நிதி அமைச்சகம்" },
+    "categories": ["social", "health"],
+    "summary": { "en": "Very low-cost accidental death and disability insurance for bank account holders.", "ta": "வங்கிக் கணக்கு வைத்திருப்பவர்களுக்கு மிகக் குறைந்த செலவில் விபத்து மரணம் மற்றும் ஊனக் காப்பீடு." },
+    "benefit": { "en": "Rs 2 lakh cover for accidental death or total disability, for a premium of just Rs 20 a year.", "ta": "ஆண்டுக்கு வெறும் ரூ.20 பிரீமியத்தில் விபத்து மரணம் அல்லது முழு ஊனத்திற்கு ரூ.2 லட்சம் காப்பீடு." },
+    "eligibility": { "residency": "IN", "age": { "min": 18, "max": 70 } },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Savings bank account", "ta": "சேமிப்பு வங்கிக் கணக்கு" },
+      { "en": "Nominee details", "ta": "வாரிசு விவரங்கள்" }
+    ],
+    "apply": { "mode": "offline", "url": "https://jansuraksha.gov.in/", "office": { "en": "Your bank branch - enable auto-debit consent", "ta": "உங்கள் வங்கிக் கிளை - தானியங்கி பற்று ஒப்புதல் அளிக்கவும்" } },
+    "keywords": ["accident", "insurance", "disability", "death", "cheap", "விபத்து", "காப்பீடு", "ஊனம்", "இறப்பு"],
+    "priority": 76
+  },
+  {
+    "id": "in-pmjjby",
+    "level": "central",
+    "name": { "en": "Pradhan Mantri Jeevan Jyoti Bima Yojana (Life Insurance)", "ta": "பிரதமர் ஜீவன் ஜோதி பீமா யோஜனா (ஆயுள் காப்பீடு)" },
+    "department": { "en": "Ministry of Finance", "ta": "நிதி அமைச்சகம்" },
+    "categories": ["social"],
+    "summary": { "en": "Affordable term life insurance covering death from any cause, for bank account holders.", "ta": "வங்கிக் கணக்கு வைத்திருப்பவர்களுக்கு எந்தக் காரணத்தாலும் ஏற்படும் மரணத்தை ஈடுசெய்யும் மலிவான ஆயுள் காப்பீடு." },
+    "benefit": { "en": "Rs 2 lakh life cover for an annual premium of Rs 436.", "ta": "ஆண்டுக்கு ரூ.436 பிரீமியத்தில் ரூ.2 லட்சம் ஆயுள் காப்பீடு." },
+    "eligibility": { "residency": "IN", "age": { "min": 18, "max": 50 } },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Savings bank account", "ta": "சேமிப்பு வங்கிக் கணக்கு" },
+      { "en": "Nominee details", "ta": "வாரிசு விவரங்கள்" }
+    ],
+    "apply": { "mode": "offline", "url": "https://jansuraksha.gov.in/", "office": { "en": "Your bank branch", "ta": "உங்கள் வங்கிக் கிளை" } },
+    "keywords": ["life insurance", "death", "family protection", "cheap insurance", "ஆயுள் காப்பீடு", "இறப்பு", "குடும்பப் பாதுகாப்பு"],
+    "priority": 75
+  },
+  {
+    "id": "in-nsp-disability",
+    "level": "central",
+    "name": { "en": "Indira Gandhi National Disability Pension Scheme (IGNDPS)", "ta": "இந்திரா காந்தி தேசிய மாற்றுத்திறனாளிகள் ஓய்வூதியத் திட்டம் (IGNDPS)" },
+    "department": { "en": "Ministry of Rural Development (NSAP)", "ta": "ஊரக வளர்ச்சி அமைச்சகம் (NSAP)" },
+    "categories": ["disability", "social"],
+    "summary": { "en": "Central pension for persons with severe or multiple disabilities from below-poverty-line households.", "ta": "வறுமைக் கோட்டிற்கு கீழ் உள்ள கடுமையான அல்லது பல ஊனங்கள் உள்ளவர்களுக்கு மத்திய ஓய்வூதியம்." },
+    "benefit": { "en": "Rs 300 per month central share (state tops it up), rising to Rs 500 after age 80.", "ta": "மாதம் ரூ.300 மத்திய பங்கு (மாநிலம் கூடுதலாக வழங்கும்), 80 வயதுக்குப் பின் ரூ.500." },
+    "eligibility": { "residency": "IN", "age": { "min": 18, "max": 79 }, "annual_income_max": 100000, "flags_required": ["is_disabled"], "disability_percent_min": 80 },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Disability certificate showing 80% or more (UDID)", "ta": "80% அல்லது அதற்கு மேல் காட்டும் ஊனச் சான்றிதழ் (UDID)" },
+      { "en": "BPL ration card", "ta": "வறுமைக் கோட்டிற்கு கீழ் ரேஷன் அட்டை" },
+      { "en": "Bank passbook", "ta": "வங்கி கணக்குப் புத்தகம்" }
+    ],
+    "apply": { "mode": "offline", "url": "https://nsap.nic.in/", "office": { "en": "Taluk office or District Differently Abled Welfare Office", "ta": "வட்டாட்சியர் அலுவலகம் அல்லது மாவட்ட மாற்றுத்திறனாளிகள் நல அலுவலகம்" } },
+    "keywords": ["disability", "severe disability", "pension", "handicap", "ஊனம்", "மாற்றுத்திறனாளி", "ஓய்வூதியம்", "கடும் ஊனம்"],
+    "priority": 87
+  },
+  {
+    "id": "in-nsp-scholarship",
+    "level": "central",
+    "name": { "en": "National Scholarship Portal - Central Sector Scholarships", "ta": "தேசிய உதவித்தொகை வலைதளம் - மத்திய அரசு உதவித்தொகைகள்" },
+    "department": { "en": "Ministry of Education and other central ministries", "ta": "கல்வி அமைச்சகம் மற்றும் பிற மத்திய அமைச்சகங்கள்" },
+    "categories": ["education"],
+    "summary": { "en": "Single portal for central scholarships covering merit, minority, disability and post-matric categories.", "ta": "தகுதி, சிறுபான்மையினர், ஊனமுற்றோர் மற்றும் மேல்நிலைப் பிரிவுகளை உள்ளடக்கிய மத்திய உதவித்தொகைகளுக்கான ஒற்றை வலைதளம்." },
+    "benefit": { "en": "Scholarships ranging from Rs 10,000 to Rs 20,000 per year depending on the specific scheme.", "ta": "குறிப்பிட்ட திட்டத்தைப் பொறுத்து ஆண்டுக்கு ரூ.10,000 முதல் ரூ.20,000 வரை உதவித்தொகை." },
+    "eligibility": { "residency": "IN", "age": { "min": 14, "max": 35 }, "annual_income_max": 450000, "flags_required": ["is_student"] },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Previous year marksheet", "ta": "முந்தைய ஆண்டு மதிப்பெண் பட்டியல்" },
+      { "en": "Income certificate", "ta": "வருமானச் சான்றிதழ்" },
+      { "en": "Bonafide certificate", "ta": "உண்மைச் சான்றிதழ்" },
+      { "en": "Bank passbook", "ta": "வங்கி கணக்குப் புத்தகம்" }
+    ],
+    "apply": { "mode": "online", "url": "https://scholarships.gov.in/", "office": { "en": "Apply online; your institution verifies the application", "ta": "ஆன்லைனில் விண்ணப்பிக்கவும்; உங்கள் நிறுவனம் சரிபார்க்கும்" } },
+    "keywords": ["scholarship", "student", "education", "merit", "minority", "fees", "உதவித்தொகை", "மாணவர்", "கல்வி", "சிறுபான்மையினர்"],
+    "priority": 85
+  },
+  {
+    "id": "in-e-shram",
+    "level": "central",
+    "name": { "en": "e-Shram - National Database of Unorganised Workers", "ta": "இ-ஸ்ரம் - அமைப்புசாரா தொழிலாளர்களின் தேசிய தரவுத்தளம்" },
+    "department": { "en": "Ministry of Labour and Employment", "ta": "தொழிலாளர் மற்றும் வேலைவாய்ப்பு அமைச்சகம்" },
+    "categories": ["employment", "social"],
+    "summary": { "en": "Free registration card for unorganised workers that unlocks accident insurance and future welfare benefits.", "ta": "அமைப்புசாரா தொழிலாளர்களுக்கு இலவசப் பதிவு அட்டை; விபத்துக் காப்பீடு மற்றும் எதிர்கால நலப் பலன்களைத் திறக்கிறது." },
+    "benefit": { "en": "Free Universal Account Number card plus Rs 2 lakh accidental death insurance at no cost.", "ta": "இலவச உலகளாவிய கணக்கு எண் அட்டை மற்றும் எந்தக் கட்டணமும் இல்லாமல் ரூ.2 லட்சம் விபத்து மரணக் காப்பீடு." },
+    "eligibility": { "residency": "IN", "age": { "min": 16, "max": 59 }, "occupation": ["daily_wage_labourer", "construction_worker", "street_vendor", "auto_driver", "domestic_worker", "agricultural_labourer", "tailor", "artisan", "fisherman", "weaver"], "flags_excluded": ["govt_employee", "income_tax_payer"] },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Mobile number linked to Aadhaar", "ta": "ஆதாருடன் இணைக்கப்பட்ட கைபேசி எண்" },
+      { "en": "Bank account details", "ta": "வங்கிக் கணக்கு விவரங்கள்" }
+    ],
+    "apply": { "mode": "online", "url": "https://eshram.gov.in/", "office": { "en": "Common Service Centre (CSC) - registration is free", "ta": "பொது சேவை மையம் (CSC) - பதிவு இலவசம்" } },
+    "keywords": ["worker", "labour", "unorganised", "e-shram", "card", "insurance", "தொழிலாளி", "அமைப்புசாரா", "இ-ஸ்ரம்", "அட்டை"],
+    "priority": 84
+  },
+  {
+    "id": "in-poshan",
+    "level": "central",
+    "name": { "en": "Anganwadi Services / POSHAN Abhiyaan (Child and Maternal Nutrition)", "ta": "அங்கன்வாடி சேவைகள் / போஷண் அபியான் (குழந்தை மற்றும் தாய் ஊட்டச்சத்து)" },
+    "department": { "en": "Ministry of Women and Child Development", "ta": "மகளிர் மற்றும் குழந்தைகள் மேம்பாட்டு அமைச்சகம்" },
+    "categories": ["health", "women", "education"],
+    "summary": { "en": "Free supplementary nutrition, immunisation, health check-ups and pre-school education through Anganwadi centres.", "ta": "அங்கன்வாடி மையங்கள் மூலம் இலவச கூடுதல் ஊட்டச்சத்து, தடுப்பூசி, மருத்துவப் பரிசோதனை மற்றும் பள்ளி முன் கல்வி." },
+    "benefit": { "en": "Free take-home rations and hot meals for children under 6, pregnant women and nursing mothers.", "ta": "6 வயதுக்குட்பட்ட குழந்தைகள், கர்ப்பிணிப் பெண்கள் மற்றும் பாலூட்டும் தாய்மார்களுக்கு இலவச உணவுப் பொருட்கள் மற்றும் சூடான உணவு." },
+    "eligibility": { "residency": "IN" },
+    "documents": [
+      { "en": "Aadhaar card", "ta": "ஆதார் அட்டை" },
+      { "en": "Child's birth certificate (for children)", "ta": "குழந்தையின் பிறப்புச் சான்றிதழ் (குழந்தைகளுக்கு)" },
+      { "en": "MCP card (for pregnant women)", "ta": "தாய் சேய் பாதுகாப்பு அட்டை (கர்ப்பிணிப் பெண்களுக்கு)" }
+    ],
+    "apply": { "mode": "offline", "url": "https://wcd.nic.in/", "office": { "en": "Your nearest Anganwadi centre", "ta": "உங்களுக்கு அருகிலுள்ள அங்கன்வாடி மையம்" } },
+    "keywords": ["nutrition", "child", "anganwadi", "baby", "pregnant", "food", "immunisation", "ஊட்டச்சத்து", "குழந்தை", "அங்கன்வாடி", "தடுப்பூசி"],
+    "priority": 80
+  }
+]

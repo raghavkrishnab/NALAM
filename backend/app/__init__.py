@@ -1,0 +1,1 @@
+"""NALAM backend application package."""

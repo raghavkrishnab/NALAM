@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NALAM | Tamil Nadu Government Scheme Navigator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Trusted civic assistance platform</p>
+          <h1>NALAM</h1>
+          <p class="hero-text">
+            Your friendly AI helper for discovering the right government welfare schemes in Tamil Nadu.
+            Share your situation, upload supporting documents, and NALAM will suggest the best-fit options.
+          </p>
+          <div class="chip-row">
+            <span>✅ AI-guided suggestions</span>
+            <span>📄 Document-aware verification</span>
+            <span>🏛️ Tamil Nadu-focused schemes</span>
+          </div>
+          <div class="trust-strip">
+            <div class="trust-card">
+              <strong>1.</strong>
+              <span>Describe your issue</span>
+            </div>
+            <div class="trust-card">
+              <strong>2.</strong>
+              <span>Upload proof documents</span>
+            </div>
+            <div class="trust-card">
+              <strong>3.</strong>
+              <span>Receive tailored scheme guidance</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="dashboard">
+        <section class="panel form-panel">
+          <h2>Explain your situation</h2>
+          <form id="scheme-form">
+            <div class="grid two-col">
+              <label>
+                Full name
+                <input type="text" id="name" placeholder="Your name" required />
+              </label>
+              <label>
+                District / location
+                <input type="text" id="location" placeholder="Eg. Chennai, Coimbatore" required />
+              </label>
+            </div>
+
+            <div class="grid two-col">
+              <label>
+                Your situation
+                <select id="category">
+                  <option value="health">Health / medical support</option>
+                  <option value="farmer">Farmer / agriculture issue</option>
+                  <option value="job">Unemployment / livelihood</option>
+                  <option value="housing">Housing / shelter need</option>
+                  <option value="education">Education / scholarship</option>
+                  <option value="disability">Disability support</option>
+                  <option value="elderly">Senior citizen support</option>
+                  <option value="widow">Widow / dependent support</option>
+                  <option value="women">Women entrepreneurship</option>
+                </select>
+              </label>
+              <label>
+                Age
+                <input type="number" id="age" min="1" max="120" placeholder="30" required />
+              </label>
+            </div>
+
+            <label>
+              Describe your issue in short
+              <textarea
+                id="issue"
+                rows="4"
+                placeholder="Example: I need treatment support for heart surgery and my family income is low."
+                required
+              ></textarea>
+            </label>
+
+            <div class="grid two-col">
+              <label>
+                Monthly income (₹)
+                <input type="number" id="income" min="0" placeholder="15000" />
+              </label>
+              <label>
+                Family size
+                <input type="number" id="family" min="1" max="20" placeholder="4" />
+              </label>
+            </div>
+
+            <label class="upload-box">
+              <span>Upload supporting documents</span>
+              <input type="file" id="document-upload" multiple accept=".pdf,.jpg,.jpeg,.png,.webp" />
+              <small>Upload Aadhaar, income certificate, ration card, medical reports, or land papers.</small>
+            </label>
+
+            <ul id="document-list" class="document-list"></ul>
+
+            <div class="button-row">
+              <button type="submit">Analyze with NALAM</button>
+              <button type="button" id="demo-btn" class="secondary">Try example</button>
+            </div>
+          </form>
+        </section>
+
+        <section class="panel results-panel">
+          <div class="results-header">
+            <h2>NALAM recommendations</h2>
+            <p>AI analysis will appear here with the best government scheme matches.</p>
+          </div>
+          <div id="results" class="results"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
