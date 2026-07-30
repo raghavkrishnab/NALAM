@@ -153,15 +153,45 @@ NALAM prefers it automatically when present:
 > Portuguese — so it physically cannot read a Tamil income certificate. Whisper
 > and EasyOCR are free forever and both handle Tamil.
 
-### Optional local LLM
+### Optional LLM (Ollama or OpenRouter)
+
+The LLM is strictly a presentation layer — it rewords chat replies and can never
+change an eligibility verdict. See [`backend/app/llm.py`](backend/app/llm.py).
+With no provider configured, chat uses its scripted rules-based replies and the
+app behaves identically.
+
+**Option A — Ollama (local, recommended).** Free forever, offline, private, no
+key, no rate limit.
 
 ```bash
 ollama pull qwen2.5:7b-instruct
 ```
 
-NALAM auto-detects a running Ollama server and uses it to phrase chat replies more
-naturally. It is strictly a presentation layer — see
-[`backend/app/llm.py`](backend/app/llm.py). Override with `NALAM_OLLAMA_MODEL`.
+**Option B — OpenRouter (hosted, has free models).** Needs an API key and
+internet.
+
+1. Get a key at <https://openrouter.ai/keys>
+2. Pick a free model at <https://openrouter.ai/models?q=free> (they end in `:free`)
+3. Set it in your shell — **never commit a key to the repo**:
+
+```bash
+setx OPENROUTER_API_KEY "your-key-here"
+```
+
+Then restart the terminal and the backend. Verify with `GET /api/health`, which
+reports `openrouter.api_key_present` — it never returns the key itself.
+
+`NALAM_LLM_PROVIDER` controls routing: `auto` (default) prefers Ollama when it is
+running and falls back to OpenRouter if a key is set; `ollama`, `openrouter`, or
+`none` force the choice. Local-first is the default deliberately — a citizen's
+situation is sensitive, and Ollama keeps it on the machine.
+
+> **OpenRouter cannot do speech-to-text.** It serves chat completions, not audio
+> transcription, so it is not an alternative to Whisper. Voice input stays local
+> regardless of which LLM provider you choose.
+>
+> Free OpenRouter models are rate-limited and typically log or train on requests.
+> For a live demo, Ollama is the safer bet: no quota to exhaust, no network to drop.
 
 ---
 
@@ -282,8 +312,11 @@ legacy/            original static prototype, kept for reference
 | `NALAM_WHISPER_MODEL` | `small` | `tiny`…`large-v3` |
 | `NALAM_WHISPER_DEVICE` | `auto` | `cpu` / `cuda` |
 | `NALAM_WHISPER_COMPUTE` | `int8` | auto-upgrades to `float16` on CUDA |
+| `NALAM_LLM_PROVIDER` | `auto` | `auto` / `ollama` / `openrouter` / `none` |
 | `OLLAMA_HOST` | `http://127.0.0.1:11434` | Ollama server |
 | `NALAM_OLLAMA_MODEL` | `qwen2.5:7b-instruct` | Falls back to any pulled model |
+| `OPENROUTER_API_KEY` | _(unset)_ | Read from the environment only, never logged |
+| `NALAM_OPENROUTER_MODEL` | `meta-llama/llama-3.3-70b-instruct:free` | Any OpenRouter slug |
 | `VITE_API_TARGET` | `http://127.0.0.1:8000` | Backend the Vite proxy points at |
 
 ---
