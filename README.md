@@ -1,3 +1,21 @@
+---
+title: NALAM Backend
+emoji: 🏛️
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 7860
+pinned: false
+short_description: Bilingual Tamil Nadu welfare scheme navigator API
+---
+
+<!--
+The YAML block above is required by Hugging Face Spaces, which reads a Space's
+configuration from README.md and refuses to build without it ("Missing
+configuration in README"). It is harmless on GitHub, which renders it as a
+small metadata table. Do not remove it: the deployed backend stops building.
+-->
+
 # NALAM · Tamil Nadu Welfare Scheme Navigator
 
 NALAM helps Tamil Nadu residents find the government welfare schemes they actually
