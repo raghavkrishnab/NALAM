@@ -1,0 +1,20 @@
+# Production dependency set for the Hugging Face Spaces Docker image.
+#
+# Deliberately excludes easyocr and torch (~510 MB) because the container
+# installs Tesseract with the Tamil pack at the system level, and Tesseract both
+# reads Tamil properly and runs roughly thirty times faster on these documents.
+# ocr.py already prefers Tesseract whenever the Tamil pack is present, so
+# dropping EasyOCR changes nothing except image size and build time.
+
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+python-multipart==0.0.20
+requests==2.32.3
+
+# Tamil + English speech to text. Pulls ctranslate2 (~60 MB); no torch needed.
+faster-whisper==1.1.1
+
+# Binding to the system Tesseract installed via apt in the Dockerfile.
+pytesseract==0.3.13
+Pillow==11.1.0

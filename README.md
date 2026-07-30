@@ -80,6 +80,17 @@ a killed server can leave an orphaned listening socket that holds its port until
 reboot — `Get-NetTCPConnection -LocalPort 8000` showing a listener whose PID no
 longer exists is that, and moving ports is the quickest way around it.
 
+### Deploying
+
+See [`deploy/DEPLOYMENT.md`](deploy/DEPLOYMENT.md). Frontend on Vercel, backend
+on Hugging Face Spaces, both free.
+
+The split is not a preference. Vercel serverless functions cap at 250 MB
+unzipped, and `torch` alone is 494 MB while the Whisper weights are another
+~460 MB with no persistent disk to cache them — and Tesseract is a system binary
+that cannot be pip installed at all. Spaces runs a real container, so
+`apt install tesseract-ocr-tam` works and the model can be baked into the image.
+
 ### Optional AI extras
 
 The app is fully usable without these. Voice and OCR report themselves as

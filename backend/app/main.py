@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import os
+
 from fastapi import FastAPI, File, Form, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -27,15 +29,32 @@ app = FastAPI(
     version="1.0.0",
 )
 
+# Local dev always works. Production origins are added through
+# NALAM_CORS_ORIGINS as a comma-separated list, e.g.
+#   NALAM_CORS_ORIGINS=https://nalam.vercel.app
+DEV_ORIGINS = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:5174",
+    "http://127.0.0.1:5174",
+    "http://localhost:4173",
+    "http://127.0.0.1:4173",
+]
+EXTRA_ORIGINS = [
+    origin.strip().rstrip("/")
+    for origin in os.environ.get("NALAM_CORS_ORIGINS", "").split(",")
+    if origin.strip()
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "http://127.0.0.1:5173",
-        "http://localhost:4173",
-        "http://127.0.0.1:4173",
-    ],
-    allow_credentials=True,
+    allow_origins=DEV_ORIGINS + EXTRA_ORIGINS,
+    # Vercel gives every branch and pull request its own preview domain, so the
+    # exact host is not known ahead of time.
+    allow_origin_regex=r"https://.*\.vercel\.app",
+    # No cookies or auth headers are used, so credentials stay off. This also
+    # avoids the browser rejecting a wildcard-style origin regex.
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )

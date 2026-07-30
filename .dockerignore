@@ -1,0 +1,15 @@
+frontend/
+legacy/
+.git/
+.github/
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vercel/
+deploy/
+*.md
+!backend/**/*.md
+.gitattributes
+.gitignore

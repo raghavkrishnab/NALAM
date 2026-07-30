@@ -1,5 +1,9 @@
-// Vite proxies /api to the FastAPI backend, so everything stays same-origin.
-const BASE = '/api';
+// In development Vite proxies /api to the local backend, so a relative path
+// keeps everything same-origin. In production the frontend (Vercel) and the
+// backend (Hugging Face Spaces) are different origins, so the full base URL is
+// injected at build time via VITE_API_BASE_URL, e.g.
+//   https://your-name-nalam.hf.space/api
+const BASE = (import.meta.env.VITE_API_BASE_URL || '/api').replace(/\/$/, '');
 
 async function request(path, options = {}) {
   const response = await fetch(`${BASE}${path}`, options);
