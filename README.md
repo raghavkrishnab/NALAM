@@ -138,14 +138,47 @@ actually got, so `/api/health` returns `tamil_supported: false` rather than
 implying Tamil OCR works. A future easyocr release starts working with no code
 change.
 
-For Tamil documents today, install Tesseract with the Tamil language pack —
-NALAM prefers it automatically when present:
+**Tesseract is the fix, and NALAM prefers it automatically once Tamil is
+present.** It is also far faster — 0.4s versus 12.7s for the same document.
 
-1. Install [Tesseract for Windows](https://github.com/UB-Mannheim/tesseract/wiki),
-   ticking **Tamil** under "Additional language data"
-2. `pip install pytesseract`
+1. Install the binary:
 
-**Voice input handles Tamil fine** — this limitation is document OCR only.
+```bash
+winget install --id UB-Mannheim.TesseractOCR
+```
+
+2. Add the Tamil pack. The winget build ships only `eng`, and `tessdata` under
+   `Program Files` needs admin — so point `TESSDATA_PREFIX` at a writable copy
+   instead:
+
+```bash
+mkdir -p "$LOCALAPPDATA/NALAM/tessdata" && cp "/c/Program Files/Tesseract-OCR/tessdata/"*.traineddata "$LOCALAPPDATA/NALAM/tessdata/" && curl -sSL -o "$LOCALAPPDATA/NALAM/tessdata/tam.traineddata" https://github.com/tesseract-ocr/tessdata_best/raw/main/tam.traineddata
+```
+
+```bash
+setx TESSDATA_PREFIX "%LOCALAPPDATA%\NALAM\tessdata"
+```
+
+3. `pip install pytesseract`, then restart your terminal and the backend.
+
+Verify with `/api/health`: `engine` becomes `tesseract` and `tamil_supported`
+turns `true`. If it stays false, the `tamil_note` field says exactly which step
+is missing.
+
+The Windows installer does not add Tesseract to PATH, so `ocr.py` searches
+`TESSERACT_CMD`, then PATH, then the standard `Program Files` locations. It only
+switches away from EasyOCR when `tam` is genuinely installed, and it asks
+Tesseract for just the languages that exist rather than erroring on `tam+eng`.
+
+Verified on a Tamil income certificate — extracts name (`லட்சுமி தேவி`), age,
+income, and district, mapping `மதுரை` to `Madurai` so it matches the form's
+district list. Tesseract emits zero-width joiners through Tamil output, which are
+stripped before field matching.
+
+Accuracy note: Tamil OCR is much weaker on photographed certificates than on flat
+scans. A square-on, well-lit image makes a large difference.
+
+**Voice input handles Tamil regardless** — this limitation was document OCR only.
 
 > **On Amazon Transcribe / Textract:** neither is a fit here. Transcribe's free
 > tier is 60 min/month for 12 months only, then bills per minute. **Textract does
@@ -312,6 +345,8 @@ legacy/            original static prototype, kept for reference
 | `NALAM_WHISPER_MODEL` | `small` | `tiny`…`large-v3` |
 | `NALAM_WHISPER_DEVICE` | `auto` | `cpu` / `cuda` |
 | `NALAM_WHISPER_COMPUTE` | `int8` | auto-upgrades to `float16` on CUDA |
+| `TESSERACT_CMD` | _(auto-detected)_ | Full path to `tesseract.exe` if not on PATH |
+| `TESSDATA_PREFIX` | _(Tesseract default)_ | Folder holding `*.traineddata`, e.g. a writable Tamil copy |
 | `NALAM_LLM_PROVIDER` | `auto` | `auto` / `ollama` / `openrouter` / `none` |
 | `OLLAMA_HOST` | `http://127.0.0.1:11434` | Ollama server |
 | `NALAM_OLLAMA_MODEL` | `qwen2.5:7b-instruct` | Falls back to any pulled model |

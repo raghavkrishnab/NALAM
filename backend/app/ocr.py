@@ -11,7 +11,9 @@ Neither being present is fine - the endpoint just reports itself unavailable.
 
 from __future__ import annotations
 
+import os
 import re
+import shutil
 import threading
 
 _reader = None
@@ -38,6 +40,23 @@ DOCUMENT_SIGNATURES = {
     "land_record": ["chitta", "adangal", "patta", "survey number", "சிட்டா", "அடங்கல்", "பட்டா"],
 }
 
+TN_DISTRICTS_TA = {
+    "அரியலூர": "Ariyalur", "செங்கல்பட்டு": "Chengalpattu", "சென்னை": "Chennai",
+    "கோயம்புத்தூர": "Coimbatore", "கடலூர": "Cuddalore", "தர்மபுரி": "Dharmapuri",
+    "திண்டுக்கல": "Dindigul", "ஈரோடு": "Erode", "கள்ளக்குறிச்சி": "Kallakurichi",
+    "காஞ்சிபுரம": "Kanchipuram", "கன்னியாகுமரி": "Kanyakumari", "நாகர்கோவில": "Kanyakumari",
+    "கரூர": "Karur", "கிருஷ்ணகிரி": "Krishnagiri", "மதுரை": "Madurai",
+    "மயிலாடுதுறை": "Mayiladuthurai", "நாகப்பட்டினம": "Nagapattinam", "நாமக்கல": "Namakkal",
+    "நீலகிரி": "Nilgiris", "பெரம்பலூர": "Perambalur", "புதுக்கோட்டை": "Pudukkottai",
+    "இராமநாதபுரம": "Ramanathapuram", "ராமநாதபுரம": "Ramanathapuram", "ராணிப்பேட்டை": "Ranipet",
+    "சேலம": "Salem", "சிவகங்கை": "Sivaganga", "தென்காசி": "Tenkasi",
+    "தஞ்சாவூர": "Thanjavur", "தேனி": "Theni", "தூத்துக்குடி": "Thoothukudi",
+    "திருச்சிராப்பள்ளி": "Tiruchirappalli", "திருச்சி": "Tiruchirappalli",
+    "திருநெல்வேலி": "Tirunelveli", "திருப்பத்தூர": "Tirupathur", "திருப்பூர": "Tiruppur",
+    "திருவள்ளூர": "Tiruvallur", "திருவண்ணாமலை": "Tiruvannamalai", "திருவாரூர": "Tiruvarur",
+    "வேலூர": "Vellore", "விழுப்புரம": "Viluppuram", "விருதுநகர": "Virudhunagar",
+}
+
 TN_DISTRICTS = [
     "Ariyalur", "Chengalpattu", "Chennai", "Coimbatore", "Cuddalore", "Dharmapuri",
     "Dindigul", "Erode", "Kallakurichi", "Kanchipuram", "Kanyakumari", "Karur",
@@ -49,13 +68,7 @@ TN_DISTRICTS = [
 ]
 
 
-def is_installed() -> bool:
-    try:
-        import easyocr  # noqa: F401
-
-        return True
-    except ImportError:
-        pass
+def _tesseract_importable() -> bool:
     try:
         import pytesseract  # noqa: F401
 
@@ -64,16 +77,75 @@ def is_installed() -> bool:
         return False
 
 
-def _tesseract_ready() -> bool:
-    """True when pytesseract is importable AND the Tesseract binary has Tamil."""
+def is_installed() -> bool:
+    try:
+        import easyocr  # noqa: F401
+
+        return True
+    except ImportError:
+        pass
+    return _tesseract_importable()
+
+
+# The Windows Tesseract installer does not put itself on PATH, so pytesseract
+# cannot find the binary by default and OCR would quietly fall back to English.
+# Look in the standard install locations before giving up.
+TESSERACT_CANDIDATES = [
+    r"C:\Program Files\Tesseract-OCR\tesseract.exe",
+    r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe",
+    os.path.expandvars(r"%LOCALAPPDATA%\Programs\Tesseract-OCR\tesseract.exe"),
+    os.path.expandvars(r"%USERPROFILE%\AppData\Local\Tesseract-OCR\tesseract.exe"),
+]
+
+
+def _locate_tesseract() -> str | None:
+    """Find the Tesseract binary, and point pytesseract at it.
+
+    Order: an explicit TESSERACT_CMD, then PATH, then the usual Windows install
+    directories.
+    """
     try:
         import pytesseract
     except ImportError:
-        return False
+        return None
+
+    override = os.environ.get("TESSERACT_CMD", "").strip()
+    if override and os.path.isfile(override):
+        pytesseract.pytesseract.tesseract_cmd = override
+        return override
+
+    found = shutil.which("tesseract")
+    if found:
+        pytesseract.pytesseract.tesseract_cmd = found
+        return found
+
+    for candidate in TESSERACT_CANDIDATES:
+        if candidate and os.path.isfile(candidate):
+            pytesseract.pytesseract.tesseract_cmd = candidate
+            return candidate
+
+    return None
+
+
+def _tesseract_languages() -> list[str]:
+    """Languages the installed Tesseract can actually use."""
+    if not _locate_tesseract():
+        return []
     try:
-        return "tam" in set(pytesseract.get_languages(config=""))
+        import pytesseract
+
+        return sorted(pytesseract.get_languages(config=""))
     except Exception:
-        return False
+        return []
+
+
+def _tesseract_ready() -> bool:
+    """True when the Tesseract binary is found AND has the Tamil language pack.
+
+    Both halves matter. Tesseract without 'tam' is no better than EasyOCR here,
+    so it should not take priority.
+    """
+    return "tam" in _tesseract_languages()
 
 
 def _engine_name() -> str:
@@ -137,8 +209,14 @@ def _read_with_tesseract(image_bytes: bytes) -> str:
     import pytesseract
     from PIL import Image
 
+    _locate_tesseract()
+    languages = _tesseract_languages()
+    # Only ask for languages that are actually installed, otherwise Tesseract
+    # errors out instead of doing the English half it is perfectly capable of.
+    wanted = "+".join(code for code in ("tam", "eng") if code in languages) or "eng"
+
     image = Image.open(io.BytesIO(image_bytes))
-    return pytesseract.image_to_string(image, lang="tam+eng")
+    return pytesseract.image_to_string(image, lang=wanted)
 
 
 def extract_text(image_bytes: bytes) -> tuple[str, str]:
@@ -286,6 +364,12 @@ def _extract_income(text: str) -> tuple[str, float] | None:
 
 
 def _extract_district(text: str) -> tuple[str, float] | None:
+    # A Tamil certificate names the district in Tamil, so matching only the
+    # English spellings silently drops it.
+    for tamil, english in TN_DISTRICTS_TA.items():
+        if tamil in text:
+            return english, 0.7
+
     for district in TN_DISTRICTS:
         if re.search(rf"\b{re.escape(district)}\b", text, re.IGNORECASE):
             return district, 0.7
@@ -318,25 +402,61 @@ def extract_fields(text: str) -> list[dict]:
     return fields
 
 
+def _strip_joiners(text: str) -> str:
+    """Remove zero-width joiners Tesseract sprinkles through Tamil output.
+
+    Tesseract emits U+200C after many Tamil consonants ("வருமானம்‌"), which
+    is invisible but breaks exact substring matching against our label list.
+    """
+    return text.replace("‌", "").replace("‍", "")
+
+
 def process_image(image_bytes: bytes) -> dict:
     text, engine = extract_text(image_bytes)
+    clean = _strip_joiners(text)
     return {
+        # Return the original text so the UI shows what was really read.
         "raw_text": text,
-        "fields": extract_fields(text),
-        "detected_document": detect_document_type(text),
+        "fields": extract_fields(clean),
+        "detected_document": detect_document_type(clean),
         "engine": engine,
     }
 
 
 def status() -> dict:
     engine = _engine_name()
+    binary = _locate_tesseract()
+    tess_langs = _tesseract_languages()
+
     if engine == "tesseract":
-        tamil = _tesseract_ready()
+        tamil = "tam" in tess_langs
     elif _reader_languages:
         tamil = "ta" in _reader_languages
     else:
-        # Not loaded yet - report the optimistic case, corrected after first use.
-        tamil = engine == "easyocr"
+        # EasyOCR has not loaded yet; corrected to the truth after first use.
+        tamil = False
+
+    # Say precisely which step is missing, so this is diagnosable rather than a
+    # silent downgrade to English.
+    if tamil:
+        note = None
+    elif binary and "tam" not in tess_langs:
+        note = (
+            f"Tesseract found at {binary} but the Tamil pack is missing. "
+            "Re-run its installer and tick Tamil under 'Additional language data', "
+            "or drop tam.traineddata into the tessdata folder."
+        )
+    elif _tesseract_importable() and not binary:
+        note = (
+            "pytesseract is installed but the Tesseract binary was not found. "
+            "Install it, or set TESSERACT_CMD to the full path of tesseract.exe."
+        )
+    else:
+        note = (
+            "EasyOCR's Tamil model cannot load in easyocr 1.7.2, so OCR is "
+            "English-only. For Tamil documents install Tesseract with the 'tam' "
+            "language pack and run: pip install pytesseract"
+        )
 
     return {
         "installed": is_installed(),
@@ -344,11 +464,10 @@ def status() -> dict:
         "loaded": _reader is not None,
         "languages": _reader_languages or None,
         "tamil_supported": tamil,
-        "tamil_note": (
-            None
-            if tamil
-            else "EasyOCR's Tamil model fails to load in easyocr 1.7.2. "
-            "Install Tesseract with the 'tam' language pack for Tamil document OCR."
-        ),
+        "tamil_note": note,
+        "tesseract": {
+            "binary": binary,
+            "languages": tess_langs or None,
+        },
         "error": _load_error,
     }
